@@ -1,0 +1,2262 @@
+[
+    {
+        "post_id": "1f36nfi",
+        "title": "Hey! I'm playing as Turkey and am a bit lost on what to do next. France and Germany are at war along their boarder and I am on good terms with Russia, but of course, nothing is guaranteed in this game. What would be some possible tactics going forward?",
+        "body": "",
+        "factors": {
+            "player": "TURKEY",
+            "allies": [
+                "RUSSIA"
+            ],
+            "enemies": "NA",
+            "dominating_state": "neutral",
+            "number_of_units": 8,
+            "unit_composition": [3, 5],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "border_share",
+            "turn": "Spring (positioning focus)",
+            "year": 1906,
+            "fleet_access_to_sea": "high",
+            "n_players_in-1hope_center": 5,
+            "rel_strength_neighbors": "strong"
+        },
+        "comments": [
+            {
+                "comment_id": "lkbil0n",
+                "body": "Since the Juggernaut is more  favorable to Russia in late game, I suggest having at least certain advantages i.e Venice while having plans to backstab in a secret alliance w Germany. But the stacks of Russian armies are not giving you much delights until you are assured they are going to go up against Germany instead of you, considering the whole barricade between France and Germany and not a single army in Pru-Sil-Boh-Tyr. \n\nI suggest moving past the stalemate line and stack your fleets in the Meds will give you an advantage over France. Convoy the Army in Smy to Tunis is going to free the unit there, or Convoy them straight to Greece, then Tunis if the things with Russia were sketchy. Serbia is 3-on-2 so i suggest you take precautions tho. \n\nI\u2019m still a noob as well and this is what i can contribute so far after idk-4 games? Hope it helps! Have fun playing!",
+                "score": 11
+            },
+            {
+                "comment_id": "lkbndj8",
+                "body": "Here is the thing:\n\nYou can possibly cross the stalemate line and get into MAO, taking Portugal, Marseille and Spain. But if that doesn't work, russia has to give, either voluntarily or involuntarily. Additionally, 75% of russian forces are in the south.\n\nVenice and Trieste basically lock you out of the rest of the map.\n\nEither talk to them or surprise attack them. Either works, the map layout actually favors most attacks on russia(that's why they get an extra home center). Taking just Sevastopol almost breaks russia all by itself.",
+                "score": 4
+            },
+            {
+                "comment_id": "lkccl2t",
+                "body": "Ask Russia kindly for one dot to even things up between you. Ask them to move west with you and go over all specific orders together to make sure you both know what you're expecting from each other. If France and Germany are bickering you have an opportunity to run them over",
+                "score": 3
+            },
+            {
+                "comment_id": "lkc37n7",
+                "body": "Your biggest threat is Russia, half their troops are bordering you and not preparing to invade Germany. You need to make sure there is no opening or else they will just take the chance.\n\nYou want Russia to fight Germany which will let you attack **Spa** and **Mar** (or back stab Russia who is distracted).\n\nFor fighting Russia one on one, it will be a risky endeavor and if they move first you will lose some supply.\n\nYou need to get **Smy** to **Arm** and a fleet in the black sea letting you take **Sev**.\n\n**Ser** will take a beating, hopefully they move some units to fight Germany but you need something extra there if they don't. \n\nI like insane ideas and fighting Russia require some bold action, tell Italy they are going to lose **Tun** (if not to you then France) but you will help them stay in the game by supporting them into Tri in the Autumn. Moving units to take Sev will take a turn of set up either way so this signaling the start of the war isn't really a problem. \n\nYou could expand the idea and try to get France support Italy into Venice which will let you keep pretending you support Russia but you are giving a lot of power to France in the situation, someone who will be looking at you worried you will attack them.",
+                "score": 2
+            },
+            {
+                "comment_id": "lkfw60q",
+                "body": "Russia looks like its gonna attack you my guy, this turn you play very defensively id say, support holds wherever you can, tell Russia they need to move on Germany instead of putting his troops on your border, then wait and see\n\nIf the Russia player moves units towards Germany, you can decide to either (A) Gain naval supremacy in the Mediterranean, or (B) Immediately backstab Russia like a true diplomat",
+                "score": 1
+            },
+            {
+                "comment_id": "lkjlis3",
+                "body": "All out war against Russia. Turkey is in no position to wait for results between France and Germany. Germany is practically a vassal state for Russia. As others mentioned, Turkey is locked in while Trieste and Venice are occupied by Russia so you cannot afford to push out with your troops without facing risk. I am guessing both you and Russia might be inexperienced based on how demilitarization did not occur during the westward expansion in bordering territories. Otherwise, this would have been an easy Juggernaught win.  \n  \nLet France take Tunis if he really wants it, then that way you can have your fleet in Ionian move to the Adriatic to secure your position in Venice and Trieste. Immediately move into Black Sea and Armenia as others have mentioned.\n\nWith the lack of army, I do not expect you can hold in the Balkans. Russia should take control of the Balkans first into Serbia from Rumania with follow up from Galicia. He'll wipe you out if he plays it right.",
+                "score": 1
+            },
+            {
+                "comment_id": "lkbs6vd",
+                "body": "Thanks for your insights! Any ideas help a lot. I have only played 3 games before and I've been Italy in all of them giving me very little experience on playing other nations.",
+                "score": 1
+            }
+        ],
+        "image_url": "https://i.redd.it/ivrvf32nsdld1.png",
+        "units": {
+            "WES": "FRANCE",
+            "POR": "FRANCE",
+            "SPA": "FRANCE",
+            "MAR": "FRANCE",
+            "PIE": "FRANCE",
+            "BUR": "FRANCE",
+            "PAR": "FRANCE",
+            "BRE": "FRANCE",
+            "ENG": "FRANCE",
+            "LON": "FRANCE",
+            "IRI": "FRANCE",
+            "YOR": "FRANCE",
+            "TUN": "ITALY",
+            "TRI": "RUSSIA",
+            "TUS": "RUSSIA",
+            "RUM": "TURKEY",
+            "BUD": "TURKEY",
+            "GAL": "RUSSIA",
+            "SEV": "RUSSIA",
+            "WAR": "RUSSIA",
+            "BOT": "RUSSIA",
+            "SWE": "RUSSIA",
+            "STP": "RUSSIA",
+            "ION": "TURKEY",
+            "AEG": "TURKEY",
+            "CON": "TURKEY",
+            "NAP": "TURKEY",
+            "SMY": "TURKEY",
+            "ANK": "TURKEY",
+            "APU": "TURKEY",
+            "ROM": "TURKEY",
+            "SER": "TURKEY",
+            "DEN": "GERMANY",
+            "NWY": "GERMANY",
+            "NTH": "GERMANY",
+            "EDI": "GERMANY",
+            "HOL": "GERMANY",
+            "BEL": "GERMANY",
+            "RUH": "GERMANY",
+            "MUN": "GERMANY"
+
+        },
+        "territories": {
+            "STP": "RUSSIA",
+            "SWE": "RUSSIA",
+            "NWY": "GERMANY",
+            "EDI": "GERMANY",
+            "LVP": "FRANCE",
+            "DEN": "GERMANY",
+            "MOS": "RUSSIA",
+            "LON": "FRANCE",
+            "KIE": "GERMANY",
+            "HOL": "GERMANY",
+            "BER": "GERMANY",
+            "WAR": "RUSSIA",
+            "BRE": "FRANCE",
+            "SEV": "RUSSIA",
+            "PAR": "FRANCE",
+            "MUN": "GERMANY",
+            "VIE": "RUSSIA",
+            "BUD": "RUSSIA",
+            "PIE": "FRANCE",
+            "MAR": "FRANCE",
+            "RUM": "RUSSIA",
+            "TRI": "RUSSIA",
+            "POR": "FRANCE",
+            "SPA": "FRANCE",
+            "SER": "TURKEY",
+            "ROM": "TURKEY",
+            "ANK": "TURKEY",
+            "CON": "TURKEY",
+            "GRE": "TURKEY",
+            "SMY": "TURKEY",
+            "TUN": "ITALY",
+            "NAP": "TURKEY"
+        }
+    },
+    {
+        "post_id": "1b46kwh",
+        "title": "(Just Finished Fall 1901) I need help (I'm Austria), T\u00fcrkiye backstabbed me and allied with Russia and Italy has quit the game so all his armies are going to hold for the rest of the game. My confirmed allies are England, but Germany seems to be more on my side. What should I do?",
+        "body": "",
+        "factors":{
+            "player": "AUSTRIA",
+            "allies": [
+                "ENGLAND",
+                "GERMANY"
+            ],
+            "enemies": [
+                "TURKEY",
+                "RUSSIA"
+            ],
+            "dominating_state": "neutral",
+            "number_of_units": 4,
+            "unit_composition": [3, 2],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "border_share",
+            "turn": "Fall (attack focus)",
+            "year": 1901,
+            "fleet_access_to_sea": "high",
+            "n_players_in-1hope_center": 4,
+            "rel_strength_neighbors": "strong"
+        },
+        "comments": [
+            {
+                "comment_id": "kswxqq5",
+                "body": "Hold the line against RT while helping yourself into Greece. Then build A Tri and move it towards Italy, maybe. Try to get E/G to put pressure on Russia.",
+                "score": 9
+            },
+            {
+                "comment_id": "ksx6lev",
+                "body": "You're at a huge disadvantage with Italy gone, but all is not lost. Every second word out of your mouth should be 'juggernaut' -- without IA standing up to RT, they have a good chance of steamrolling the board, and EFG need to think about that.\n\nAt least TYR and ION are well-positioned for defense.\n\nIf you're the chance-taking type, and I think you have to be, consider VIE-BOH and BUD-RUM. Russia is probably going to try to shuffle its units around so it can bring them all to bear on you to crack your wall, and they might try to do it all in one season. You have to prevent it or you'll lose a home SC this year.\n\nIf you feel confident, tell F if they go for I's home SCs you'll move out of the way and let RT walk into yours.",
+                "score": 6
+            },
+            {
+                "comment_id": "ktf67il",
+                "body": "This scenario screams for a western triple to rise up.  Juggs are scary enough as it is, but sufficiently more when the east is under threat to crumble at a faster speed then normal.  It\u2019s time to throw on the generals hat and make some inspirational rally speaches.  The sales pitch should be straight forward as nobody else wins if the jugg goes unchecked, so long as there\u2019s not a weak link who is stuck in short sightedness (which can happen).  There\u2019s also angles you can try with both Russia and Turkey individually or collectively.  You\u2019re not a fast death so wasting time on you could lose their shot at getting dibs on Italy and jumping across the stalemate line, and likewise they both have a good shot on each other which would still be lucrative, without the giant reaction from the west.",
+                "score": 1
+            },
+            {
+                "comment_id": "ksx8tly",
+                "body": "Definitely going to need to take that Greece right away. Going to have to get some of that unclaimed land from Italy. Turkey and Russia don't seem to be in perfect terms, as Turkey has settled in to BLA. Try to whisper into Russia's ears to fear that fleet from Turkey. If they play conservative long enough, (Turkey stays in BLA, Russia keeps troops behind to protect its flank), you will have a chance to position yourself as a power.",
+                "score": 1
+            },
+            {
+                "comment_id": "ksyf6yq",
+                "body": "See if you can get your fleet to Venice while holding Russia and Turkey back. I think Greece would be a mistake since you wouldn't be able to hold it. Heading towards Germany may cause them to see you as a threat, so I'd avoid that or you'll have to fight on three fronts. If you can hold them back long enough to occupy Italy you could then fleet up and attack Turkey from the south.",
+                "score": 0
+            },
+            {
+                "comment_id": "ksyxgdf",
+                "body": "Bring England, Germany, and France into a room and convince France to go after Italy while Germany and England attack Russia. This'll take some Russian pressure off you. Talk to turkey about France gobbling Italian territory that normally would be considered turkey's sphere. The idea is to light a fire under turkeys ass to go after easy italian provinces quickly before they go away..\nKey is to create a situation where it's not in their best interest to attack you. Reorienting the alliances is more important to you than gaining further supply centers right now.",
+                "score": 1
+            },
+            {
+                "comment_id": "kt34s0j",
+                "body": "Well, I'm probably gonna move my A Bud-Rum, because if R is probably going to move the fleet in RUM out and replace it with the UKR army. That way I can bounce the army out. I've actually managed to get Italy back into the game. Italy has agreed to support my ALB fleet into GRE(Though in fall he wants to move ION to TUN). Would it better to attack GAL instead, just incase R supports the UKR - RUM with GAL. That way I can cut off support and bounce him back. ALso what should I do with my SER army? (maybe I could try to take RUM)",
+                "score": 2
+            },
+            {
+                "comment_id": "ksyxko4",
+                "body": "Why would Russia go for Greece here...?",
+                "score": 1
+            },
+            {
+                "comment_id": "kt3rws7",
+                "body": "It's a guessing game at this point -- will R try to shuffle all the pieces at once or support them over two seasons? You'll have to make a judgment call on that. Your plan will throw a monkey wrench in things no matter what, especially if you do try to take RUM. You might get it, but then you'll probably get forced out in Fall, but that'll disrupt R's plans altogether, and who knows what will actually happen? Maybe this is all going to happen while T is sliding a knife in. Edit: is R a patient player or impatient? That'll give you some insight about whether they'll try to be in position to grab a SC off of you in fall or have a more solid position to work you over in the spring.\n\nThe only thing I would worry about is T promising I the world and I believing them. Make sure I knows that if T supports them into GRE in the spring, they'll just force them out in the fall, and all they'll have to gain for it is TRI (assuming that's part 2 of the stab), which you have a good chance of getting back in the fall if you stopped worrying about R. Make sure I knows you're more valuable as an ally than as one supply center (because that's all they'd realistically be able to get of you before TR grabbed the rest). But you know your group better than I do and whether I is likely to fall for this sort of tactic.",
+                "score": 1
+            },
+            {
+                "comment_id": "kszzly0",
+                "body": "My mistake! Replying on the phone makes it hard to double check the image while replying (plus trying to do strategy right before bed is accident prone!) But I still maintain the challenge in holding Greece, since it's heading to next spring.",
+                "score": 0
+            },
+            {
+                "comment_id": "kt3t7zg",
+                "body": "Adding on another comment since I'm talking about the future: let's assume that everything works out amazingly well and you end up with both GRE and RUM, with R poised to counterattack RUM. I think in fall the priority is to keep GRE. T's only target is you while R has to worry about EG in the west and north. But if T moves an army into GRE, you'll have no end of pain, getting squeezed from the south and the east, and what are you going to do if T shuffles armies into ALB, GRE, and BUL (assuming ANK ends up in BUL over two moves, and a new army build in CON from taking GRE) to wreathe your southern border? This is your chance to starve T of new builds, and where else can they get them? Not from you, not from I. Where? SEV and RUM. Bingpot! as Captain Holt would say.",
+                "score": 1
+            },
+            {
+                "comment_id": "kt7rs6j",
+                "body": "Well, my guess is that R will shuffle his troops around. Thats why I'm probably going to move A Vie - Gal and A Bud - Rum. (R is not very patient). T offered me protection but he wants GRE. I'll accept but I won't actually give him GRE (I'll get GRE behind his back). That way his guard would be lowered this turn. I don't think I would be an issue (he's one of my best friends),. But instead of ION supporting ALB, I think it would be better to send ION into AEG, that way if T moves his CON fleet into AEG, it would get bounced out.",
+                "score": 1
+            },
+            {
+                "comment_id": "kt0et11",
+                "body": "Given the current board state, if A takes GRE in spring, there is no way for T to take it in fall unless somehow BUL ends up in RUM to cut SER's support and BLA moves to BUL. Where can T get a build then? Worst case, you've bought yourself a year of tempo without T's fleets smashing into the ION; best, T glides into SEV like a knife. Do not give up GRE without a fight. A fleet in VEN won't help you anyway. It can't really project power into Italy except by moving to APU; you need armies to get any slice of this pie.",
+                "score": 2
+            },
+            {
+                "comment_id": "kti1iey",
+                "body": "Don't think it's kosher to keep advising you through the whole game but I'm curious how the turn worked out.",
+                "score": 1
+            },
+            {
+                "comment_id": "ktvwehl",
+                "body": "Well, I managed to get greece, and made another allaince with turkey against russia. (he didn't backstab me). Turkey took sev and rum.",
+                "score": 1
+            }
+        ],
+        "image_url": "https://i.redd.it/3d8gtrdkmslc1.png",
+        "units": {
+            "ALB": "AUSTRIA",
+            "SER": "AUSTRIA",
+            "BUD": "AUSTRIA",
+            "TYR": "ITALY",
+            "WAL": "ENGLAND",
+            "SKA": "ENGLAND",
+            "NWY": "ENGLAND",
+            "NWG": "ENGLAND",
+            "SPA": "FRANCE",
+            "POR": "FRANCE",
+            "MAR": "FRANCE",
+            "PIC": "FRANCE",
+            "PAR": "FRANCE",
+            "BRE": "FRANCE",
+            "ION": "ITALY",
+            "APU": "ITALY",
+            "ROM": "ITALY",
+            "RUM": "RUSSIA",
+            "GAL": "RUSSIA",
+            "UKR": "RUSSIA",
+            "WAR": "RUSSIA",
+            "SWE": "RUSSIA",
+            "STP": "RUSSIA",
+            "CON": "TURKEY",
+            "ANK": "TURKEY",
+            "DEN": "GERMANY",
+            "BER": "GERMANY",
+            "KIE": "GERMANY",
+            "HOL": "GERMANY",
+            "RUH": "GERMANY"
+        },
+        "territories": {
+            "STP": "RUSSIA",
+            "SWE": "RUSSIA",
+            "DEN": "GERMANY",
+            "MOS": "RUSSIA",
+            "WAL": "FRANCE",
+            "KIE": "GERMANY",
+            "PRU": "FRANCE",
+            "BER": "GERMANY",
+            "WAR": "RUSSIA",
+            "PIC": "FRANCE",
+            "BRE": "FRANCE",
+            "GAL": "FRANCE",
+            "UKR": "FRANCE",
+            "BOH": "FRANCE",
+            "SEV": "RUSSIA",
+            "PAR": "FRANCE",
+            "MUN": "GERMANY",
+            "BUR": "FRANCE",
+            "BUD": "AUSTRIA",
+            "PIE": "FRANCE",
+            "VEN": "ITALY",
+            "MAR": "FRANCE",
+            "RUM": "RUSSIA",
+            "POR": "FRANCE",
+            "SPA": "FRANCE",
+            "SER": "AUSTRIA",
+            "ROM": "ITALY",
+            "ALB": "FRANCE",
+            "ANK": "TURKEY",
+            "ARM": "FRANCE",
+            "CON": "TURKEY",
+            "SMY": "TURKEY",
+            "NAF": "FRANCE",
+            "NWY": "ENGLAND",
+            "NAP": "ITALY"
+        }
+    },
+    {
+        "post_id": "1asq301",
+        "title": "Help to break a stalemate",
+        "body": "Hi, playing as Austria - allied with Italy and Russia against a unbreakable England-France partnership. \n\nHave been stuck in a stalemate-like situation for a couple of years now \n- Italy/Austria vs France in the Mediterranean\n- Austria vs France/England in Germany \n\nIs there anything creative Austria/Italy can do to break through? \n\nRussia is losing interest and wouldn't be too upset if he was out of the game, either. \n\nThanks!",
+        "factors":{
+            "player": "AUSTRIA",
+            "allies": [
+                "ITALY",
+                "RUSSIA"
+            ],
+            "enemies": [
+                "ENGLAND",
+                "FRANCE"
+            ],
+            "dominating_state": "neutral",
+            "number_of_units": 7,
+            "unit_composition": [6, 1],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "border_share",
+            "turn": "Spring (positioning focus)",
+            "year": 1909,
+            "fleet_access_to_sea": "low",
+            "n_players_in-1hope_center": 1,
+            "rel_strength_neighbors": "strong"
+        },
+        "comments": [
+            {
+                "comment_id": "kqs8cra",
+                "body": "I feel like it's time to draw the game. Even if you break the line (I don't see how), nobody is getting to 18",
+                "score": 7
+            },
+            {
+                "comment_id": "kr7nr4o",
+                "body": "It's going to be pretty hard to break if EF have been unbreakable (probably just best to accept a draw I'm afraid).\n\n\nThe only idea I have is to stab Italy - take Venice, get Russia to move to Armenia to take\u00a0 Smyrna (if you indeed are friendly with them). You can co-operate with France to divide Italy between yourselves.\u00a0\n\n\nNow the obvious downside is that the EF get across the southern stalemate line - but the major advantage is it shakes up the alliance structure and might cause England or France to believe that now the east is not in lockstep they can stab their partner without losing centres. France should be getting additional units from Italy which you might be able to encourage them to use to stab England with (although tbh in this position with 5 English fleets I think it's going to be too difficult to attack England). The more credible plan I think would involve working with England where after you start attacking Italy or something England stabs France and you race for the solo. France should be badly out of position after they take Italy's centres so England might be able to pick up one or two French ones from behind offsetting any gains they get, and making a devastating stab.",
+                "score": 3
+            },
+            {
+                "comment_id": "kr7o3a0",
+                "body": "I might post some further thoughts later. Tbh on reflection I'm not sure if it's in England's interest to do a race with you since you're next to every southern centre and probably end up beating them. But maybe if they are given some other small advantage it would be in their interest to take the deal \ud83e\udd14",
+                "score": 2
+            },
+            {
+                "comment_id": "kr7on21",
+                "body": "*6 English fleets rip (plus side that means they're in a much better position to attack France - those fleets are pretty much useless for gaining those inland centres like Moscow, Warsaw or the Balkans). Hard to see where their path of expansion is unless they do end up using the fleets to attack France.",
+                "score": 2
+            },
+            {
+                "comment_id": "kr7qa7q",
+                "body": "Really helpful and thought provoking ideas - thanks for taking the time to share them! \n\nYep making a move to show EF that an A/I/R alliance is open to change and a solo might be possible... Seems like the only game breaker option left. Otherwise they'll get bored and submit for a draw, anyway.",
+                "score": 2
+            },
+            {
+                "comment_id": "kr7qf0b",
+                "body": "No worries \ud83d\ude42",
+                "score": 1
+            }
+        ],
+        "image_url": "https://i.redd.it/8cqiho0nw1jc1.png",
+        "units": {
+            "CON": "AUSTRIA",
+            "SER": "AUSTRIA",
+            "VEN": "AUSTRIA",
+            "TRI": "AUSTRIA",
+            "RUM": "AUSTRIA",
+            "VIE": "AUSTRIA",
+            "TYR": "FRANCE",
+            "BOH": "AUSTRIA",
+            "SIL": "AUSTRIA",
+            "BAL": "ENGLAND",
+            "KIE": "ENGLAND",
+            "YOR": "ENGLAND",
+            "WAL": "ENGLAND",
+            "NTH": "ENGLAND",
+            "EDI": "ENGLAND",
+            "BOT": "ENGLAND",
+            "NWY": "ENGLAND",
+            "FIN": "ENGLAND",
+            "STP": "ENGLAND",
+            "TYS": "FRANCE",
+            "WES": "FRANCE",
+            "SPA": "FRANCE",
+            "LYO": "FRANCE",
+            "POR": "FRANCE",
+            "MAR": "FRANCE",
+            "BUR": "FRANCE",
+            "MUN": "FRANCE",
+            "PIC": "FRANCE",
+            "BRE": "FRANCE",
+            "RUH": "FRANCE",
+            "BEL": "FRANCE",
+            "BER": "FRANCE",
+            "ANK": "RUSSIA",
+            "BLA": "RUSSIA",
+            "SEV": "RUSSIA",
+            "WAR": "RUSSIA",
+            "LVN": "RUSSIA",
+            "MOS": "RUSSIA"
+        },
+        "territories": {
+            "EDI": "ENGLAND",
+            "KIE": "FRANCE",
+            "BER": "FRANCE",
+            "MAR": "FRANCE",
+            "RUM": "FRANCE",
+            "ROM": "FRANCE"
+        }
+    },
+    {
+        "post_id": "19e2pg1",
+        "title": "What to do? I'm France with Italian Ally, Germany and England are united against me already",
+        "body": "",
+        "factors": {
+            "player": "FRANCE",
+            "allies": [
+                "ITALY"
+            ],
+            "enemies": [
+                "GERMANY",
+                "ENGLAND"
+            ],
+            "dominating_state": "neutral",
+            "number_of_units": 3,
+            "unit_composition": [2, 1],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "free",
+            "turn": "Fall (attack focus)",
+            "year": 1901,
+            "fleet_access_to_sea": "high",
+            "n_players_in-1hope_center": 0,
+            "rel_strength_neighbors": "medium"
+        },
+        "comments": [
+            {
+                "comment_id": "kja4vyy",
+                "body": "France is pretty defendable. Especially if you\u2019ve got Italy on board and don\u2019t have to worry about your eastern border.  1901 is pretty easy.   England. Keep bouncing them in the Channel. Don\u2019t let them in. As long as there not, there isn\u2019t much they can do to you. His army is in Wales which indicates he\u2019s looking to convoy it to Picardy in 1902. He\u2019ll have a slow start since he\u2019ll only grab Norway in 1901.      \n\nGermany. You\u2019ve already got yourself in Burgundy which is great. As long as Germany isn\u2019t in there, they\u2019re not a huge threat to you. I would attempt to go to Belgium from there. If it\u2019s a bounce, not a huge deal.  \n\nNow, what you can do. Since your aligned with Italy, ask him to move to Tyrolia. It puts a lot of pressure on Germany, especially since your already in Burgundy.   \n\nRussia. Is your best friend as France. He can help you with both England and Germany. I see they are already going for Sweden which is good because it will deny Germany a SC. If you can pursue them to put more pressure on in Scandinavia, this will help you. Also, if you can get him to move to Silesia with an army, this puts immense pressure on Germany as it is in striking distance of Berlin and Munich and keeps Germany guessing.\n\nGrab Spain with Marseilles this fall. If you get a build in 1901 good, if you get 2, you are in good shape.",
+                "score": 6
+            },
+            {
+                "comment_id": "kja8gwm",
+                "body": "Definitely gotta move Mar-Spa to get a guaranteed build.  I think going for Bel is fine, because either you'll bounce which does no harm, or you'll get it and Germany will be in Bur, which isn't great but also not terrible if you get that second build.\n\nI would move Bre to either Pic or MAO so you can build a second fleet in Bre with your first build.  That would make any English attack very tough.  Plus, it allows you to put pressure on either English home centers (MAO) or Bel (Pic), while also keeping two fleets close enough to where you can keep England out of ENG for a good long while.",
+                "score": 5
+            },
+            {
+                "comment_id": "kjabq6f",
+                "body": "How is England going to get another center? If they support Germany going for Belgium, they get no builds, and just let Russia have a field day. They should 100% be picking up Norway, and that means you can bounce off Belgium. \n\nGet that fleet out of Brest, and build another one to help with the offensive. Take Portugal ASAP, or find a way to give it to Italy. But get Russia on board with wrecking England, and just take him apart. If you can manage that, then go after Germany. \n\nYou should have plenty of victory points at that point in the game.",
+                "score": 0
+            },
+            {
+                "comment_id": "kjakn12",
+                "body": "1901 is a game focused on making sure you aren't the odd-man-out in your triangle. You either need to convince E or G to side with you, or try to make the eastern triangle settle quickly and in your favor.\n\n* Russia needs to win centers quickly, and have a safe southern border.\n* Austria needs to be friendly with Russia and turn on Germany.\n* Italy needs to not kill you. \n\nRule #1: Never trust Italy. Expect that he's been invited to join E/G with the promise of Marseilles. You should go kiss his butt and offer him Munich or something...\n\nRussia is a natural ally here. You should play middleman with Austria and Italy to help secure his south. That way, he will be more effective in the north. e.g. try to organize a R/A/I against Turkey. The stand-off in Galicia is probably a good sign that you can help make it happen. \n\nThe other comments give good suggestions regarding orders against England and Germany.",
+                "score": 0
+            },
+            {
+                "comment_id": "kjar1mf",
+                "body": "Take Spain, bounce English Channel and Belgium.  Build Paris advance on the Lowlands",
+                "score": 0
+            },
+            {
+                "comment_id": "kjcnboz",
+                "body": "Marseilles to Spain, Brest to MAO (bouncing England again isn't worth it, you can build a second fleet to eject them from the Channel in 1902, the tempo loss would be devastating for him, sure, but you *need* the second fleet in Brest this year. Bouncing will also slow you down too, and you're essentially fighting 2v1 and don't need the tempo loss.), Burgundy bounces Belgium.",
+                "score": 1
+            },
+            {
+                "comment_id": "kjd3gt0",
+                "body": "I don\u2019t believe France can bounce Belgium in this scenario",
+                "score": 1
+            },
+            {
+                "comment_id": "kjeuw9c",
+                "body": "You try to bounce belgium, most likely you get bounced protecting burgundy.  Worst case they support each other, same outcome for burgundy.  Best case you get belgium but lose burgundy, in which case you get a 2nd build but weaker defensive position",
+                "score": 1
+            },
+            {
+                "comment_id": "kjev25b",
+                "body": "Interesting, I didn\u2019t think of it that way. I actually like the reasoning of that approach, thank you",
+                "score": 1
+            }
+        ],
+        "image_url": "https://i.redd.it/wpxzqnqg0aec1.png",
+        "units": {
+            "SER": "AUSTRIA",
+            "TRI": "AUSTRIA",
+            "VIE": "AUSTRIA",
+            "WAL": "ENGLAND",
+            "YOR": "ENGLAND",
+            "NTH": "ENGLAND",
+            "MAR": "FRANCE",
+            "PIC": "FRANCE",
+            "BRE": "FRANCE",
+            "BLA": "RUSSIA",
+            "SEV": "RUSSIA",
+            "UKR": "RUSSIA",
+            "WAR": "RUSSIA",
+            "MOS": "RUSSIA",
+            "BOT": "RUSSIA",
+            "FIN": "RUSSIA",
+            "CON": "TURKEY",
+            "ANK": "TURKEY",
+            "BUL": "TURKEY",
+            "MUN": "GERMANY",
+            "HOL": "GERMANY",
+            "KIE": "GERMANY"
+        },
+        "territories": {
+            "WAL": "FRANCE",
+            "BUR": "AUSTRIA",
+            "MAR": "FRANCE",
+            "BUL": "TURKEY",
+            "ROM": "FRANCE"
+        }
+    },
+    {
+        "post_id": "18ov2wf",
+        "title": "New player here, hoping to clutch out my first win. Any advice for this position?",
+        "body": "",
+        "factors": {
+            "player": "ENGLAND",
+            "allies": [],
+            "enemies": [
+                "FRANCE",
+                "GERMANY"
+            ],
+            "dominating_state": "dominating",
+            "number_of_units": 17,
+            "unit_composition": [10, 7],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "border_share",
+            "turn": "Spring (positioning focus)",
+            "year": "NA",
+            "fleet_access_to_sea": "high",
+            "n_players_in-1hope_center": 5,
+            "rel_strength_neighbors": "strong"
+        },
+        "comments": [
+            {
+                "comment_id": "kejqysr",
+                "body": "\\*EDIT\\* Just realized I missed it in the screenshot but it is the spring turn here.\n\n&#x200B;\n\nNot sure If this is exactly the right place to post this but I've seen a few others like this, so hopefully not an issue.\n\nI am playing as England, Turkey is no longer playing and Germany and France are allied. We are all beginners so forgive us if the unit placements make no sense hahaha.\n\nIt started as a western triple and once everyone except Turkey was beaten I betrayed them and took a bunch of builds from Germany (including bud and rum). I was hoping that turkey would hold France and Germany off for a bit and at least keep them busy but that's when they stopped playing lol. Karma came for me I guess.\n\nI felt like I was in a strong position and I only need to get one more centre but I keep bouncing France in MAO and I think I might be screwed in the east. Any ideas how I can hold my position?",
+                "score": 3
+            },
+            {
+                "comment_id": "kek6hic",
+                "body": "In this position you could try to take Bur and use that to 50/50 Paris/Brest but it\u2019s very risky and requires Germany to use Tyr to cover Triest retreat but I think it\u2019s your only hope for a solo at this point and that assumes you don\u2019t lose BUD, Rum, war or Sev which you definitely will lose at least 1 or 2. Offer a draw according to the original triple agreement imo but if you\u2019re going for broke I think my idea might work.",
+                "score": 4
+            },
+            {
+                "comment_id": "kejxaa8",
+                "body": "EDIT!!\n\nHi I am BobZeBuilder AKA Zeus, I am a GM in the game of diplomacy and run the Olympus Diplomacy Community and am an expert in many ways in this game and be happy to help you.\n\nI am not going to deny but this is a tricky situation. Budapest and much of the east is not holdable so that will bring you back down to 16 but with good play, and just grind you can break through in the West and I think still win.\n\nTo be able to break in the west the first important thing is to be able to take MAO and that you can do for although you are evenly matched in terms of fleets with France you can tap Brest and cut any support thereby guaranteeing yourself to get into the province unless of course France decides to go to MAO via Brest but that is very risky for him, but is a guess. This is what we diplomacy players like to call an unstable stalemate whereby France is currently stalemating you there but can only continue the stalemate through said guess. Defend against the triple support attack into MAO by risking Brest or betting you would attack Brest and defend.\n\nGiven you are beginners I would go with the attack into MAO triple support for now, but whatever France does even if he does outguess you this turn, in subsequent turns you will eventually be able to win by just percentage. 50% shot you get it right compounded over so many turns becomes impossible for France to hold.\n\nOnce then you take MAO it becomes a HIGHLY unstable undefensible position for France and then you can very easily take Brest, or exploit your position by going to Naf and follow into Brest again. Or you can even try for Portugal. In short France cannot hold this and you will make progress.\n\nTo a certain degree the same is true with Burgundy, you have three units on Burgundy and using Pic can tap Paris and force Burgundy. Although Burgundy can then retreat to Gascony and still support hold Paris being in MAO you can tap Gascony and also thereby secure Paris..... BUT Not quite, this is something to look out for but I find currently to be a bit impossible given the German unit in Tyrol as he can either walk into Munich or well tap Munich and cut any support you do but still if you have nothing to do . But that is where we should now focus our attention on the east.\n\nYou can as I explained breakthrough in the west the only question now is how do you prevent complete collapse in the east..... Well I am sorry to admit this but you can't. Eventually with good play Budapest Romania and Sevastopol will fall, but that does not mean your game is over, on the contrary. There is a stalemate line that runs from Moscow to Warsaw to Munich through Silesia that you can hold with a few units albeit you do need more than that which you have here. If you are able to delay them long enough you can possibly set up said stalemate line, only issue is that it takes up 6 units. Berlin support hold Silesia, Prussia or Livonia support hold Warsaw, Livonia or St. Petersburg support hold Moscow. Thus you NEED more armies in the east. Convoy your Edinburgh army to Norway to take it to St. Petersburg, and convoy the London army to Kiel and move Kiel-Baltic whereby you need to convoy Kiel again to Livonia. ALSO as mentioned you cannot hold Budapest you must retreat to preserve your armies in the east so that there are no force disbands. You can suffer disbands through your fleets. Even if you are not able to get all said 6 units to said defensive line you can get enough units to make it very hard for them to break through. Meanwhile make sure you DO NOT LOSE MUNICH. They could for example rush it now and there is not much you can do to stop it but being beginners I am not too sure they would realize its critical value. If anything and you need the Kiel army you just convoyed from London to Kiel to defend Munich more than defending the east DO THAT.\n\nFinal note regarding the east, you may not need all those units to stalemate, it is just incase worst case scenario and they have an army in Bohemia, Galicia, Ukraine and Sevastopol, especially since Germany cannot build new armies and two of France's units in the east are fleets. So my tldr summary on the east, you cannot hold what you currently have but beyond those three centers you can hold them off or make it take them several years to break through in the east if you are not able to set up a full stalemate line as you will have a partial stalemate line and still hard to deal with.\n\nTHIS is where your victory comes. As said if you are able to do this in the east, then let's do the calculations you will be at 14 centers, now you may think that is worse, but not really for in the meanwhile you will be progressing in the west. Let me go back to stalemate lines for a bit.\n\nDiplomacy has a main stalemate line that runs from St. Petersburg to North Africa evenly splitting the board between east and west 17 vs 17. If you are set up on this line it is impossible to break through on the other side of the line with expert play. As mentioned though this is the MAIN stalemate line but not the only one, another one for example was that which I was explaining in Moscow and Warsaw. By just holding these two centers you have a foothold in the east and all you need to do is take your centers in the west, something that you can do but will take a WHILE of grinding first with MAO, then you can take Brest get to Naf etc. You lose three sure, but then all you need is Brest Paris Marseilles and one more.....\n\n* &#x200B;\n\nNow that is how you CAN win, but this is not guaranteed first you need to make sure you make faster progress in the west then lose progress in the east before they send units west and set up a new defensive line. Second there are a few such as said similar stalemate lines like the Warsaw Moscow stalemate line I described to you in the Spain Marseilles area that is the same exact idea just a foothold in the west, but it is possible just hard to predict that far in the future as there are a LOT of guesses to go though I must admit you just said they are beginners so may be VERY hard for them to see this so that is another advantage you have going for you now, but that is the general strategy you need to do to get the upper hand.\n\nWith that in mind I recommend this be your turn and moves for this phase.\n\nF NAO-MAOF IRI s NAO-MAOF ENG s NAO-MAOA Pic-BreA Lon-KieF NTH C A Lon-KieF HEL C A Lon-KieF Kie-BalA Bel-BurA Ruh s A MunA Mun s A Bel-BurF Ber HA Ukr-WarA Rum-UkrA Bud-RumA Sev s Bud-Rum\n\nExplanation. I explained the convoy to Kiel, next turn convoy to Norway. I explained the story with MAO, guess story I am guessing this should go through or try something to attack Brest, you NEED to break through before though they get another fleet to Naf which is at minimum three turns. The attack on Burgundy keeping them honest nothing else currently for your armies to do and makes sure they don't try something. The east though..... As said all of this is a guess and the main thing you do NOT want is them force disbanding your armies for you prefer losing fleets then armies and it all being a guess with Budapest being a guaranteed loss, why try get out of there. My bet is that they cut Rum and do some form of an attack on Budapest, this moveset allows you to retreat your Bud army out to Rum.... HOWEVER it does rely on the fact that Ukraine makes it to Warsaw and they don't bounce you there and also a few other things to go right. As said THIS IS A GUESS I am just betting they will stack most things on Budapest. Whatever guess you take you CANNOT though not tap Warsaw and hope they don't walk in because that is a KEY center in your stalemate of the east to get the centers you need for the solo.\n\nAnyway keep me updated and I hope this helps. Good luck with your game, if you are interested in playing more high level games and learn a lot I recommend you join my community one of the largest if not largest active diplomacy community for extended deadline press on backstabbr there is.\n\nhttps:// discord.gg/nAE4mjThMH\n\nHave a good day and a Merry Christmas! :-)",
+                "score": 2
+            },
+            {
+                "comment_id": "kekmlv0",
+                "body": "your line with France-Germany (from ENG to Mun) is [1,3,1,1,2] and their line with you (from BRE to TYR) is [2,1,4,1]. This notation just means I've counted up the number of enemy units on the border of each territory in the line. Eg Eng only touches Bre so it gets a 2, Pic touches Bre, Par and Bur so it gets a 3 and so on. The territories being represented are [Eng, Piic, Bel, Ruh, Mun] and [Bre, Par, Bur, Tyr] respectively. This line is unbreakable (excepting units moved into the theater from outside the section I'm considering). In particular, 1s can never be overrun because it takes 2 units to dislodge them but by definition there's no place for the 2nd unit to provide support from. Furthermore a support provided by a 1 is effectively unbreakable, as any unit moving to break support from the 1 is now one less unit which can participate in the attack on the thing the 1 is supporting. Based on this logic, there are certain unbreakable segments which I call \"words\". (1,3,1) is an unbreakable word, as if the two 1s support the neighboring 3 then the 3 has itself +2 supports, which is always enough to hold off any attack from its 3 neighboring enemies. Similarly, (1,2) is an unbreakable word as the 1 can support the 2 and thus the 2 always has enough support to hold off any attack from its neighbors. So your full line (broken down into words) can be written as [(1,3,1),(1,2)] and is thus sufficient to hold off any frontal attack in perpetuity.  \n\nThe enemy line can be broken down into either [(2),(1,4,1)] or [(2,1),(4,1)]. But these are not self sufficient arrangements. Meaning the unbreakable supports of the 1s in the line are not enough to hold off any possible attack. I call this a deficit. Eg the arrangement (2) has a deficit of 1, meaning a unit with two enemy neighbors and no other help costs +1 unit to sustain (in addition to itself). The support configuration (1,4,1) has the force of the unit itself + 2 unbreakable supports from the sides for a total defense of 3, up against an attack of possibly up to 4 neighbors. Therefore this configuration has a deficit of 4 - 3 = 1, meaning 1 additional unit from behind is needed to hold it against possible attacks. Continuing with this logic, the configuration (4,1) has a deficit of 2. Based on this calculation, breaking the enemy support strategies into either [(2),(1,4,1)] or [(2,1),(4,1)], the enemy has a net deficit of 2. Meaning they need a total of 2 additional units somewhere behind their line in order to hold off their position against you. I only count 1 unit behind the line able to provide that support (Mar). Therefore (on the part of the map I'm analyzing) the enemy has a net deficit of 1. \n\nWhat this means is the game is in a rock-paper-scissor state which favors you. You have two strategic choices.  \n\n1. You can use all 4 units to attack Bur, but if they pick the support arrangement [(2),(1,4,1)] and use Mar for support from behind then everything will bounce.\n\n2. You can attack Bre with Pic and Eng, but if the enemy picks the [(2,1),(4,1)]support arrangement then once again it will all bounce. \n\nSo its a coin flip that the enemy has to guess correctly each time otherwise they lose a territory. Based on this, they have an average of about one year (two coinflips) before on average they have guessed wrong once, after which it starts to snowball into a total victory for you, That said, beware the long tail of the Bernoulli distribution. \n\nWhat this means is, if they can't figure out how to leverage their Eastern front faster than two turns (on average) then you've probably won.  \n\nNote this type of analysis is meant for analyzing stalemate or near stalemate scenarios. If you are playing not just to hold a given line but to move it forward, then that also has a \"cost\" (the same way we talked about under supported configurations having a deficit). The cost can be interpreted the same way, its the number of units behind the line that would be needed to protect against possible counter-moves. \n\nIn other words, if a unit is expected to move then obviously it can no longer have its force counted towards the budget needed for holding the territory. This introduces a deficit in the budget that needs to be replaced. The amount of deficit present in a given scenario is proportional to the amount of risk, ie the fraction of potential strategies that will defeat your configuration of supports and moves. The net deficit of a given position translates into the fraction of scenarios which you can't simultaneously prepared for with a single strategy, which then translates into the bias of the \"coinflip\" each turn (really, its more like a strangely weighted rock paper scissors).\n\nAll this talk of coinflips, who ever said there's no such thing as luck in Diplomacy. ;)  \n\n(Hi Blake).\n\nHere's one possible plan:  \n\nIts Spring. Use this season to get a ship to MAO. Send ENG there so he can't break its support. Lon - Wal and Edi - Cly so you have convoy opportunities in the Fall. Pic - Bre to break support just in case which guarantees you make it to MAO. Nth - Lon and Hel to Nth just in case he accidentally slips into Eng (opening up Bre). If that happens then his ship is surrounded in Eng and you sink it like the Bismark. Once you own MAO and ENG (which may take up to a year to reach this position if they play optimal), you can convoy around the Iberian with impunity. You might lose PIC in the process, but you can rebuild it in the fall and you gain the use of two units stuck on the island not doing anything so the net effect is still a gain for you.   \n\nOk that's all I have time for. Remember, A convoy is not like a support, it is only broken if it is dislodged. Use that to your advantage. Britania rules the waves.",
+                "score": 1
+            },
+            {
+                "comment_id": "kek9wso",
+                "body": "Hmm yeah a western strategy makes sense and agrees with the other comment I have got (which seems now to have disappeared?).\n\nI thought about asking for a draw again but I think I'd rather fight it out! More fun that way hahaha.\n\nDo you have any suggestions for how to retreat my armies out of bud and rum without losing them? Thank you for the help!!",
+                "score": 1
+            },
+            {
+                "comment_id": "kekyo56",
+                "body": "I second the plan of going for MAO with Pic tapping Bre",
+                "score": 1
+            },
+            {
+                "comment_id": "kekdh07",
+                "body": "It should be there too early to draw. As for retreating armies I had a suggestion in my post just reload the page, it is though a guess I will warn you but I think the best guess you have especially since you need to guard Warsaw and Moscow.",
+                "score": 2
+            },
+            {
+                "comment_id": "kekdpj5",
+                "body": "Oh there you are! Idk it\u2019s weird I can\u2019t seem to see the comment anymore it might have been removed by the automoderator. Would you mind if I dm you?",
+                "score": 0
+            },
+            {
+                "comment_id": "kemvy88",
+                "body": ">Hi I am BobZeBuilder AKA Zeus, I am a GM in the game of diplomacy and run the Olympus Diplomacy Community and am an expert in many ways in this game and be happy to help you.  \n>  \n>I am not going to deny but this is a tricky situation. Budapest and much of the east is not holdable so that will bring you back down to 16 but with good play, and just grind you can break through in the West and I think still win.  \n>  \n>To be able to break in the west the first important thing is to be able to take MAO and that you can do for although you are evenly matched in terms of fleets with France you can tap Brest and cut any support thereby guaranteeing yourself to get into the province unless of course France decides to go to MAO via Brest but that is very risky for him, but is a guess. This is what we diplomacy players like to call an unstable stalemate whereby France is currently stalemating you there but can only continue the stalemate through said guess. Defend against the triple support attack into MAO by risking Brest or betting you would attack Brest and defend.  \n>  \n>Given you are beginners I would go with the attack into MAO triple support for now, but whatever France does even if he does outguess you this turn, in subsequent turns you will eventually be able to win by just percentage. 50% shot you get it right compounded over so many turns becomes impossible for France to hold.  \n>  \n>Once then you take MAO it becomes a HIGHLY unstable undefensible position for France and then you can very easily take Brest, or exploit your position by going to Naf and follow into Brest again. Or you can even try for Portugal. In short France cannot hold this and you will make progress.  \n>  \n>To a certain degree the same is true with Burgundy, you have three units on Burgundy and using Pic can tap Paris and force Burgundy. Although Burgundy can then retreat to Gascony and still support hold Paris being in MAO you can tap Gascony and also thereby secure Paris..... BUT Not quite, this is something to look out for but I find currently to be a bit impossible given the German unit in Tyrol as he can either walk into Munich or well tap Munich and cut any support you do but still if you have nothing to do . But that is where we should now focus our attention on the east.  \n>  \n>You can as I explained breakthrough in the west the only question now is how do you prevent complete collapse in the east..... Well I am sorry to admit this but you can't. Eventually with good play Budapest Romania and Sevastopol will fall, but that does not mean your game is over, on the contrary. There is a stalemate line that runs from Moscow to Warsaw to Munich through Silesia that you can hold with a few units albeit you do need more than that which you have here. If you are able to delay them long enough you can possibly set up said stalemate line, only issue is that it takes up 6 units. Berlin support hold Silesia, Prussia or Livonia support hold Warsaw, Livonia or St. Petersburg support hold Moscow. Thus you NEED more armies in the east. Convoy your Edinburgh army to Norway to take it to St. Petersburg, and convoy the London army to Kiel and move Kiel-Baltic whereby you need to convoy Kiel again to Livonia. ALSO as mentioned you cannot hold Budapest you must retreat to preserve your armies in the east so that there are no force disbands. You can suffer disbands through your fleets. Even if you are not able to get all said 6 units to said defensive line you can get enough units to make it very hard for them to break through. Meanwhile make sure you DO NOT LOSE MUNICH. They could for example rush it now and there is not much you can do to stop it but being beginners I am not too sure they would realize its critical value. If anything and you need the Kiel army you just convoyed from London to Kiel to defend Munich more than defending the east DO THAT.  \n>  \n>Final note regarding the east, you may not need all those units to stalemate, it is just incase worst case scenario and they have an army in Bohemia, Galicia, Ukraine and Sevastopol, especially since Germany cannot build new armies and two of France's units in the east are fleets. So my tldr summary on the east, you cannot hold what you currently have but beyond those three centers you can hold them off or make it take them several years to break through in the east if you are not able to set up a full stalemate line as you will have a partial stalemate line and still hard to deal with.  \n>  \n>THIS is where your victory comes. As said if you are able to do this in the east, then let's do the calculations you will be at 14 centers, now you may think that is worse, but not really for in the meanwhile you will be progressing in the west. Let me go back to stalemate lines for a bit.  \n>  \n>Diplomacy has a main stalemate line that runs from St. Petersburg to North Africa evenly splitting the board between east and west 17 vs 17. If you are set up on this line it is impossible to break through on the other side of the line with expert play. As mentioned though this is the MAIN stalemate line but not the only one, another one for example was that which I was explaining in Moscow and Warsaw. By just holding these two centers you have a foothold in the east and all you need to do is take your centers in the west, something that you can do but will take a WHILE of grinding first with MAO, then you can take Brest get to Naf etc. You lose three sure, but then all you need is Brest Paris Marseilles and one more.....  \n>  \n>Now that is how you CAN win, but this is not guaranteed first you need to make sure you make faster progress in the west then lose progress in the east before they send units west and set up a new defensive line. Second there are a few such as said similar stalemate lines like the Warsaw Moscow stalemate line I described to you in the Spain Marseilles area that is the same exact idea just a foothold in the west, but it is possible just hard to predict that far in the future as there are a LOT of guesses to go though I must admit you just said they are beginners so may be VERY hard for them to see this so that is another advantage you have going for you now, but that is the general strategy you need to do to get the upper hand.  \n>  \n>With that in mind I recommend this be your turn and moves for this phase.  \n>  \n>F NAO-MAOF IRI s NAO-MAOF ENG s NAO-MAOA Pic-BreA Lon-KieF NTH C A Lon-KieF HEL C A Lon-KieF Kie-BalA Bel-BurA Ruh s A MunA Mun s A Bel-BurF Ber HA Ukr-WarA Rum-UkrA Bud-RumA Sev s Bud-Rum  \n>  \n>Explanation. I explained the convoy to Kiel, next turn convoy to Norway. I explained the story with MAO, guess story I am guessing this should go through or try something to attack Brest, you NEED to break through before though they get another fleet to Naf which is at minimum three turns. The attack on Burgundy keeping them honest nothing else currently for your armies to do and makes sure they don't try something. The east though..... As said all of this is a guess and the main thing you do NOT want is them force disbanding your armies for you prefer losing fleets then armies and it all being a guess with Budapest being a guaranteed loss, why try get out of there. My bet is that they cut Rum and do some form of an attack on Budapest, this moveset allows you to retreat your Bud army out to Rum.... HOWEVER it does rely on the fact that Ukraine makes it to Warsaw and they don't bounce you there and also a few other things to go right. As said THIS IS A GUESS I am just betting they will stack most things on Budapest. Whatever guess you take you CANNOT though not tap Warsaw and hope they don't walk in because that is a KEY center in your stalemate of the east to get the centers you need for the solo.  \n>  \n>Anyway keep me updated and I hope this helps. Good luck with your game, if you are interested in playing more high level games and learn a lot I recommend you join my community one of the largest if not largest active diplomacy community for extended deadline press on backstabbr there is.",
+                "score": 3
+            },
+            {
+                "comment_id": "kfoaylz",
+                "body": "Thank you so much for the advice and detailed help. As an update I managed to finish the game in winter 1916!\n\nDoes your community have resources for beginners? I would love to join but I will admit I am a bit intimidated by the idea of playing with a bunch of experts",
+                "score": 1
+            }
+        ],
+        "image_url": "https://i.redd.it/zrplvehucy7c1.png",
+        "units": {
+            "BUL": "FRANCE",
+            "VIE": "ENGLAND",
+            "MUN": "ENGLAND",
+            "SEV": "ENGLAND",
+            "HOL": "ENGLAND",
+            "ENG": "ENGLAND",
+            "BAL": "ENGLAND",
+            "YOR": "ENGLAND",
+            "WAL": "ENGLAND",
+            "HEL": "ENGLAND",
+            "NTH": "ENGLAND",
+            "LVP": "ENGLAND",
+            "NAO": "ENGLAND",
+            "TUN": "FRANCE",
+            "GRE": "FRANCE",
+            "AEG": "FRANCE",
+            "WES": "FRANCE",
+            "SPA": "FRANCE",
+            "CON": "FRANCE",
+            "ANK": "FRANCE",
+            "ROM": "FRANCE",
+            "ADR": "FRANCE",
+            "SER": "FRANCE",
+            "POR": "FRANCE",
+            "MAR": "FRANCE",
+            "VEN": "FRANCE",
+            "TYR": "FRANCE",
+            "BUR": "FRANCE",
+            "PAR": "FRANCE",
+            "BRE": "FRANCE",
+            "SMY": "TURKEY",
+            "VIE": "GERMANY",
+            "GAL": "GERMANY",
+            "TYR": "GERMANY",
+            "SER": "GERMANY"
+        },
+        "territories": {
+            "STP": "ENGLAND",
+            "FIN": "FRANCE",
+            "SWE": "ENGLAND",
+            "LVP": "ENGLAND",
+            "DEN": "ENGLAND",
+            "YOR": "FRANCE",
+            "LVN": "FRANCE",
+            "MOS": "ENGLAND",
+            "WAL": "FRANCE",
+            "PRU": "FRANCE",
+            "HOL": "ENGLAND",
+            "WAR": "ENGLAND",
+            "SIL": "FRANCE",
+            "BRE": "FRANCE",
+            "BOH": "FRANCE",
+            "SEV": "ENGLAND",
+            "PAR": "FRANCE",
+            "MUN": "ENGLAND",
+            "BUR": "FRANCE",
+            "VIE": "GERMANY",
+            "VEN": "FRANCE",
+            "MAR": "FRANCE",
+            "TUS": "FRANCE",
+            "TRI": "GERMANY",
+            "POR": "FRANCE",
+            "BUL": "ENGLAND",
+            "SPA": "FRANCE",
+            "SER": "GERMANY",
+            "ROM": "GERMANY",
+            "ALB": "FRANCE",
+            "ANK": "FRANCE",
+            "NAP": "FRANCE",
+            "GRE": "FRANCE",
+            "CON": "FRANCE",
+            "SMY": "TURKEY",
+            "TUN": "FRANCE",
+            "NWY": "ENGLAND"
+        }
+    },
+    {
+        "post_id": "175jeqx",
+        "title": "How to Finish Out this Game",
+        "body": "I am England in this game. Italy and Turkey are allys. Russia is being crushed from both sides. I don\u2019t know where to proceed, do I continue south after taking Warsaw or do I try to run the blockade in the Mediterranean? First time player so any advice welcome.",
+        "factors": {
+            "player": "ENGLAND",
+            "allies": [
+                "ITALY",
+                "TURKEY"
+            ],
+            "enemies": "NA",
+            "dominating_state": "dominating",
+            "number_of_units": 15,
+            "unit_composition": [8, 7],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "border_share",
+            "turn": "Spring (positioning focus)",
+            "year": 1910,
+            "fleet_access_to_sea": "high",
+            "n_players_in-1hope_center": 5,
+            "rel_strength_neighbors": "medium"
+        },
+        "comments": [
+            {
+                "comment_id": "k4g18i9",
+                "body": "What are the current alliances? If they are not all allied against you, you should have a number of openings.\n\nIf they're committed to stopping you and ending the game in a 4-way draw, they can do it currently.\n\nIf they are not allied, I'd start with a convoy into Gascony, if you can arrange it. But even from there, Italy can lock you out with a simple Por support of Spa. Only way that fails with you cutting possible supports is a dislodge of MAO, at which then you just retreat to Naf or WES.\n\nAn alternative option would be to sneak into North Africa, especially with a fleet. Can do a lot of damage that way if you can get behind Italy's line.\n\nFor Warsaw, you kind of have to wait for Turkey to dismantle Russia from the South, as it is, you have a weak spot in Berlin, so you have to reinforce first. You appear to have the Army available to do it. An army in Ber and Liv should get you into Warsaw, but then you're weak in Moscow.\n\nI dunno man, you've got too many useless fleets and not enough armies, and your fleets are worthless now against an Italian blockade. Your only hope is that the remaining powers continue to fight, and just grab an SC wherever you can when you can.",
+                "score": 5
+            },
+            {
+                "comment_id": "k4g8wqu",
+                "body": "The issues are stalemate lines.\n\nYou need to go look at the stalemate lines.  Currently all 3 together are in position to form a stalemate and even if you eat Russia it\u2019s possible Turkey and Italy could form it.\n\nYou don\u2019t have enough armies to solo via Europe.  And while you have fleets, with that many fleets you needed to break into Med, and right now Italy is at the stalemate position there.\n\nYou maybe able to sneak past Italy, but it will be really difficult.  Maybe take North Africa and/or Gascony, but then you have to give up and fight over mao.\n\nYou could also strategically let one of those two get bigger and lose some SCs so their alliance falls apart, but that will take awhile and is risky as well.\n\nIn the future learn the stalemate lines, and for England, it\u2019s incredibly important to break into the Med, because if you don\u2019t it\u2019s much harder to solo as that\u2019s one of the stalemate lines and it makes your fleets much less useful",
+                "score": 5
+            },
+            {
+                "comment_id": "k4g419z",
+                "body": "If you slip into Naf, you might get somewhere. Else, it will probably end up with Turkey taking out Russia, you gain Warsaw, and then they have a stalemate through everything else. But if you can get Naf and Gascony, you may be able to find 2 dots on Iberia for the win.\n\nRegardless, the most important move is to convoy Edi to Norway so that you can hold Moscow.",
+                "score": 3
+            },
+            {
+                "comment_id": "k4g7dwo",
+                "body": "Gains other than Warsaw will not be able to be maintained if this continues for several seasons. You also don't have the units. Solidify the center in Mun/Ber by convoying to Germany. You also don't have the units to run the blockade in the Med. Most you can get on WES is theoretically two units - MAO and NAf. By then, Italy SHOULD have pulled F ADR to TUN.\n\nEliminate Russia, settle for three-way draw.",
+                "score": 3
+            },
+            {
+                "comment_id": "k4m0vju",
+                "body": "You have too many fleets in the north. have 3 max. Bot / Bal might be useful if the opposition moves up, otherwise get at least 2 of them adjacent to MAO.\n\nTry to sneak in Mao -> Naf/WES, as Italy doesn't have enough fleets to cover that (now) and he is probably attacking MAO with those 3 fleets of him.  It's a 50/50 this turn so maybe, which is good odds when a stalemate looms.\n\nI think you can do this, you may want to if a fleet gets chased disband rather than retreat so you can get more armies, but I think if you decide your line is along MAO those fleets might be what you need.",
+                "score": 1
+            },
+            {
+                "comment_id": "k4gpy3h",
+                "body": "Yeah considering the last Italian fleet, England should just take Warsaw, guard Munich, and celebrate the huge board top. Try getting to the Med or to Vienna earlier next time.",
+                "score": 2
+            },
+            {
+                "comment_id": "k4g7hu6",
+                "body": "The danger with slipping into NAf is losing the MAO.",
+                "score": 4
+            },
+            {
+                "comment_id": "k4gpbqv",
+                "body": "Losing MAO is probably fine because you can cover NAO, IRI, ENG, and have Paris support Brest.",
+                "score": 2
+            },
+            {
+                "comment_id": "k4gy5o1",
+                "body": "Sure, sure, but the problem for this player is that they do not have the fleets in position to cover all of those regions. An Italian fleet in MAO now would be all sorts of trouble.",
+                "score": 3
+            },
+            {
+                "comment_id": "k4hkszr",
+                "body": "I was thiniking England can do\nNWG - NAO\nENG - IRI\nNTH - ENG\nTo block the sea spaces on the following turn, go HEL-Hol-Bel, use NAO to support Eng-IRI if that doesn't work first try",
+                "score": 1
+            }
+        ],
+        "image_url": "https://i.redd.it/mq719i6fwltb1.jpg",
+        "units": {
+            "BUR": "ITALY",
+            "MAO": "ENGLAND",
+            "MUN": "FRANCE",
+            "PAR": "ENGLAND",
+            "BRE": "FRANCE",
+            "RUH": "FRANCE",
+            "ENG": "ENGLAND",
+            "WAL": "ENGLAND",
+            "BAL": "ENGLAND",
+            "YOR": "FRANCE",
+            "HEL": "ENGLAND",
+            "MOS": "FRANCE",
+            "LVP": "ENGLAND",
+            "NTH": "FRANCE",
+            "CLY": "ENGLAND",
+            "SWE": "FRANCE",
+            "NWG": "FRANCE",
+            "VEN": "ITALY",
+            "KIE": "FRANCE",
+            "TYS": "ITALY",
+            "AEG": "ITALY",
+            "WES": "ITALY",
+            "SPA": "ITALY",
+            "APU": "ITALY",
+            "ROM": "ITALY",
+            "ADR": "ITALY",
+            "TRI": "ITALY",
+            "POR": "ITALY",
+            "MAR": "ITALY",
+            "GAS": "ITALY",
+            "TYR": "ITALY",
+            "GAL": "RUSSIA",
+            "UKR": "RUSSIA",
+            "SIL": "RUSSIA",
+            "CON": "TURKEY",
+            "SMY": "TURKEY",
+            "ANK": "TURKEY",
+            "SER": "TURKEY",
+            "BLA": "TURKEY",
+            "BUD": "TURKEY",
+            "VIE": "TURKEY"
+        },
+        "territories": {
+            "STP": "ENGLAND",
+            "NWY": "ENGLAND",
+            "SWE": "ENGLAND",
+            "CLY": "FRANCE",
+            "DEN": "ENGLAND",
+            "MOS": "ENGLAND",
+            "KIE": "ENGLAND",
+            "HOL": "ENGLAND",
+            "BER": "ENGLAND",
+            "WAR": "RUSSIA",
+            "BEL": "ENGLAND",
+            "RUH": "FRANCE",
+            "BRE": "ENGLAND",
+            "SEV": "RUSSIA",
+            "PAR": "ENGLAND",
+            "MUN": "ENGLAND",
+            "BUR": "FRANCE",
+            "VIE": "TURKEY",
+            "BUD": "TURKEY",
+            "VEN": "ITALY",
+            "MAR": "ITALY",
+            "TRI": "ITALY",
+            "POR": "ITALY",
+            "SPA": "ITALY",
+            "ROM": "ITALY",
+            "SER": "TURKEY",
+            "ANK": "TURKEY",
+            "GRE": "ITALY",
+            "SMY": "TURKEY",
+            "LVP": "ENGLAND",
+            "PIC": "FRANCE",
+            "CON": "TURKEY",
+            "NAP": "ITALY"
+        }
+    },
+    {
+        "post_id": "174u7nm",
+        "title": "First time player and they are all gaming up on me!",
+        "body": "What should my next move be?",
+        "factors": {
+            "player": "ENGLAND",
+            "allies": "NA",
+            "enemies": [
+                "FRANCE",
+                "GERMANY",
+                "ITALY"
+            ],
+            "dominating_state": "dominated",
+            "number_of_units": 3,
+            "unit_composition": [2, 1],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "border_share",
+            "turn": "Spring (positioning focus)",
+            "year": 1903,
+            "fleet_access_to_sea": "medium",
+            "n_players_in-1hope_center": 1,
+            "rel_strength_neighbors": "medium"
+        },
+        "comments": [
+            {
+                "comment_id": "k4boy9v",
+                "body": "At this point you need a friend. Negotiate with France and Russia to go after Germany. Let them know that Germany is the on positioned to get all your centers and they won't get anything.\n\nUltimately you need someone going after Germany to force them to pull out of north sea, which is where you want your fleet to be.\n\nPedal fear, make France aware of how screwed they are if Germany gets all your centers. Tell Russia that if Germany gets huge by killing you that Austria might decide they would rather work with Germany to kill Russia once your dead.\n\nYour gonna have to do some talking. Tactically your out of options, all you have is convincing someone to go after Germany, offer whatever you can. Maybe even lie and say Austria told you they were secretly working with Germany. \n\nI don't see you getting out of this without Russia's help. France is too tied up with Italy.",
+                "score": 6
+            },
+            {
+                "comment_id": "k4brtp6",
+                "body": "Sometimes this happens.  Get your talking boots on and try to convince someone that you're more useful alive than dead.  All 3 are good options:\n\n* France is getting invaded by Italy.\n* Germany is currently occupied by Italy.\n* Russia doesn't really have any more to gain from continuing to attack.\n\nI don't see France or Germany gaining anything from you that wouldn't cause Italy to eat Iberia or home centers, respectively.  Starting a chat with the 3 of you could work out some sort of triple alliance, trying to get you back in Norway and Italy out of Munich, WES, and LYO.",
+                "score": 4
+            },
+            {
+                "comment_id": "k4bvybf",
+                "body": "Your first mistake was moving out of the North Sea. NTH should be as important as a home supply center to you.\n\nNow, I think you need to talk to Russia, but you also need to talk with Turkey. Russia isn't going to be able to do much to help you if they're fighting both Austria and Turkey -- at best, they could shuffle NWY-SWE and SWE-BAL and threaten Germany, but they'd probably be unlikely to because they'd be opening another front in the war.\n\nTurkey needs to watch out, because Austria is poised to gain the most when Russia falls apart, and they're the next target after Russia (unless Italy goes for a stab on Austria).\n\nTalk with everyone (but focus on those two), be honest and forthright, and don't stab anyone for a single supply center unless you need it to avoid being eliminated. E.g., stealing NWY from Russia might give you a build, but it paralyzes that fleet in NWY and removes a potential ally from your side for the rest of the game (and potentially throws the game to Austria).",
+                "score": 4
+            },
+            {
+                "comment_id": "k4blqj4",
+                "body": "Who are you?",
+                "score": 1
+            },
+            {
+                "comment_id": "k4bmdlq",
+                "body": "England",
+                "score": 1
+            },
+            {
+                "comment_id": "k4byvzc",
+                "body": "That's the thing about Diplomacy; sometimes you're going to be the one everybody teams up on to invade right at the beginning. Best you can do is talk to everybody to try to prevent that from happening.\n\nAnd as somebody else said above, as England never ever let somebody else take NTH, unless you have a *very* good reason for it. At least you don't have France in ENG too (yet).\n\nIt looks like you might get France to back off if Italy attacks them, as it appears like they're about to. Then you're just dealing 1-on-1 vs Germany.\n\nA second army as your first build wasn't a good call either, which makes things more difficult. Maybe you could trick Germany into dislodging one of your armies and rebuild it as a fleet, somehow? One army is good to keep around if you're actively defending your home centers.",
+                "score": 1
+            },
+            {
+                "comment_id": "k4dnoe1",
+                "body": "Talk to everyone. Persuade everyone from their point of view why they should worry about someone other than you. Keep talking until someone relents.\n\nNothing can save you when you're fighting on multiple fronts.",
+                "score": 1
+            },
+            {
+                "comment_id": "k4dqunr",
+                "body": "As England, never give up the Black Sea.  It may not be possible to convince Germany to not build a second fleet, so it\u2019s not necessarily bad, but you need to be cautious.\n\nLooking at the board the key here is Italy is attacking France. And Germany and Austria are allies with them and heading north \n\nThey both need to turn around and defend, and while o can\u2019t tell what Germany and Turkey are doing, you can probably promote that that alliance is the strongest in the game while trying to get Austria and Italy to push forward.\n\nI\u2019d basically offer to ally with France against Germany.  And try to convince Germany on a temporary truce to go south and maybe against the Russians.",
+                "score": 1
+            },
+            {
+                "comment_id": "k4ez9m1",
+                "body": "The map without colour looks so cursed",
+                "score": 1
+            },
+            {
+                "comment_id": "k4bpylw",
+                "body": "Also upon. A second glance, none of them can go after you without giving up their other side. They are all in dangerous positions with each other. Remind them that. Try to get Austria to attack north, I doubt they will but it's worth a shot.\n\nYou could even point out to Germany how much they are losing in the land war, a fight with you ultimately costs them too much. Try to get them to work with you. Best case, get them to support BAR into Nwy.",
+                "score": 2
+            },
+            {
+                "comment_id": "k4bzhli",
+                "body": "> Pedal fear, make France aware\n\n*peddle",
+                "score": 2
+            },
+            {
+                "comment_id": "k4f7tml",
+                "body": "> As England, never give up the Black Sea\n\nlol...got your powers crossed there",
+                "score": 1
+            },
+            {
+                "comment_id": "k4f8pfk",
+                "body": "Blah\u2026 sorry North Sea\u2026 but yeah also never give up the Black Sea either\u2026",
+                "score": 2
+            }
+        ],
+        "image_url": "https://i.redd.it/fmd6ub7kiftb1.jpg",
+        "units": {
+            "AEG": "TURKEY",
+            "SER": "TURKEY",
+            "BUD": "AUSTRIA",
+            "RUM": "TURKEY",
+            "TRI": "AUSTRIA",
+            "VIE": "AUSTRIA",
+            "BOH": "AUSTRIA",
+            "ENG": "FRANCE",
+            "WAL": "ENGLAND",
+            "LVP": "ENGLAND",
+            "BAR": "ENGLAND",
+            "POR": "FRANCE",
+            "SPA": "FRANCE",
+            "MAR": "FRANCE",
+            "PIE": "FRANCE",
+            "BUR": "FRANCE",
+            "MAO": "FRANCE",
+            "PIC": "FRANCE",
+            "BRE": "FRANCE",
+            "TYS": "ITALY",
+            "WES": "ITALY",
+            "APU": "ITALY",
+            "ROM": "ITALY",
+            "LYO": "ITALY",
+            "VEN": "ITALY",
+            "TYR": "ITALY",
+            "MUN": "ITALY",
+            "BLA": "TURKEY",
+            "GAL": "RUSSIA",
+            "UKR": "RUSSIA",
+            "WAR": "RUSSIA",
+            "MOS": "RUSSIA",
+            "NWY": "RUSSIA",
+            "SWE": "RUSSIA",
+            "CON": "TURKEY",
+            "ANK": "TURKEY",
+            "ARM": "TURKEY",
+            "DEN": "GERMANY",
+            "HEL": "GERMANY",
+            "KIE": "GERMANY",
+            "HOL": "GERMANY",
+            "NTH": "GERMANY"
+        },
+        "territories": {
+            "DEN": "FRANCE",
+            "PIE": "FRANCE"
+        }
+    },
+    {
+        "post_id": "15ur9p3",
+        "title": "Do we even stand a chance? The final battle is head to head, me being Italy and trusting German completely for obvious reasons. I'm not sure what moves are the best, please help :)",
+        "body": "",
+        "factors": {
+            "player": "ITALY",
+            "allies": [
+                "GERMANY"
+            ],
+            "enemies": "NA",
+            "dominating_state": "dominated",
+            "number_of_units": 5,
+            "unit_composition": [2, 3],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "free",
+            "turn": "Fall (attack focus)",
+            "year": 1909,
+            "fleet_access_to_sea": "high",
+            "n_players_in-1hope_center": 1,
+            "rel_strength_neighbors": "strong"
+        },
+        "comments": [
+            {
+                "comment_id": "jwr7hyx",
+                "body": "You probably won\u2019t be able to push Austria back, but from this position there is a stalemate line you can hold - basically, by moving your units into certain positions, you can form an impenetrable wall that will be impossible to break.\n\nGermany almost has the line already set up in the north. F BOT S A Stp H will prevent Austria from ever breaking through in St Petersburg. In Ber/Mun, Germany needs to get one more army behind Munich so that they can put two support-holds on Munich and one on Berlin. All Germany needs to do to achieve that is to support Sil-Mun with Kie and Ber and move Munich to Ruhr. If Austria bounces Silesia out of Munich, Germany is currently playing down a unit, so they can build an army in Munich anyway. Either way, once Austria is in Tyr, Boh, Sil, and Pru, Germany holds the line with:\n\nA Mun H\nA Kie S A Mun H\nA Ruh S A Mun H\nA Ber H\nF BAL S A Mun H\n\nYour side of the line is a little trickier, but still manageable. Since you have so few units, you\u2019ll need German F NTH to move to ENG to help you hold MAO eventually. As for you, your units in Pie, Naf, and LYO are all across the line you want to hold. To avoid Austria disbanding another one of your units, which would be pretty disastrous here, you\u2019ll want to retreat your units behind Mar/Spa/MAO as quickly and safely as possible. One option is to move Pie - Mar, Mar - Gas, and support IRI - MAO. Then, in the fall, you\u2019ll want to move MAO to Portugal and have Naf backfill MAO supported by German F ENG. After that, you\u2019ll have a line:\n\nF MAO H\nF ENG S F MAO H\nF Spa H\nF Por S F Spa H\nA Mar H\nA Gas S A Mar H\n\nThe only issue with this is that if Austria has units in Pie, LYO, and WES in the fall, you\u2019ll have to guess over which of Mar/Spa Austria will attack and support the correct unit with Gascony. If Austria does anything else or you guess correctly with Gas, you\u2019ll have successfully formed an impenetrable stalemate line.",
+                "score": 9
+            },
+            {
+                "comment_id": "jwr3co6",
+                "body": "All you need to lock out the north is Bal supports Ber, Kie/Ruh supports Mun, BOT supports StP\n\nAll you need to lock out the Med is Bur supports Mar, Gas supports Spa, Por supports MAO\n\nMun -> Bur, Kie -> Ruh, Sil-> Mun supports by Ber (a little bit of risk there to do it all in one move)\n\nGet Pie into Mar, Mar into Gas, and your two fleets are Por/Spa. Those moves don't need to be immediate, but probably within 2 moves. You just have to do these moves in a way that doesn't risk losing a SC of course.\n\nGermany's NTH fleet could be used, but not required.",
+                "score": 6
+            }
+        ],
+        "image_url": "https://i.redd.it/79ix5ba6pwib1.png",
+        "units": {
+            "TUN": "AUSTRIA",
+            "AEG": "AUSTRIA",
+            "CON": "AUSTRIA",
+            "NAP": "AUSTRIA",
+            "WES": "AUSTRIA",
+            "TYS": "AUSTRIA",
+            "ANK": "AUSTRIA",
+            "APU": "AUSTRIA",
+            "ROM": "AUSTRIA",
+            "SER": "AUSTRIA",
+            "ADR": "AUSTRIA",
+            "BUD": "AUSTRIA",
+            "RUM": "AUSTRIA",
+            "MUN": "AUSTRIA",
+            "BLA": "AUSTRIA",
+            "SIL": "AUSTRIA",
+            "GAL": "AUSTRIA",
+            "SEV": "AUSTRIA",
+            "UKR": "AUSTRIA",
+            "WAR": "AUSTRIA",
+            "BAL": "AUSTRIA",
+            "MOS": "AUSTRIA",
+            "NAF": "ITALY",
+            "MAR": "ITALY",
+            "POR": "ITALY",
+            "BUR": "ITALY",
+            "PIC": "ITALY",
+            "BRE": "ITALY",
+            "LON": "ITALY",
+            "WAL": "ITALY",
+            "YOR": "ITALY",
+            "DEN": "GERMANY",
+            "BER": "GERMANY",
+            "KIE": "GERMANY",
+            "MUN": "GERMANY",
+            "SIL": "GERMANY",
+            "NTH": "GERMANY",
+            "BAL": "GERMANY",
+            "BOT": "GERMANY",
+            "STP": "GERMANY"
+        },
+        "territories": {
+            "STP": "GERMANY",
+            "SWE": "GERMANY",
+            "NWY": "GERMANY",
+            "CLY": "FRANCE",
+            "EDI": "GERMANY",
+            "LVP": "ITALY",
+            "DEN": "GERMANY",
+            "MOS": "AUSTRIA",
+            "LON": "ITALY",
+            "KIE": "GERMANY",
+            "HOL": "GERMANY",
+            "BER": "GERMANY",
+            "WAR": "AUSTRIA",
+            "BEL": "GERMANY",
+            "BRE": "ITALY",
+            "SEV": "AUSTRIA",
+            "MUN": "GERMANY",
+            "BUD": "AUSTRIA",
+            "MAR": "ITALY",
+            "RUM": "AUSTRIA",
+            "POR": "ITALY",
+            "SPA": "ITALY",
+            "SER": "AUSTRIA",
+            "ROM": "AUSTRIA",
+            "ANK": "AUSTRIA",
+            "CON": "AUSTRIA",
+            "GRE": "AUSTRIA",
+            "SMY": "AUSTRIA",
+            "TUN": "AUSTRIA",
+            "PAR": "ITALY",
+            "NAP": "AUSTRIA"
+        }
+    },
+    {
+        "post_id": "15fbfmg",
+        "title": "Advice?",
+        "body": "Deep into this game as France. I have the support of Turkey but relationship with England is shaky at best (he is trying to decide who to help at this point). \n\nAny advice on how I can curb Russia? \n\nThe moves I have are what I'm thinking about making but I'm having a hard time predicting what Russia may do even after working through sandboxes.",
+        "factors": {
+            "player": "FRANCE",
+            "allies": [
+                "TURKEY"
+            ],
+            "enemies": "NA",
+            "dominating_state": "dominated",
+            "number_of_units": 10,
+            "unit_composition": [5, 5],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "free",
+            "turn": "Fall (attack focus)",
+            "year": 1907,
+            "fleet_access_to_sea": "high",
+            "n_players_in-1hope_center": 2,
+            "rel_strength_neighbors": "strong"
+        },
+        "comments": [
+            {
+                "comment_id": "juc9jks",
+                "body": ">England is shaky at best (he is trying to decide who to help at this point).\n\nDoes England not care about a draw? Russia is about to solo here. England can either lose the game or get on board with fighting Russia. A draw is better than losing. If you don't get England to help, your tactical decisions won't matter at all.",
+                "score": 11
+            },
+            {
+                "comment_id": "juc6qk4",
+                "body": "Cover Bur with Pic. If Russia gets to Gas you are in trouble.",
+                "score": 6
+            },
+            {
+                "comment_id": "judslej",
+                "body": "Assuming you guys stop the solo this turn it\u2019s worth sending your two southern fleets to AEG and EAS you\u2019ll need them there to back up turkey.",
+                "score": 3
+            },
+            {
+                "comment_id": "jufbcsg",
+                "body": "Russia already won",
+                "score": 1
+            }
+        ],
+        "image_url": "https://i.redd.it/juq4zmbouhfb1.png",
+        "units": {
+            "LON": "FRANCE",
+            "EDI": "RUSSIA",
+            "NAP": "FRANCE",
+            "TUN": "FRANCE",
+            "ROM": "FRANCE",
+            "LYO": "FRANCE",
+            "POR": "FRANCE",
+            "SPA": "FRANCE",
+            "MAR": "FRANCE",
+            "TUS": "RUSSIA",
+            "PAR": "FRANCE",
+            "BRE": "FRANCE",
+            "RUH": "FRANCE",
+            "ENG": "FRANCE",
+            "KIE": "FRANCE",
+            "HOL": "RUSSIA",
+            "WAL": "FRANCE",
+            "NAO": "FRANCE",
+            "CLY": "FRANCE",
+            "SYR": "RUSSIA",
+            "SER": "RUSSIA",
+            "BLA": "RUSSIA",
+            "VIE": "RUSSIA",
+            "RUM": "TURKEY",
+            "BOH": "RUSSIA",
+            "MUN": "RUSSIA",
+            "SEV": "RUSSIA",
+            "BER": "RUSSIA",
+            "DEN": "RUSSIA",
+            "NWY": "RUSSIA",
+            "NWG": "RUSSIA",
+            "GRE": "TURKEY",
+            "ADR": "TURKEY",
+            "CON": "TURKEY",
+            "ALB": "TURKEY",
+            "ANK": "TURKEY",
+            "ARM": "TURKEY"
+        },
+        "territories": {
+            "STP": "RUSSIA",
+            "NWY": "RUSSIA",
+            "SWE": "RUSSIA",
+            "EDI": "ENGLAND",
+            "DEN": "RUSSIA",
+            "MOS": "RUSSIA",
+            "LON": "ENGLAND",
+            "KIE": "RUSSIA",
+            "HOL": "FRANCE",
+            "BER": "RUSSIA",
+            "RUH": "FRANCE",
+            "BRE": "FRANCE",
+            "SEV": "RUSSIA",
+            "PAR": "FRANCE",
+            "MUN": "RUSSIA",
+            "BUD": "RUSSIA",
+            "MAR": "FRANCE",
+            "RUM": "RUSSIA",
+            "POR": "FRANCE",
+            "SPA": "FRANCE",
+            "SER": "TURKEY",
+            "ROM": "FRANCE",
+            "ALB": "TURKEY",
+            "ANK": "TURKEY",
+            "NAP": "TURKEY",
+            "GRE": "TURKEY",
+            "CON": "TURKEY",
+            "TUN": "FRANCE",
+            "LVP": "FRANCE",
+            "WAR": "RUSSIA",
+            "VIE": "RUSSIA",
+            "SMY": "TURKEY"
+        }
+    },
+    {
+        "post_id": "152psh9",
+        "title": "Advice for russia in this position?",
+        "body": "",
+        "factors": {
+            "player": "RUSSIA",
+            "allies": "NA",
+            "enemies": "NA",
+            "dominating_state": "neutral",
+            "number_of_units": 4,
+            "unit_composition": [2, 2],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "free",
+            "turn": "Fall (attack focus)",
+            "year": 1901,
+            "fleet_access_to_sea": "low",
+            "n_players_in-1hope_center": 2,
+            "rel_strength_neighbors": "medium"
+        },
+        "comments": [
+            {
+                "comment_id": "jsfbo45",
+                "body": "What did you do with Sev and War? Just curious, because this isn\u2019t an optimal position. \n\nI\u2019m assuming Austria and Turkey are somewhat allied, or coordinating an attack on you. If they are, you\u2019ll lose Sev. You need to try and get Germany to not bounce you in Swe, promise alliance/friendship and say that Austria will come for them next if you die quickly. Then just try to talk with Austria and Turkey, pit them against each other. Italy in Tri is good for you. \n\nTactically there\u2019s not much you can do. Your choice: if A and T are together, supporting Sev with Ukr won\u2019t do much because Gal can tap it. If they aren\u2019t then that\u2019s your move since you can keep Sev. If they are, you may consider War-Gal with support from Ukr if you want.",
+                "score": 7
+            },
+            {
+                "comment_id": "jsg5wd2",
+                "body": "Just to bring my few thoughts there, but this is also looking a bit like a prelude to a Key Lepanto. Scaring Turkey with this could prove useful, whether it is really the case or not.",
+                "score": 7
+            },
+            {
+                "comment_id": "jsh5o8w",
+                "body": "This legit happened to me in my first competitive f2f game with the windy city weasels.  Turkey wouldn't talk to me.  Austria was polite and asked to leave Galacia dmz'd and asked me to go North with Warsaw/Moscow.  Knew I couldn't go North so I stayed out of Galacia to show the Austrian I was true to my word.\n\nIn the fall I pleaded with Germany to please give Sweden and they obliged. \n\nI basically played defense and rope-a-dope for the next 3 or 4 years.  Never really gained another center and lost Sev.  Eventually I lasted longer than the Turn and basically became a janissary to Austria in the end.\n\nAdvice?  If no one will negotiate, threaten to throw your pieces with any country that will help.  Try to stay alive, play defens, and hope the tide turns on one or more of your opponents and you can pounce?  Maybe the Key Lepanto that's a potential will catch Turkey with their pants down?\n\nReport back.  Curious to know what happens!",
+                "score": 4
+            },
+            {
+                "comment_id": "jsfqo4t",
+                "body": "seems Austria doesn't like you much\n\nbut this could change\n\nwhy not talking to Italy to get Austria together and go all against Turkey?",
+                "score": 2
+            },
+            {
+                "comment_id": "jsmnn19",
+                "body": "idk who is allied with who but maybe try to get italy to move to aeg to put pressure on turkey and then try to get france or Germany to attack england. then if austria and turkey are allies you are going to lose sev so you could try moving ukr to gal with war supporting it (which might work because bud will prob move to rum to stop sev escaping there or it will move to vienna to stop triest moving there and bul will move to serbia or greece)\n\n&#x200B;\n\nin the north, you are a bit screwed but you might consider forfeiting stp bc england can't really launch an attack on you other than that. you could (if you trust germany) take sweden or you could retreat to step to block the english move (although they will get it eventually when they take norway and then have a double)",
+                "score": 2
+            },
+            {
+                "comment_id": "jsonbhp",
+                "body": "I don't think this is as bad as it looks.  Either it's a Key Lepanto, in which case you convince Turkey to work with you, or Austria is being stabbed by Italy, in which case he doesn't want a 2 front war.  Talk with both Austria and Turkey and convince them they both need you on their side. In the meantime get Germany to let you have Sweden - they don't need a 2 front war either.\n\nTalk, talk, talk. This doesn't look that bad to me",
+                "score": 2
+            },
+            {
+                "comment_id": "jsfeq56",
+                "body": "Austria bounced me out of Rum, And i agreed to dmz Gal with austria :(",
+                "score": 3
+            },
+            {
+                "comment_id": "jsmn9rf",
+                "body": "but you can't take sweden because you will lose st peterburg to england",
+                "score": 1
+            },
+            {
+                "comment_id": "jsh8z0k",
+                "body": "+1 to this, doesn't look good. I would love to be Turkey here.\n\nTurkey should order into Serbia here to keep Italy in Trieste. Expecting Turkey to order into Sevastopol with support with Galicia cutting Ukraine. Basically punching you and Austria in the nose and setting up for a friendship with Italy.\n\nBut I would focus on trying to flip Austria over Turkey as he has more at risk.",
+                "score": 2
+            },
+            {
+                "comment_id": "jsfgw6u",
+                "body": "That\u2019s rough. You should never trust both Austria and Turkey to DMZ. But you will be helped by Italy here, they will take an Austrian dot and could prevent them from getting Greece. You should try to talk to Italy, Turkey and Austria about peace, attacking together and so on. Strategically you are in a bad position, but diplomatically there is a lot you can do",
+                "score": 8
+            },
+            {
+                "comment_id": "jsfjpaa",
+                "body": "Is there anything I can do about the situation up north?",
+                "score": 3
+            },
+            {
+                "comment_id": "jsfmxsh",
+                "body": "That depends on what you agreed with Germany re. Sweden. Typically you get them to not bounce you in return for you supporting them in the future. Moving into Sweden is relatively safe since both a bounce and a build allow you to defend StP from England next turn.\n\nOn one hand, your dire situation down South might make Germany bold. On the other hand, France has basically declared war on Germany without England punishing France so Germany is in a bad position as well. You might be able to convince them that you can work together to stabilize both of your situations. England is not committed yet but if Germany fights Russia and France, there's little reason left for England not to trounce Germany. Then you get Sweden anyway, but the Western conflict resolves earlier and you don't want that. So there's every reason for you and Germany to work together.\n\nSo again, strategically you are in a bad position, but diplomatically there is a lot you can do.",
+                "score": 3
+            }
+        ],
+        "image_url": "https://i.redd.it/cyakz36ixncb1.jpg",
+        "units": {
+            "ALB": "AUSTRIA",
+            "VIE": "ITALY",
+            "BUD": "AUSTRIA",
+            "GAL": "AUSTRIA",
+            "WAL": "FRANCE",
+            "NTH": "ENGLAND",
+            "NWG": "ENGLAND",
+            "SMY": "FRANCE",
+            "SPA": "FRANCE",
+            "PIE": "FRANCE",
+            "SEV": "RUSSIA",
+            "BUR": "FRANCE",
+            "MAO": "FRANCE",
+            "PIC": "FRANCE",
+            "BRE": "FRANCE",
+            "BOT": "RUSSIA",
+            "ION": "ITALY",
+            "APU": "ITALY",
+            "ROM": "ITALY",
+            "ADR": "ITALY",
+            "TUS": "ITALY",
+            "TYR": "ITALY",
+            "UKR": "RUSSIA",
+            "WAR": "RUSSIA",
+            "CON": "TURKEY",
+            "ANK": "TURKEY",
+            "ARM": "TURKEY",
+            "SER": "TURKEY",
+            "BLA": "TURKEY",
+            "DEN": "GERMANY",
+            "KIE": "GERMANY",
+            "RUH": "GERMANY"
+        },
+        "territories": {
+            "STP": "RUSSIA",
+            "LVP": "ENGLAND",
+            "MOS": "RUSSIA",
+            "WAL": "FRANCE",
+            "LON": "ENGLAND",
+            "KIE": "GERMANY",
+            "BER": "GERMANY",
+            "WAR": "RUSSIA",
+            "BRE": "FRANCE",
+            "PAR": "FRANCE",
+            "MUN": "GERMANY",
+            "VIE": "AUSTRIA",
+            "BUD": "AUSTRIA",
+            "ANK": "TURKEY",
+            "ROM": "ITALY",
+            "NAP": "ITALY",
+            "CON": "TURKEY",
+            "SMY": "TURKEY",
+            "SEV": "RUSSIA"
+        }
+    },
+    {
+        "post_id": "13shlst",
+        "title": "Hey y'all I made my next move what should I do next?",
+        "body": "",
+        "factors": {
+            "player": "AUSTRIA",
+            "allies": "NA",
+            "enemies": "NA",
+            "dominating_state": "dominated",
+            "number_of_units": 2,
+            "unit_composition": [1, 1],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "chokepoint",
+            "turn": "Fall (attack focus)",
+            "year": 1903,
+            "fleet_access_to_sea": "low",
+            "n_players_in-1hope_center": 5,
+            "rel_strength_neighbors": "strong"
+        },
+        "comments": [
+            {
+                "comment_id": "jlpwa5c",
+                "body": "Germany is saying they are gonna help my army go to Vie and Italy is saying they will move Pie to Mar and move Vie to Pie so that my fleet can stay there. They capping?",
+                "score": 3
+            },
+            {
+                "comment_id": "jlptuyc",
+                "body": "I am Austria for those of you who did not see my last post",
+                "score": 0
+            },
+            {
+                "comment_id": "jlqmrkv",
+                "body": "Join another game.",
+                "score": 0
+            },
+            {
+                "comment_id": "jlpui4z",
+                "body": "btw I am Austria for those of you who did not see my last post",
+                "score": -2
+            },
+            {
+                "comment_id": "jlpwn5l",
+                "body": "Ask Italy and Germany what moves they would like you to submit. Tell them you'll do anything they want if it gets you back into a center.",
+                "score": 1
+            },
+            {
+                "comment_id": "jlq5us4",
+                "body": "Get Italy to help you move ADR-Tri and Tyr-Vie, but tbh, you're just delaying the inevitable.  Italy dropped the ball moving towards France and letting Turkey get so big with so little fleet investment in the Med.  You can't hold on to Vie and get back Tri unless Russia helps you into Tri and is focused on attacking Turkey instead of you.\n\nIf Russia and Turkey are fighting, you can possibly pick one to side with over the other (pref Russia), but you don't really offer them too much help where you're at now.  Your fleet can only really interfere with Turkey, and your army can only hold on to Vie barely, which Russia wants.",
+                "score": 1
+            },
+            {
+                "comment_id": "jlt8utf",
+                "body": "Nooo! Go down fighting, even if it's lost. Even if it means helping a neighbor to mess everyone else up. Cause chaos!",
+                "score": 1
+            }
+        ],
+        "image_url": "https://i.redd.it/pyypf4cmb72b1.png",
+        "units": {
+            "TRI": "TURKEY",
+            "TYR": "ITALY",
+            "VIE": "AUSTRIA",
+            "WAL": "ENGLAND",
+            "EDI": "ENGLAND",
+            "SPA": "FRANCE",
+            "POR": "FRANCE",
+            "MAR": "FRANCE",
+            "BUR": "FRANCE",
+            "PAR": "FRANCE",
+            "BRE": "FRANCE",
+            "ENG": "FRANCE",
+            "TUN": "ITALY",
+            "TYS": "ITALY",
+            "APU": "ITALY",
+            "ROM": "ITALY",
+            "LYO": "ITALY",
+            "TUS": "ITALY",
+            "PIE": "ITALY",
+            "BUD": "RUSSIA",
+            "SWE": "RUSSIA",
+            "GRE": "TURKEY",
+            "SMY": "TURKEY",
+            "BUL": "TURKEY",
+            "NWY": "GERMANY",
+            "NTH": "GERMANY",
+            "BOH": "GERMANY",
+            "DEN": "GERMANY",
+            "HOL": "GERMANY",
+            "BEL": "GERMANY",
+            "MUN": "GERMANY"
+        },
+        "territories": {
+            "STP": "RUSSIA",
+            "SWE": "RUSSIA",
+            "EDI": "ENGLAND",
+            "DEN": "GERMANY",
+            "MOS": "RUSSIA",
+            "KIE": "GERMANY",
+            "HOL": "GERMANY",
+            "BER": "GERMANY",
+            "WAR": "RUSSIA",
+            "BRE": "FRANCE",
+            "SEV": "RUSSIA",
+            "PAR": "FRANCE",
+            "MUN": "GERMANY",
+            "VIE": "AUSTRIA",
+            "BUD": "RUSSIA",
+            "PIE": "FRANCE",
+            "MAR": "FRANCE",
+            "TRI": "AUSTRIA",
+            "BUL": "TURKEY",
+            "SPA": "FRANCE",
+            "SER": "TURKEY",
+            "ROM": "ITALY",
+            "ALB": "TURKEY",
+            "ANK": "TURKEY",
+            "CON": "TURKEY",
+            "NAP": "ITALY",
+            "GRE": "TURKEY",
+            "SMY": "TURKEY",
+            "TUN": "ITALY",
+            "NWY": "GERMANY",
+            "LVP": "ENGLAND"
+        }
+    },
+    {
+        "post_id": "13sarxk",
+        "title": "Hey y'all can help me w my next move?",
+        "body": "",
+        "factors": {
+            "player": "AUSTRIA",
+            "allies": "NA",
+            "enemies": "NA",
+            "dominating_state": "dominated",
+            "number_of_units": 2,
+            "unit_composition": [1, 1],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "chokepoint",
+            "turn": "Spring (positioning focus)",
+            "year": 1903,
+            "fleet_access_to_sea": "low",
+            "n_players_in-1hope_center": 3,
+            "rel_strength_neighbors": "strong"
+        },
+        "comments": [
+            {
+                "comment_id": "jloqyb7",
+                "body": "I am Austria... do you guys think I can still survive? What would other countries do?",
+                "score": 2
+            },
+            {
+                "comment_id": "jloxz8v",
+                "body": "Things aren't looking good, your best bed Id say is try and get the rest of the board to team up until the Juggernaut is dealt with or you all lose, but France may have some incentive to go against that since they have the least to lose and could potentially do a 3 way draw with an FRT. Not sure if anyone has a better idea though.",
+                "score": 2
+            },
+            {
+                "comment_id": "jlpiugk",
+                "body": "Woo, Italy is screwed here. They\u2019ve let Turkey into the Ionian which means they can\u2019t defend their home centres. Your best bet is to help them understand that.\n\nIn fact, Turkey has already won this game unless everyone turns around now and nobbles them. So Russia should ally with you too.",
+                "score": 2
+            },
+            {
+                "comment_id": "jlpox5t",
+                "body": "Another really dumb idea - if you hate Italy, offer to use ADR to convoy Gre-Vie (Turkey would also need to use ION for this, of course). And you'll also do Tri S Gre-Ven. That would probably work and it would be funny enough that Turkey might go for it. After that, who knows? Maybe something will happen that keeps you in it.",
+                "score": 1
+            },
+            {
+                "comment_id": "jlp26wt",
+                "body": "I am new to this game so it is a little bit hard to understand...what is an FRT?",
+                "score": 2
+            },
+            {
+                "comment_id": "jlpp67f",
+                "body": "Right? Russia is 100% losing Sev in the fall.",
+                "score": 1
+            },
+            {
+                "comment_id": "jlp68j6",
+                "body": "Initials like that are referring to countries by their first letter. So France/Russia/Turkey. The 3 of them are well positioned in this game to work together. It's going to be pretty hard to convince France to help you because they're probably happy that Russia and Turkey are doing well.\n\nGermany, Italy and England should all be willing to help you out, but France will be a problem.",
+                "score": 2
+            },
+            {
+                "comment_id": "jlp81yh",
+                "body": "Then what should our next move be? btw Italy is currently allied with Turkey, Russia, and Germany",
+                "score": 1
+            },
+            {
+                "comment_id": "jlpakun",
+                "body": "I was planning on convincing Germany to support our army going to Tyr and sending the fleet to Ven as I cannot know whether Italy would send their army in Pie to Ven or Tyr. Or the other option might be to use a convoy to move our army to Apu in order to organize ourselves... what would be better? or any other good ideas?",
+                "score": 1
+            },
+            {
+                "comment_id": "jlpmyo9",
+                "body": "Don't get too caught up with who is allied with who in this game - and I mean that both generally and specifically. The board is the thing. Turkey is in the Ionian, and imo that means they are NOT allied with Turkey, even if they somehow think they are. That's what I am telling Italy, at least, along with everyone else on the board as I scream about the Juggernaut (Russia-Turkey alliance).\n\nHere's what I would do as Austria - \n\n1. Tell Italy I will do A Tri S Tyo-Vie\n2. Actually order A Tri S ADR-Alb\n\nHopefully Russia and Italy bounce in Vie (meaning you keep it), and you bounce Turkey's supported move to Alb. Hopefully after that Italy will see the value of keeping your fleet and army down there even as a speedbump vs Turkey.",
+                "score": 1
+            }
+        ],
+        "image_url": "https://i.redd.it/eulr3u47x52b1.png",
+        "units": {
+            "TRI": "AUSTRIA",
+            "VIE": "AUSTRIA",
+            "WAL": "ENGLAND",
+            "YOR": "ENGLAND",
+            "NTH": "ENGLAND",
+            "EDI": "ENGLAND",
+            "SPA": "FRANCE",
+            "MAR": "FRANCE",
+            "MAO": "FRANCE",
+            "PAR": "FRANCE",
+            "BRE": "FRANCE",
+            "ENG": "FRANCE",
+            "TUN": "ITALY",
+            "TYS": "ITALY",
+            "APU": "ITALY",
+            "ROM": "ITALY",
+            "LYO": "ITALY",
+            "PIE": "ITALY",
+            "TYR": "ITALY",
+            "SEV": "RUSSIA",
+            "SWE": "RUSSIA",
+            "ARM": "TURKEY",
+            "SER": "TURKEY",
+            "BUD": "TURKEY",
+            "NWY": "GERMANY",
+            "BER": "GERMANY",
+            "DEN": "GERMANY",
+            "HOL": "GERMANY",
+            "BEL": "GERMANY",
+            "MUN": "GERMANY",
+            "KIE": "GERMANY"
+        },
+        "territories": {
+            "EDI": "FRANCE",
+            "PIE": "FRANCE",
+            "MAR": "FRANCE",
+            "ROM": "FRANCE"
+        }
+    },
+    {
+        "post_id": "131kdpp",
+        "title": "It seems we have entered the late game. Any thoughts/advice for the different nations?",
+        "body": "",
+        "factors": {
+            "player": "ENGLAND",
+            "allies": "NA",
+            "enemies": "NA",
+            "dominating_state": "dominating",
+            "number_of_units": 11,
+            "unit_composition": [6, 5],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "free",
+            "turn": "Spring (positioning focus)",
+            "year": 1909,
+            "fleet_access_to_sea": "high",
+            "n_players_in-1hope_center": 1,
+            "rel_strength_neighbors": "weak"
+        },
+        "comments": [
+            {
+                "comment_id": "ji1pe19",
+                "body": "There's still seven powers. How is this the late game?",
+                "score": 8
+            },
+            {
+                "comment_id": "ji2e6b8",
+                "body": "England: secure Munich and Iberia\nAustria: dig out Turkey, and use/ally with Italy to interfere with England\n\nOf the other powers, France, or maybe Italy if France dies, looks like it has the best survival chance. Germany and Russia might be able to make themselves useful to either England, Austria, or Turkey for a while. \n\nFrance can convince England he is being extremely useful by keeping Austria and Italy busy, and that England should proceed with an army attack through Munich and Russia instead of finishing off France.\n\nTurkey's only bet is to hang in there, maybe partner with Russia, and hope England becomes a solo threat that needs to be stopped before Austria can grind Turkey down.",
+                "score": 2
+            },
+            {
+                "comment_id": "ji3cenx",
+                "body": "Looks like either England or Austria will win solo (probably England)",
+                "score": 1
+            },
+            {
+                "comment_id": "ji41yjm",
+                "body": "England has to get across the stalemate line and quickly.  I'd almost think England has to do MAO-NAF, ENG-MAO (BRE supports), PIC-PAR, BUR-MAR, and the other obvious moves. MAR falls next year, and you've got a fleet past the stalemate line. The only real fly in the ointment is if France does WME-MAO (SPA supports) this year, or gets crafty with the fleets next year, but otherwise England's going to be shut out of the Mediterranean and on one side of the stalemate line. Delaying a turn to take POR does weaken France but gives Austria time to get their third fleet into play and lock up the Med.",
+                "score": 1
+            },
+            {
+                "comment_id": "ji2odat",
+                "body": "Germany and Russia are practically eliminated and it's 1909. France is...also mostly in exile and not doing great. So it's an EvA endgame with some people on the sidelines really.\n\nAs for advice, \"hope you're already playing England\" because they're going to be impossible to defeat at this point; with Germany, Russia, and France all but eliminated they have complete control of the Atlantic and can stalemate on their own.",
+                "score": 4
+            },
+            {
+                "comment_id": "ji3o94e",
+                "body": "The east has been a realm of absolute chicanery for the last 9 years. It would take far too long to explain why it is the way it is. Every year for the last 5 years we have been saying \"How is Germany/Russia still in this game?\" and then they make it another year.",
+                "score": 2
+            },
+            {
+                "comment_id": "ji2xfsv",
+                "body": "I'd add Italy and France need to call a truce or else they're both going to get eliminated. The two of them could pretty effectively push back on Austria and maybe carve back towards England eventually.",
+                "score": 2
+            },
+            {
+                "comment_id": "ji3h4yw",
+                "body": "The most important thing is to diplomatically convince England and Austria get bogged down with armies somewhere near the stalemate line, so that France and Italy's units become critical for holding the Mediterranean.",
+                "score": 2
+            },
+            {
+                "comment_id": "ji3omhh",
+                "body": "Italy is currently a joint protectorate of Austria and England. France has signed over Brest and Portugal in exchange for peace, but they then immediately continued their war on Italy. \n\nFrance isn't long for Europe.",
+                "score": 1
+            }
+        ],
+        "image_url": "https://i.redd.it/s7w6yt9jrkwa1.png",
+        "units": {
+            "ION": "AUSTRIA",
+            "TUN": "AUSTRIA",
+            "GRE": "AUSTRIA",
+            "AEG": "AUSTRIA",
+            "TYS": "AUSTRIA",
+            "SER": "AUSTRIA",
+            "RUM": "AUSTRIA",
+            "BUD": "AUSTRIA",
+            "TRI": "AUSTRIA",
+            "VIE": "AUSTRIA",
+            "TYR": "ITALY",
+            "MUN": "AUSTRIA",
+            "GAL": "AUSTRIA",
+            "WAR": "AUSTRIA",
+            "MAO": "ENGLAND",
+            "BRE": "ENGLAND",
+            "ENG": "ENGLAND",
+            "BAL": "ENGLAND",
+            "YOR": "ENGLAND",
+            "WAL": "ENGLAND",
+            "NTH": "ENGLAND",
+            "LVP": "ENGLAND",
+            "WES": "FRANCE",
+            "SPA": "FRANCE",
+            "POR": "FRANCE",
+            "ROM": "ITALY",
+            "MAR": "FRANCE",
+            "PAR": "FRANCE",
+            "NAP": "ITALY",
+            "APU": "ITALY",
+            "MOS": "RUSSIA",
+            "CON": "TURKEY",
+            "ANK": "TURKEY",
+            "BLA": "TURKEY",
+            "SEV": "TURKEY",
+            "LVN": "GERMANY"
+        },
+        "territories": {
+            "DEN": "FRANCE",
+            "WAL": "FRANCE",
+            "HOL": "FRANCE",
+            "WAR": "FRANCE",
+            "RUH": "FRANCE",
+            "MUN": "FRANCE",
+            "MAR": "FRANCE",
+            "RUM": "FRANCE",
+            "TRI": "FRANCE",
+            "ROM": "FRANCE",
+            "ALB": "FRANCE",
+            "APU": "FRANCE",
+            "NAP": "FRANCE",
+            "LVP": "FRANCE"
+        }
+    },
+    {
+        "post_id": "1h5dev4",
+        "title": "(Spring 1904) How the hell do we defeat Russia. I am currently france and I'm allied with germany and I'm allied with Italy and Turkey and England has been NMR-ing so Russia has an advantage in the early game and we might screwed, how do we defeat him.",
+        "body": "",
+        "factors": {
+            "player": "FRANCE",
+            "allies": [
+                "Germany",
+                "Italy", 
+                "Turkey"
+            ],
+            "enemies": [
+                "Russia"
+            ],
+            "dominating_state": "neutral",
+            "number_of_units": 5,
+            "unit_composition": [3, 2],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "chokepoint",
+            "turn": "Spring (positioning focus)",
+            "year": 1904,
+            "fleet_access_to_sea": "medium",
+            "n_players_in-1hope_center": 2,
+            "rel_strength_neighbors": "medium"
+        },
+        "comments": [
+            {
+                "body": "why havent you taken spain lol\n\nan FR is a great alliance. Get germany to turn on russia, and offer to convoy them into the isles. Take spain, wipe out england, and then stab germany. That should put you ahead.",
+                "score": 7
+            },
+            {
+                "body": "Germany needs to turn its armies around ASAP - they really are the only ones with a clear and uncontested path into Russia. But that’s rough for Germany, completely exposes them to an English/French stab.\n\nEnglish/French/German fleets are well placed to push Russia back in the north - Norwegian Sea is yours next turn. If you can get an English army into Norway then it’s very achievable.\n\nBut it sounds like England is NMR?\n\nYour biggest enemy is the mistrust between players trying to fight Russia but as France you’re well placed to sit back and wait and see how things develop.\n\nThe real question you need to ask is where are you expanding? Once France gets to 8 SC’s they are very hard to counter - whilst there will be a big fight in the immediate, you need to think about how you can still grow if you’re boxed in by an alliance with I/E/G/T.\n\nI’d be taking English centers if they aren’t responding, you need fleets in the north to pressure Russia.",
+                "score": 4
+            },
+            {
+                "body": "Russia has expanded quite a bit but also made a lot of enemies, so he's really not in as great of a position as you think. First demilitarize the border with Germany and encourage him to go eastward. Theres no need for you to have three armies on the border with Germany, you have no chance of breaking through and all it does is sow tension between the two of you. Use your burgundy army to go take spain. You can make a deal to split up England, for example you can give Liverpool while he gets London. That will give you +2 builds (ideally both fleets) in the winter, which is more than enough to counteract whatever Russia is doing. Once Russia is weakened, you might want to consider allying with him. After you counter the immediate threat, your next logical target is either Italy or Germany.",
+                "score": 1
+            },
+            {
+                "body": "If I was Russia has alot of options but my quick two cents is to attack. NAO- NWG. NTH - Nor and Den To Swe. France needs to Wales to Liverpool and Bur to Mar as an act of goodwill to Italy. That means you cant build a fleet in Mar. Mar then needs to go to Spain. Germany needs to move East. Turkey needs to support Con and Bul and needs to trust Italy in Aeg. Italy needs to get their armies out to Tyr and Vie and hook up with Germany. Germany needs to allow France to transit through munich in the spring. So Pic to Bur and then Bur to Mun and then to Boh. Requires German trust. But if the French are in Boh then that puts up a pretty strong line against Russia. France Needs to build Fleets and take England and Scandinavia. Hopefully Germany and Italy dont get jelous!",
+                "score": 1
+            },
+            {
+                "body": "Ok I submitted my orders, F (NAO) - NWG, A (Bur) - Gas, F (Wal) - Lpl, A (Bel) s A (Pic), A (Pic) s A (Bel). These are the results, germany didn't move towards russia. Italy nmr-d. But I managed to take liverpool, and I bounced the norway fleet from the norweigian sea.",
+                "score": 1
+            }
+        ],
+        "image_url": "NA",
+        "units": {
+        },
+        "territories": {
+        }
+    },
+    {
+        "post_id": "1gx890f",
+        "title": "First solo! (France)",
+        "body": "",
+        "factors": {
+            "allies": "NA",
+            "enemies": "NA",
+            "dominating_state": "dominating",
+            "number_of_units": 15,
+            "unit_composition": [7, 8],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "free",
+            "turn": "Spring (positioning focus)",
+            "year": 1913,
+            "fleet_access_to_sea": "high",
+            "n_players_in-1hope_center": 2,
+            "rel_strength_neighbors": "medium"
+        },
+        "comments": [
+            {
+                "body": "Pretty impressive with Italy being so successful",
+                "score": 1
+            },
+            {
+                "body": "Wait how tf are you in Serbia.",
+                "score": 1
+            },
+            {
+                "body": "Arbitrary whim turned success",
+                "score": 1
+            }
+        ],
+        "image_url": "NA",
+        "units": {
+        },
+        "territories": {
+        }
+    },
+    {
+        "post_id": "1gwkqb3",
+        "title": "Im playing as England. How absolutely fucked am I?? Its about to be Fall 1904",
+        "body": "",
+        "factors": {
+            "allies": "NA",
+            "enemies": "NA",
+            "dominating_state": "dominated",
+            "number_of_units": 4,
+            "unit_composition": [1, 3],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "chokepoint",
+            "turn": "Fall (attack focus)",
+            "year": 1904,
+            "fleet_access_to_sea": "medium",
+            "n_players_in-1hope_center": 2,
+            "rel_strength_neighbors": "medium"
+        },
+        "comments": [
+            {
+                "body": "not that fucked to be fair, Germany can't threaten you much at all and you can't threaten them, even though there's a French navy superiority they can't convoy an army in. Let Italy take a dot, get Sweden and Edinburgh, bounce France out of London (or don't if you think they're aiming for Wales) and see how it goes. It is still salvageable tho\n\nedit :\n\nnevermind, didn't see Norway moving into Skag, you're not just cooked, you're deep fried",
+                "score": 5
+            },
+            {
+                "body": "You have no allies and only 4 supply center. If status quo continues then you are cooked for sure. Your only hope is to either break up the powerful Italy/France alliance, or work out a 3 way alliance between you, Germany and Russia. And neither seems likely. Theres a lot of trust between Italy/France, and Russia has been steadily attacking you and pushing you back the last few turns. Also, Germany stabbed you not that long ago, and is in a weak position himself. Moving your fleet to SKA was a mistake because now you can't take Sweden without losing Norway, and you are stuck wasting 2 fleets (aka half of your total strength) simply defending Norway and Stp. If I were you, I would completely abandon any attempts at attacking or defending against Russia. Focus all your effort on defending your core territories and simply surviving, even if it is with just 2 supply centers left.",
+                "score": 2
+            },
+            {
+                "body": "It's certainly not ideal, but I would spend a lot of time talking to the Italians about stabbing France. They could get 3+ dots out of it and it will probably give you an opportunity to consolidate your hold on Scandinavia allowing you to survive.",
+                "score": 2
+            },
+            {
+                "body": "Game name?",
+                "score": 1
+            }
+        ],
+        "image_url": "NA",
+        "units": {
+        },
+        "territories": {
+        }
+    },
+    {
+        "post_id": "1gszpr1",
+        "title": "Is Germany going to screw me this year?",
+        "body": "I am playing as England. I have an alliance with Germany. He just grew a fleet in Berlin. The fact that he picked a fleet vs an army seems to tell me he’s about to drop the alliance. Am I right or not?\n\nI had a plan to do a campaign north with him but now I’m not too sure I can trust him",
+        "factors": {
+            "player": "ENGLAND",
+            "allies": [
+                "Germany"
+            ],
+            "enemies": "NA",
+            "dominating_state": "neutral",
+            "number_of_units": 5,
+            "unit_composition": [1, 4],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "border_share",
+            "turn": "Spring (positioning focus)",
+            "year": 1903,
+            "fleet_access_to_sea": "medium",
+            "n_players_in-1hope_center": 3,
+            "rel_strength_neighbors": "medium"
+        },
+        "comments": [
+            {
+                "body": "Why are you asking people on Reddit if your ally is going to stab you? We don’t know the press you guys have had lol\n\nAnd if you’re worried about the fleet build you shouldn’t be (unless Germany lied about it). It’s pretty fair for Germany to have 2 fleets in an EG, especially with the Russians in Baltic",
+                "score": 24
+            },
+            {
+                "body": "they built Berlin, literally as far from you as possible. if they said they're building fleet beforehand then I'd trust them. if it's a surprise I'd be more careful but it's not a deal breaker for Germany to have 2 fleets",
+                "score": 15
+            },
+            {
+                "body": "I think you're probably wrong. It's completely reasonable for Germany to build a second fleet - especially when under attack from Russian fleets. It's only when a third German fleet is placed on the board that you should consider it over.\n\nIt's also worth mentioning that Russia is pinning Germany down atm so it'll be hard for them to attack you even if they wanted to. The fleet in Berlin meanwhile means that Germany has to attack Russia in Baltic before they can use fleets to attack you - which is another reason why I think you'll be safe from them.",
+                "score": 11
+            },
+            {
+                "body": "Devils advocate, I don't think Russia will be pinning Germany down very long. A UKR-MOS is unstoppable right now. Russia is going to have to pull units back plus pull one off the board unless they move PRU back to WAR and FIN back to STP this season. Then they can take back MOS.\n\nIf I were England right now I wouldn't be worried at all about a German stab, and Denmark might be looking pretty juicy, but not worth risking a war with both Germany and France.",
+                "score": 2
+            },
+            {
+                "body": "Good points - I didn't factor in how the southern situation might affect people's play.",
+                "score": 1
+            },
+            {
+                "body": "That Italian position 🥶🥶🥶",
+                "score": 6
+            },
+            {
+                "body": "😂",
+                "score": 1
+            },
+            {
+                "body": "Germany is probably going to move Berlin to Baltic supported by Denmark, and backfill Berlin with kiel. Meanwhile you can use SKA and Sweden to do a self bounce in Norway, protecting norway and sweden and preventing russias Baltic sea from retreating to SKA. Its very practical for Germany to have built that fleet and I don't see any reason to be worried.",
+                "score": 4
+            },
+            {
+                "body": "Bal does not border ska. And your move allows a retreat to kie.",
+                "score": 2
+            },
+            {
+                "body": "Good point about ska, I forgot they didn't border. But kiel is easy enough to backfill from somewhere else. It also depends on Germany relations with France, perhaps Holland can be used. Else you can do a self bounce with Munich and holland in berlin or self bounce with munich and holland in kiel. My main point is that i don't see the fleet in Berlin being an issue, it is well situated for an attack on russia.",
+                "score": 1
+            },
+            {
+                "body": "I wouldn’t worry about it",
+                "score": 1
+            },
+            {
+                "body": "Fleet in Berlin is very anti Russian.\n\nBut Germany probably not going to feel great if you also take St.P.",
+                "score": 1
+            },
+            {
+                "body": "The more important question is whether Italy will attack France before fighting Turkey.\n\nSee, to maintain any hope of a solo, you need I/T to either fight each other, or face pressure from two other powers.\n\nIf the I/T alliance continues and France is on the defense, then you can probably switch sides and help yourself to many German centers, at the same time Russia will be too distracted with their own defense to threaten Scandinavia.\n\nIt would be a mistake for you to diminish the opposition that I/T will face, if they stay allied, because you’d very likely be forced to draw with them.\n\nI would just hold everything for a bit, move ENG to NTH, and then when someone’s desperate you can make them an offer they can’t refuse.",
+                "score": 1
+            },
+            {
+                "body": "Leave ENG open? That gives France way too much power over me… am I wrong on that?",
+                "score": 1
+            },
+            {
+                "body": "Wrong, fleet in BER is only useful to push Russia not you in this scenario",
+                "score": 1
+            },
+            {
+                "body": "Germany is probably feeling like England is trying to lure me north and there are three potentially hostile fleets for me to deal with.",
+                "score": 1
+            },
+            {
+                "body": "Fleet in Berlin when Russia is in the Baltic is NOT an anti-england move. Look at the map, guy has wars to fight in the east. But he may be cautious, because your Skagerrak fleet at this point has no other function except threatening Denmark. Alliances can indeed break on these kinds of things, but they don't have to.",
+                "score": 1
+            },
+            {
+                "body": "If they were coming for you right now they would have built Kiel, not Berlin. That seems squarely aimed at pushing Russia out of the Baltic and probably helping against StP down the line.\n\nObviously you'd prefer to see only army builds, but as a Germany player I definitely want at least one more fleet, even if I'm with England - you don't want to be a total sitting duck against a potential English stab after you hit Russia and France together. Unless you had an explicit agreement for you to build zero armies and for the German player to build zero fleets, I would not be perturbed by this. Three fleets would be a different story.\n\nI also think sometimes it helps the stability of an alliance to safeguard against each other a bit. It's a delicate thing to keep it from becoming an arms race, but a situation where Germany is a bit less vulnerable may actually let them trust you more.",
+                "score": 1
+            },
+            {
+                "body": "Based off of Germany builds, no 2 navy's would've been yeah ima stab u",
+                "score": 1
+            }
+        ],
+        "image_url": "NA",
+        "units": {
+        },
+        "territories": {
+        }
+    },
+    {
+        "post_id": "1gsatft",
+        "title": "This is absolutely brutal",
+        "body": "",
+        "factors": {
+            "player": "FRANCE",
+            "allies": "NA",
+            "enemies": "NA",
+            "dominating_state": "neutral",
+            "number_of_units": 8,
+            "unit_composition": [5, 3],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "border_share",
+            "turn": "Fall (attack focus)",
+            "year": 1905,
+            "fleet_access_to_sea": "high",
+            "n_players_in-1hope_center": 3,
+            "rel_strength_neighbors": "medium"
+        },
+        "comments": [
+            {
+                "body": "If you're gunna stab, stab hard.",
+                "score": 11
+            },
+            {
+                "body": "Surprised you're not taking Den too",
+                "score": 10
+            },
+            {
+                "body": "I somehow didn’t think of that, but now I’m taking it as well",
+                "score": 11
+            },
+            {
+                "body": "Yes it is brutal, and game ending for Germany. But I don't think this is game winning for England. When you go for a solo, you need to move forward and try to get past the stalemate line. Moving out of MAO is not the right move. Nor is getting Sweden now (you can pick that up whenever, it is yours just not painted blue yet). You want to protect Moscow, which is your one center the other side of the stalemate line. For that you need to get your Army in Norway to StP. Ultimately you need to get a fleet in Prussia too.\nMake sure you maintain your convoy routes!",
+                "score": 4
+            },
+            {
+                "body": "I’d be surprised if Germany is not expecting it a little, almost none of your units could go anywhere else this turn",
+                "score": 3
+            },
+            {
+                "body": "I mean yeah, they should’ve seen it coming, but this position makes it seem like they had no idea",
+                "score": 2
+            },
+            {
+                "body": "Brutal, but nice, and saw your taking Denmark now.  As an aside your public enemy number 1 after this.  You need to rush the board, and you will lose Moscow.\n\nYou should consider heading south, there’s a check point at Gibraltar you should try to get past, and forcing Italy to disband will help prevent that from happening.\n\nIt’s a gamble but given your just eating Germany I think Italy will turn against you no matter what",
+                "score": 2
+            },
+            {
+                "body": "My man just went to 11 SCs lmao\n\nYou really need those fleets to convoy all the new armies you're gonna build over to the mainland...",
+                "score": 1
+            },
+            {
+                "body": "The question this game now seems to be whether austria can kill italy fast enough to turn to face england (or maybe cobble an alliance together with spit and dreams) or whether england's just gonna steamroll across the board.",
+                "score": 1
+            },
+            {
+                "body": "Yeah I'd say that using Norway to reinforce Moscow by moving to StP rather than taking Sweden is a better move. You can take Denmark and still get 3 builds. Sweden is yours when you want it.",
+                "score": 2
+            },
+            {
+                "body": "Do not pull out of MAO, you will need that tile when italy becomes hostile.",
+                "score": 1
+            },
+            {
+                "body": "The game I just played I took 5 tiles from my allies and went to 18 and got the solo win. tbh in that game Germany lost 4 tiles in 1 turn and immediately died so I thing that game was the exception",
+                "score": 1
+            }
+        ],
+        "image_url": "NA",
+        "units": {
+        },
+        "territories": {
+        }
+    },
+    {
+        "post_id": "1ftohtc",
+        "title": "Trying to win my first game",
+        "body": "I just started playing diplomacy about a month ago on Backstabbr. I’m playing as England and not sure how to take Berlin from Austria or advance in Italy. What should generally be done from this position?",
+        "factors": {
+            "player": "ENGLAND",
+            "allies": "NA",
+            "enemies": "NA",
+            "dominating_state": "dominating",
+            "number_of_units": 17,
+            "unit_composition": [11, 6],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "border_share",
+            "turn": "Spring (positioning focus)",
+            "year": 1913,
+            "fleet_access_to_sea": "high",
+            "n_players_in-1hope_center": 6,
+            "rel_strength_neighbors": "medium"
+        },
+        "comments": [
+            {
+                "body": "The north is a lock but the south is open. Naples currently has to support either Ionian or Rome. If you get armies to Piedmont and Tuscany you will have a 50/50 every turn of either getting Ionian or Rome.",
+                "score": 15
+            },
+            {
+                "body": "It's close to a stalemate. Berlin is locked up. Italy, you can still go forward a few spaces, but the stalemating moves are pretty easy to do from this position.\n\nYou can try, but most likely it won't change the outcome.",
+                "score": 6
+            },
+            {
+                "body": "Berlin can be taken from Munich, but that leaves the latter vulnerable. Guess right, and England gets another center: guess wrong, and it's a push. England has 3 armies in its rear which aren't contributing to victory at all. A convoy of A Spain into Pie after Western Med-Gulf of Lyon doesn't look to help matters much. A convoy into Tuscany will likely be bounced.",
+                "score": 1
+            },
+            {
+                "body": "Berlin can only be taken if Austria screws up. Kiel, Baltic Sea and Munich can attack Berlin, and Silesia, Prussia and Berlin can defend. And no further unit can interfere in that. Only Munich can tap Silesia, and only Baltic Sea can tap Prussia.\n\nThe only way to get Berlin is if Austria thinks they can get Munich, and in that case, they do get it and you just swap centers. Without Kiel, you can only move Ruhr and Burgundy against Munich against their attack of 3 power. The correct move for the defenders is to move Trieste to Tyrol, and then Munich is locked up.\n\nI have been in this position, breaking through basically relies on an enemy forgetting to enter moves.",
+                "score": 2
+            },
+            {
+                "body": "Yeah, brain fart, thought Denmark impinged on Berlin for some reason.",
+                "score": 1
+            },
+            {
+                "body": "With Silesia and and Prussia supporting a hold, Berlin can’t be taken unless Austria doesn’t get the Sev army to Warsaw and thereby leaves Livonia vulnerable.",
+                "score": 1
+            },
+            {
+                "body": "This should be a free win for you unless you mess things up. Everything in the center of the board and in the north is completely stalemated. However, Italy only has 2 fleets in the Med, which is not nearly enough to form any meaningful stalemate line. if make steady progress you should be able to take Rome or Naples in the coming years.\n\nI recommend researching stalemate lines!",
+                "score": 9
+            },
+            {
+                "body": "Austria and Italy can lock up a stalemate line in one turn, hopefully for England the east doesn't see it! (In the Med)\n\nI replied to your comment over others since you said it's a free win when it's the opposite, it's AI who have the tactical position to stop the solo.",
+                "score": 3
+            },
+            {
+                "body": "None of your armies can shuffle forward but you have a few fleets you can try to position although taking a few random coasts is not really a gain. But if there is something you can do it will be your fleets attacking your armies defend Munich.\n\nYou are kinda are at the bit of throwing stuff against the wall and hoping something sticks.\n\nYour NTH and BAL fleet needs to be attacking Austria. Munich has 4 armies attacking it and you have 4 armies defending it, you should be able to hold I think whilst you position a fleet in BAL and BOL. You can probably get LVN but SIL and the displaced unit will stop you from getting PRU and eventually pushing BER.\n\nIn the south you have two fleets doing nothing, they should be supporting into PIE so you can threaten VEN or Moving into TUS to threaten ROM or support even more into PIE (assuming the second fleet also jumped in LYO).\n\nHonestly not sure there is a whole lot you can do unless your opponents slip up.",
+                "score": 3
+            },
+            {
+                "body": "The only gap in the defence is Livonia, get that North Sea fleet into Bothnia. This is assuming Turkey isn't allied with Austria and Italy, if they are there isn't a way through unless a mistake is made I'm afraid.",
+                "score": 2
+            },
+            {
+                "body": "I reckon try convoy an army into Tuscany",
+                "score": 1
+            },
+            {
+                "body": "This is a great example about stalemate lines. I don't think it is winnable, of they play it right",
+                "score": 1
+            },
+            {
+                "body": "I was going to say, promise a draw with turkey to break their lines, then realized they had nothing to offer yout. How did Turkey end up with three armies and no fleets, I have never seen that haha.",
+                "score": 1
+            }
+        ],
+        "image_url": "NA",
+        "units": {
+        },
+        "territories": {
+        }
+    },
+    {
+        "post_id": "1gegx7l",
+        "title": "Finally solo'd my first game! And with Austria of all powers :D",
+        "body": "",
+        "factors": {
+            "player": "AUSTRIA",
+            "allies": "NA",
+            "enemies": "NA",
+            "dominating_state": "dominating",
+            "number_of_units": 13,
+            "unit_composition": [9, 4],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "free",
+            "turn": "Spring (positioning focus)",
+            "year": 1910,
+            "fleet_access_to_sea": "medium",
+            "n_players_in-1hope_center": 9,
+            "rel_strength_neighbors": "weak"
+        },
+        "comments": [
+            {
+                "body": "BRE and POR lol well done",
+                "score": 11
+            },
+            {
+                "body": "What on gods red earth happened here? Looks like you followed up on a Lepanto that mortally wounded Turkey by making gains on Russia while Italy floundered in the west, when they asked for your help in the Med you pumped out fleets and when you two turned back the tide you realized you had Italy surrounded before they did but you waited til you shot past Gibraltar.\n\nBut what actually happened?",
+                "score": 5
+            },
+            {
+                "body": "I had an early plan with Italy where I would work with turkey to attack russia in order to get turkish units out of the mainland. This worked, and me and Italy stabbed turkey out of the game. I had more centers than Italy at this point and didn't want to give them their fair share of the spoils (particularly Greece) so with Russia on its last legs, I stabbed them.\n\nItaly managed to kick me out of Turkey and hole up there because I couldn't build fleets easily (especially because they had the adriatic for a while so I couldn't leave Trieste open).\n\nI had to begin a really long war in Italy while I finished taking over southern Russia, at which point France had basically been totally eaten, so I hoodwinked England into attacking Germany instead of joining them in helping Italy. This worked because I'd been in contact with them since the start asking what side they were on and promising support when I could manage.\n\nEventually the Italian mainland fell and England realized how big a threat I was and turned on me, but by then I had Munich and Berlin and they hadn't defended St. Petersburg properly at all, so they didn't have much chance of stopping me.\n\nThe fleet in MAO though is interesting, it was actually my starting fleet! It went down into Greece in 1901, and then held for a while and supported Bulgaria, until I stabbed Italy and it went into the Ionian, then grabbed Tunis, then got kicked out of Tunis and had to run up to GOL, where it was gonna get destroyed but I retreated into Spain, which I tried to give to England but they were doing other things so they let me keep it for a little while, until eventually I was at war with England so it attacked Portugal, and then I realized there was frankly no way I was holding onto Iberia so I fled to try attacking Brest and ultimately used it to bounce england out of Portugal at the end.\n\nA Brest is a similar story, I put an army in Piedmont to crack the Italian position, and it eventually made it's way to marseilles because france was NMRing and it was a more-or-less free center, and then it went to spain, realized it was getting kicked out and fled behind enemy lines to gascony.",
+                "score": 1
+            },
+            {
+                "body": "Alright you gotta link me the game please",
+                "score": 1
+            },
+            {
+                "body": "You can do that?",
+                "score": 1
+            },
+            {
+                "body": "Yes you can just copy paste the URL",
+                "score": 1
+            },
+            {
+                "body": "Congrats! As an fyi Austria actually has a high win rate, just also a low survival rate, basically a high risk high reward country.\n\nGreat job regardless!\n\nDon’t know how you got to Portugal tho",
+                "score": 5
+            },
+            {
+                "body": "Yess if you survive the first two years, you’ll probably have armies everywhere, and they’ll be so densely packed that you’ll win most fights against your neighbors",
+                "score": 1
+            },
+            {
+                "body": "How did you get in Bre? Did you have an army in North Africa and a fleet in port, waiting for the time to strike?",
+                "score": 1
+            }
+        ],
+        "image_url": "NA",
+        "units": {
+        },
+        "territories": {
+        }
+    },
+    {
+        "post_id": "1gdcj1l",
+        "title": "Not an experienced Russia player - What are the general principles for defending the north? Should I focus on fleets or more armies for scandinavia? If fleets, north or south coast? Any specific advice for this game? Currently on good terms with Germany, expect it to last until England is dead",
+        "body": "",
+        "factors": {
+            "player": "RUSSIA",
+            "allies": [
+                "Germany"
+            ],
+            "enemies": "NA",
+            "dominating_state": "neutral",
+            "number_of_units": 6,
+            "unit_composition": [4, 2],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "free",
+            "turn": "Spring (positioning focus)",
+            "year": 1904,
+            "fleet_access_to_sea": "high",
+            "n_players_in-1hope_center": 6,
+            "rel_strength_neighbors": "medium"
+        },
+        "comments": [
+            {
+                "body": "Fleets in STP south coast are for attacking germany. Fleets north coast to establish yourself in the north in general.\n\nScandinavia is by default fleets only. Every province has like 4 water connections and 2 land connections. Denmark Sweden should make it especially obvious, without fleets you cannot succeed an attack. Onyl finland is better for an army, but not so much that you would choose to build one.\n\nFor russia, it is much more important to concern yourself with Turkey. Black Sea/Armenia is one of the 2 viable routes to actually kill Turkey.If you don't get Black Sea or Armenia, and Turkey goes for that, you will never have the advantage.\n\nChoosing between Italy and Turkey should be as easy. Italy is far away you only have a very narrow way to attack. Turkey is close and you have a long border and a very powerful way to attack via Black Sea/Armenia.",
+                "score": 9
+            },
+            {
+                "body": "Agree with this. You've got your builds wrong StP s/c and War would make me very nervous as Germany.\n\nChange the builds to StP n/c and Moscow. Attack Turkey. Good news is you can guarantee getting Rum. I'd say in Spring you should try to get into. BLA (backfill from your new army in Moscow), and use Bud and Gal to have a crack at Rum. Best case, you get BLA, and potentially Rum too in Spring and be ready to put that new army into Armenia in Fall thereby getting round the back of Turkey - should be gg from there. If Bul supports Rum then in Fall you have a 3 vs 2 on Rum and can guarantee it (though you may have to give up BLA).",
+                "score": 4
+            },
+            {
+                "body": "Why north coast? How should I go about fortifying the north?",
+                "score": 1
+            },
+            {
+                "body": "Do you expect Germany to attack you?",
+                "score": 1
+            },
+            {
+                "body": "I do, although I think I have probably at least 2-3 moves before that happens. Thats why I am wondering if I am better placed building a fleet in south coast - however my concern is that I am then vulnerable from a north coast attack. Also, south coast is quite obviously agressive - but I could reasonably explain I am just fortiyfing my position as I only have two units there and he has 8.",
+                "score": 2
+            },
+            {
+                "body": "If I was Germany, fleet StP s/c is always scary. I might be happy with it if it was credibly presented as part of the plan before the winter builds, but I would need a pretty big concession. Waking up in Spring and seeing an unexpected StP s/c and a message of peace explaining it is defensive in press would have me straight on the phone to Italy about drawing up some firm DMZ and collaborating eastwards (while mopping up England and France). Heck, I would probably offer Italy Paris or Brest (with armies) to make that stick.\n\nMaybe this Germany won't behave this way. Maybe she will.\n\nYou can attack Germany or you can attack Turkey. To do both you need Italy firmly onside. Can you offer a better deal than Germany does?",
+                "score": 1
+            },
+            {
+                "body": "Additionally, after Austria dies, I am at a crossroads between allying Turkey or Italy. Currently both believe they are destined to team up with me to kill the other - I personally haven't decided yet. Any ideas for what makes more sense? Italy allied with Germany initially but they are open to a German stab. Germany is also open to an Italian stab, however all of that should be taken with a grain of salt.",
+                "score": 6
+            },
+            {
+                "body": "I'd say that Turkey probably has to go. If you ally them and they stay alive I feel like they'll be a constant potential thorn in your side - especially considering their current ability to sieze the black sea whenever their feel like it. Plus that's a looota easy dots just up for grabs, since italy doesn't appear too well positioned. The question is austria in this situation can sorta play kingmaker in determining who gets their remaining dots, and what they do might determine your choice.\n\nOf course after that, Italy probably understands that they're next on the chopping block although I'm not sure what they'd be able to do at that point.",
+                "score": 5
+            },
+            {
+                "body": "This italy has half of france already. You can establish a peaceful border at venice and ion, as italy can easily defend that area with around 2 less troops than you need to attack. And Italy is only 3 or 4 dots for one of the easiest areas to stalemate.\n\nBreaking into germany is comparatively easy for russia. You have got access to scandinavia and the baltic sea provinces, making the usual Munich/Berlin or Kiel/Berlin defence much more difficult.",
+                "score": 2
+            },
+            {
+                "body": "Honestly yeah with Germany only getting one build this turn you could just try to stab em right now with like galicia -> to bohemia warsaw -> silesia plus scandinavian shenanigans\n\nProbably best to hold off till southern Europe's been consolidated though and you've got another like 5-6 dots to bring to bear.",
+                "score": 1
+            },
+            {
+                "body": "I'd say at about this point you expect everybody else to gang up on you because you're an 8-center Russia who's still talking about expanding lol\n\nweird board...go Italy!",
+                "score": 1
+            }
+        ],
+        "image_url": "NA",
+        "units": {
+        },
+        "territories": {
+        }
+    },
+    {
+        "post_id": "1g0kwx5",
+        "title": "Playing as Russia, is there any way to stop England from getting to 13 here? Only realized a smidgen too late that they had moved into my northern waters (we've been allied since the game began. Also yes, it is only 1904).",
+        "body": "",
+        "factors": {
+            "player": "RUSSIA",
+            "allies": [
+                "ENGLAND"
+            ],
+            "enemies": "NA",
+            "dominating_state": "neutral",
+            "number_of_units": 9,
+            "unit_composition": [7, 2],
+            "dist_from_nearest_supply_center": 1,
+            "strategic_terrain": "border_share",
+            "turn": "Fall (attack focus)",
+            "year": 1904,
+            "fleet_access_to_sea": "low",
+            "n_players_in-1hope_center": 8,
+            "rel_strength_neighbors": "medium"
+        },
+        "comments": [
+            {
+                "body": "If E leaves the army stranded in Britain, then, no, I see no way to stop them from getting DEN and SWE this turn and KIE and STP next turn.\n\nFWIW, I'd say leave KIE supported by BER to delay the E fleet in KIE from getting into the Baltic for a year.\n\nMake peace with Turkey and play for the three way draw. Point out to Turkey that if they attack you, you'll collapse and England will win.\n\nEdit: just noticed E is going to take SPA too. You've got to work with Turkey to draw a tight stalemate line and you may have to accept Italy into the draw to prevent England from getting better positioned re: the Med. I was already assuming WME was going to kick SPA to let MAR hang on.",
+                "score": 2
+            },
+            {
+                "body": "What you could do here:\n\nMove fleet Kie to Den, that will bounce NTH. Move Ber to Kie and move Sil to Ber. It may require you to get cooperation from germany, and germany might take the opportunity to betray you, but this line of play is an option.\n\nYou definitely screwed up by not getting a single fleet in STP.\n\nIn general, you can kiss sweden, denmark, kiel and saint petersburg goodbye. You cannot keep them in the longterm, you can only lose them slowly. You can hold Berlin and Munich from land, but you have to take Munich RIGHT NOW. Even if you only 3 units on it. Maybe take italy into your plan.",
+                "score": 1
+            },
+            {
+                "body": "I think your best move is to plug the baltic. So, at least you can try to contest scandinavia.",
+                "score": 1
+            }
+        ],
+        "image_url": "NA",
+        "units": {
+        },
+        "territories": {
+        }
+    }
+]

@@ -1,0 +1,268 @@
+{
+    "id": "JoVij8Ui8a6vAK11",
+    "map": "standard",
+    "rules": [
+        "NO_PRESS",
+        "POWER_CHOICE"
+    ],
+    "phases": [
+        {
+            "name": "S1911M",
+            "state": {
+                "timestamp": 1734010421331850,
+                "zobrist_hash": "6707638824189727540",
+                "note": "",
+                "name": "S1911M",
+                "units": {
+                    "AUSTRIA": [
+                        "A STP",
+                        "A RUM",
+                        "A BUL",
+                        "A GRE",
+                        "F ION",
+                        "F ALB",
+                        "A NAP",
+                        "F APU",
+                        "A ROM",
+                        "A TRI",
+                        "A PIE",
+                        "F MAO",
+                        "A BRE",
+                        "A MUN",
+                        "A BOH",
+                        "A SIL",
+                        "A BER"
+                    ],
+                    "ENGLAND": [
+                        "F NTH",
+                        "F DEN",
+                        "F BAL",
+                        "A HOL",
+                        "A BEL",
+                        "A RUH",
+                        "A PAR",
+                        "A GAS",
+                        "F SPA",
+                        "F WES",
+                        "F TUS"
+                    ],
+                    "FRANCE": [],
+                    "GERMANY": [
+                        "A PIC",
+                        "F KIE"
+                    ],
+                    "ITALY": [
+                        "F TYS",
+                        "F AEG",
+                        "F EAS",
+                        "A ARM"
+                    ],
+                    "RUSSIA": [],
+                    "TURKEY": []
+                },
+                "retreats": {
+                    "AUSTRIA": {},
+                    "ENGLAND": {},
+                    "FRANCE": {},
+                    "GERMANY": {},
+                    "ITALY": {},
+                    "RUSSIA": {},
+                    "TURKEY": {}
+                },
+                "centers": {
+                    "AUSTRIA": [
+                        "STP",
+                        "MOS",
+                        "WAR",
+                        "SEV",
+                        "RUM",
+                        "BUL",
+                        "GRE",
+                        "SER",
+                        "BUD",
+                        "TRI",
+                        "VIE",
+                        "VEN",
+                        "ROM",
+                        "NAP",
+                        "MUN",
+                        "BER",
+                        "BRE",
+                        "POR"
+                    ],
+                    "ENGLAND": [
+                        "LVP",
+                        "LON",
+                        "EDI",
+                        "BEL",
+                        "HOL",
+                        "DEN",
+                        "PAR",
+                        "MAR",
+                        "SPA",
+                        "NWY",
+                        "SWE"
+                    ],
+                    "FRANCE": [],
+                    "GERMANY": [
+                        "KIE"
+                    ],
+                    "ITALY": [
+                        "TUN",
+                        "CON",
+                        "ANK",
+                        "SMY"
+                    ],
+                    "RUSSIA": [],
+                    "TURKEY": []
+                },
+                "homes": {
+                    "AUSTRIA": [
+                        "SEV",
+                        "VIE",
+                        "WAR",
+                        "MUN",
+                        "NAP",
+                        "MOS",
+                        "BER",
+                        "ROM",
+                        "VEN",
+                        "STP",
+                        "BUD",
+                        "BRE",
+                        "TRI"
+                    ],
+                    "ENGLAND": [
+                        "MAR",
+                        "PAR",
+                        "EDI",
+                        "LON",
+                        "LVP"
+                    ],
+                    "FRANCE": [],
+                    "GERMANY": [
+                        "KIE"
+                    ],
+                    "ITALY": [
+                        "ANK",
+                        "CON",
+                        "TUN",
+                        "SMY"
+                    ],
+                    "RUSSIA": [],
+                    "TURKEY": []
+                },
+                "influence": {
+                    "AUSTRIA": [
+                        "SEV",
+                        "GRE",
+                        "WAR",
+                        "MUN",
+                        "BOH",
+                        "ALB",
+                        "ROM",
+                        "POR",
+                        "BUD",
+                        "TRI",
+                        "BUL",
+                        "VIE",
+                        "SIL",
+                        "ION",
+                        "PIE",
+                        "NAP",
+                        "MOS",
+                        "RUM",
+                        "BER",
+                        "VEN",
+                        "STP",
+                        "SER",
+                        "APU",
+                        "BRE",
+                        "MAO"
+                    ],
+                    "ENGLAND": [
+                        "BEL",
+                        "HOL",
+                        "MAR",
+                        "GAS",
+                        "RUH",
+                        "NTH",
+                        "SPA",
+                        "LON",
+                        "WES",
+                        "SWE",
+                        "NWY",
+                        "PAR",
+                        "BAL",
+                        "TUS",
+                        "EDI",
+                        "DEN",
+                        "LVP"
+                    ],
+                    "FRANCE": [],
+                    "GERMANY": [
+                        "KIE",
+                        "PIC"
+                    ],
+                    "ITALY": [
+                        "SMY",
+                        "CON",
+                        "ANK",
+                        "ARM",
+                        "EAS",
+                        "TYS",
+                        "AEG",
+                        "TUN"
+                    ],
+                    "RUSSIA": [],
+                    "TURKEY": []
+                },
+                "civil_disorder": {
+                    "AUSTRIA": 0,
+                    "ENGLAND": 0,
+                    "FRANCE": 0,
+                    "GERMANY": 0,
+                    "ITALY": 0,
+                    "RUSSIA": 0,
+                    "TURKEY": 0
+                },
+                "builds": {
+                    "AUSTRIA": {
+                        "count": 0,
+                        "homes": []
+                    },
+                    "ENGLAND": {
+                        "count": 0,
+                        "homes": []
+                    },
+                    "FRANCE": {
+                        "count": 0,
+                        "homes": []
+                    },
+                    "GERMANY": {
+                        "count": 0,
+                        "homes": []
+                    },
+                    "ITALY": {
+                        "count": 0,
+                        "homes": []
+                    },
+                    "RUSSIA": {
+                        "count": 0,
+                        "homes": []
+                    },
+                    "TURKEY": {
+                        "count": 0,
+                        "homes": []
+                    }
+                },
+                "game_id": "JoVij8Ui8a6vAK11",
+                "map": "standard",
+                "rules": [
+                    "NO_PRESS",
+                    "POWER_CHOICE"
+                ]
+            }
+        }
+    ]
+}
