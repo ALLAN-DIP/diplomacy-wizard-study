@@ -18,6 +18,8 @@ for i, row in tqdm.tqdm(selected_games.iterrows()):
     svg_fpath = os.path.join(path2files, f'output_{game_id}_{gname}*.svg')
     os.system(f'cp {svg_fpath} svgs/lr5')
 
+PARRENT_PATH = "https://raw.githubusercontent.com/ALLAN-DIP/diplomacy-wizard-study/refs/heads/main/dipnet/"
+
 # generating a html file as a report
 with open('overview.html', 'w') as f:
     f.write('<html>\n')
@@ -32,6 +34,9 @@ with open('overview.html', 'w') as f:
         game_id, gname, power = row['name'].split('_')
         level, n_units = row['complexity'], row['n_units']
         f.write(f'<li>{game_id} - {gname} - {power} (Level: {level}, # units involved: {n_units})</li>\n')
+        local_path_to_svg = PARRENT_PATH + f'svgs/lr5/output_{game_id}_{gname}_power.svg'
+        f.write(f'<img src="{local_path_to_svg}" width="500" height="500">\n')
+        f.write('<br>\n')
     f.write('</ul>\n')
     f.write('</body>\n')
     f.write('</html>\n')
