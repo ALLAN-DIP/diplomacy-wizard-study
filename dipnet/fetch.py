@@ -34,9 +34,12 @@ with open('overview.html', 'w') as f:
         game_id, gname, power = row['name'].split('_')
         level, n_units = row['complexity'], row['n_units']
         f.write(f'<li>{game_id} - {gname} - {power} (Level: {level}, # units involved: {n_units})</li>\n')
-        local_path_to_svg = PARRENT_PATH + f'svgs/lr5/output_{game_id}_{gname}_power.svg'
-        f.write(f'<img src="{local_path_to_svg}" width="500" height="500">\n')
-        f.write('<br>\n')
+        notes = row['notes']
+        if notes:
+            f.write(f'<p>{notes}</p>\n')
+        local_path_to_svg = PARRENT_PATH + f'svgs/lr5/output_{game_id}_{gname}_{power}.svg'
+        f.write(f'<img src="{local_path_to_svg}" width="800" height="800">\n')
+        f.write('<hr>\n')
     f.write('</ul>\n')
     f.write('</body>\n')
     f.write('</html>\n')
