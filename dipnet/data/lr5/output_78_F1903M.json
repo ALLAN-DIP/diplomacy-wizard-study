@@ -1,0 +1,951 @@
+{
+    "state": {
+        "timestamp": 1542990052199184,
+        "zobrist_hash": "250137563571245765",
+        "note": "",
+        "name": "F1903M",
+        "units": {
+            "AUSTRIA": [
+                "F BUL/SC",
+                "A BUD",
+                "A GAL",
+                "A GRE",
+                "A SEV",
+                "A SER"
+            ],
+            "ENGLAND": [
+                "F NTH",
+                "F LON",
+                "F NAO",
+                "A BEL",
+                "F WAL"
+            ],
+            "FRANCE": [
+                "F BRE",
+                "F MAO",
+                "A BUR",
+                "A PIC",
+                "A RUH"
+            ],
+            "GERMANY": [
+                "A HOL",
+                "F KIE",
+                "A SIL"
+            ],
+            "ITALY": [
+                "F EAS",
+                "A SYR",
+                "A MUN",
+                "F AEG",
+                "A BER"
+            ],
+            "RUSSIA": [
+                "A WAR",
+                "A SWE",
+                "F BLA",
+                "A RUM",
+                "F BAL",
+                "A UKR"
+            ],
+            "TURKEY": [
+                "F CON",
+                "A ANK",
+                "A SMY"
+            ]
+        },
+        "centers": {
+            "AUSTRIA": [
+                "BUD",
+                "TRI",
+                "VIE",
+                "GRE",
+                "SER",
+                "RUM",
+                "BUL"
+            ],
+            "ENGLAND": [
+                "EDI",
+                "LON",
+                "LVP",
+                "NWY",
+                "BEL"
+            ],
+            "FRANCE": [
+                "BRE",
+                "MAR",
+                "PAR",
+                "POR",
+                "SPA"
+            ],
+            "GERMANY": [
+                "BER",
+                "KIE",
+                "HOL"
+            ],
+            "ITALY": [
+                "NAP",
+                "ROM",
+                "VEN",
+                "MUN",
+                "TUN"
+            ],
+            "RUSSIA": [
+                "MOS",
+                "SEV",
+                "STP",
+                "WAR",
+                "SWE",
+                "DEN"
+            ],
+            "TURKEY": [
+                "ANK",
+                "CON",
+                "SMY"
+            ]
+        },
+        "homes": {
+            "AUSTRIA": [
+                "BUD",
+                "TRI",
+                "VIE"
+            ],
+            "ENGLAND": [
+                "EDI",
+                "LON",
+                "LVP"
+            ],
+            "FRANCE": [
+                "BRE",
+                "MAR",
+                "PAR"
+            ],
+            "GERMANY": [
+                "BER",
+                "KIE",
+                "MUN"
+            ],
+            "ITALY": [
+                "NAP",
+                "ROM",
+                "VEN"
+            ],
+            "RUSSIA": [
+                "MOS",
+                "SEV",
+                "STP",
+                "WAR"
+            ],
+            "TURKEY": [
+                "ANK",
+                "CON",
+                "SMY"
+            ]
+        },
+        "influence": {
+            "AUSTRIA": [
+                "VIE",
+                "TRI",
+                "ALB",
+                "BUL",
+                "BUD",
+                "GAL",
+                "GRE",
+                "SEV",
+                "SER"
+            ],
+            "ENGLAND": [
+                "LON",
+                "LVP",
+                "NWG",
+                "NTH",
+                "EDI",
+                "NAO",
+                "BEL",
+                "WAL"
+            ],
+            "FRANCE": [
+                "BRE",
+                "MAR",
+                "PAR",
+                "SPA",
+                "POR",
+                "GAS",
+                "MAO",
+                "BUR",
+                "PIC",
+                "RUH"
+            ],
+            "GERMANY": [
+                "BOH",
+                "HEL",
+                "HOL",
+                "KIE",
+                "SIL"
+            ],
+            "ITALY": [
+                "NAP",
+                "ROM",
+                "VEN",
+                "APU",
+                "TUN",
+                "EAS",
+                "TYR",
+                "ION",
+                "SYR",
+                "MUN",
+                "PRU",
+                "AEG",
+                "BER"
+            ],
+            "RUSSIA": [
+                "BOT",
+                "NWY",
+                "STP",
+                "WAR",
+                "DEN",
+                "SWE",
+                "MOS",
+                "BLA",
+                "RUM",
+                "BAL",
+                "UKR"
+            ],
+            "TURKEY": [
+                "ANK",
+                "CON",
+                "ARM",
+                "SMY"
+            ]
+        },
+        "civil_disorder": {
+            "AUSTRIA": 0,
+            "ENGLAND": 0,
+            "FRANCE": 0,
+            "GERMANY": 0,
+            "ITALY": 0,
+            "RUSSIA": 0,
+            "TURKEY": 0
+        },
+        "builds": {
+            "AUSTRIA": {
+                "count": 0,
+                "homes": []
+            },
+            "ENGLAND": {
+                "count": 0,
+                "homes": []
+            },
+            "FRANCE": {
+                "count": 0,
+                "homes": []
+            },
+            "GERMANY": {
+                "count": 0,
+                "homes": []
+            },
+            "ITALY": {
+                "count": 0,
+                "homes": []
+            },
+            "RUSSIA": {
+                "count": 0,
+                "homes": []
+            },
+            "TURKEY": {
+                "count": 0,
+                "homes": []
+            }
+        },
+        "game_id": "8TKNKL0WKB1I6W3Y",
+        "map": "standard",
+        "rules": [
+            "NO_PRESS",
+            "POWER_CHOICE"
+        ],
+        "retreats": {
+            "AUSTRIA": {},
+            "ENGLAND": {},
+            "FRANCE": {},
+            "GERMANY": {},
+            "ITALY": {},
+            "RUSSIA": {},
+            "TURKEY": {}
+        }
+    },
+    "alterations": {
+        "AUSTRIA": [
+            [
+                "F BUL/SC - CON",
+                1.0
+            ],
+            [
+                "F BUL/SC S F AEG - CON",
+                0.9699529086047669
+            ],
+            [
+                "F BUL/SC H",
+                0.8955853397931304
+            ],
+            [
+                "F BUL/SC S F CON",
+                0.5101193543730076
+            ],
+            [
+                "F BUL/SC S A GRE",
+                0.18130130134378453
+            ],
+            [
+                "A BUD S A GAL - RUM",
+                1.0
+            ],
+            [
+                "A BUD - RUM",
+                0.6420338280827215
+            ],
+            [
+                "A BUD S A SER - RUM",
+                0.34057466405732467
+            ],
+            [
+                "A BUD S A GAL",
+                0.23961416879098937
+            ],
+            [
+                "A BUD - TRI",
+                0.18218141380118544
+            ],
+            [
+                "A GAL - WAR",
+                1.0
+            ],
+            [
+                "A GAL - UKR",
+                0.4275051909481016
+            ],
+            [
+                "A GAL - RUM",
+                0.3470119140733507
+            ],
+            [
+                "A GAL - VIE",
+                0.2941026065609633
+            ],
+            [
+                "A GAL H",
+                0.2278614163992478
+            ],
+            [
+                "A GRE - BUL",
+                1.0
+            ],
+            [
+                "A GRE S F BUL/SC",
+                0.5476847583252893
+            ],
+            [
+                "A GRE S A BUL",
+                0.24980839341403432
+            ],
+            [
+                "A GRE S A SER - BUL",
+                0.18219777340345905
+            ],
+            [
+                "A GRE H",
+                0.17782488382323766
+            ],
+            [
+                "A SEV S A RUM",
+                1.0
+            ],
+            [
+                "A SEV - ARM",
+                0.27876534975207656
+            ],
+            [
+                "A SEV - MOS",
+                0.14377585187189934
+            ],
+            [
+                "A SEV H",
+                0.09850356456187033
+            ],
+            [
+                "A SEV - RUM",
+                0.09616516915839737
+            ],
+            [
+                "A SER - BUL",
+                1.0
+            ],
+            [
+                "A SER S A GAL - RUM",
+                0.8586877166488212
+            ],
+            [
+                "A SER - RUM",
+                0.7213638025517772
+            ],
+            [
+                "A SER S A GRE - BUL",
+                0.5014738555122448
+            ],
+            [
+                "A SER S F BUL/SC",
+                0.40994237881634193
+            ]
+        ],
+        "ENGLAND": [
+            [
+                "F NTH S F LON - ENG",
+                1.0
+            ],
+            [
+                "F NTH S A BEL",
+                0.5260066035974629
+            ],
+            [
+                "F NTH - HOL",
+                0.2625931855718173
+            ],
+            [
+                "F NTH - DEN",
+                0.17605486141874596
+            ],
+            [
+                "F NTH - NWY",
+                0.17138446273143274
+            ],
+            [
+                "F LON - ENG",
+                1.0
+            ],
+            [
+                "F LON - NTH",
+                0.17058795115175265
+            ],
+            [
+                "F LON H",
+                0.12473718429159217
+            ],
+            [
+                "F LON - WAL",
+                0.0642168756532059
+            ],
+            [
+                "F LON S F NTH",
+                0.035198588907463836
+            ],
+            [
+                "F NAO - MAO",
+                1.0
+            ],
+            [
+                "F NAO - NWG",
+                0.34363636519266094
+            ],
+            [
+                "F NAO - LVP",
+                0.3074379501366584
+            ],
+            [
+                "F NAO - IRI",
+                0.19830254044487133
+            ],
+            [
+                "F NAO H",
+                0.14363945974895023
+            ],
+            [
+                "A BEL H",
+                1.0
+            ],
+            [
+                "A BEL - HOL",
+                0.7201950130826812
+            ],
+            [
+                "A BEL S A RUH - HOL",
+                0.3196097920967026
+            ],
+            [
+                "A BEL S F NTH - HOL",
+                0.3161431780549237
+            ],
+            [
+                "A BEL S A HOL",
+                0.1932455696534537
+            ],
+            [
+                "F WAL - ENG",
+                1.0
+            ],
+            [
+                "F WAL - IRI",
+                0.45964503870701695
+            ],
+            [
+                "F WAL S F LON - ENG",
+                0.2554356667558089
+            ],
+            [
+                "F WAL H",
+                0.24467300857879268
+            ],
+            [
+                "F WAL - LON",
+                0.19385460676737698
+            ]
+        ],
+        "FRANCE": [
+            [
+                "F BRE - ENG",
+                1.0
+            ],
+            [
+                "F BRE - MAO",
+                0.12090155151350578
+            ],
+            [
+                "F BRE S F MAO",
+                0.05810112750765058
+            ],
+            [
+                "F BRE S F ENG",
+                0.03713579742675682
+            ],
+            [
+                "F BRE H",
+                0.029063335437166618
+            ],
+            [
+                "F MAO S F BRE - ENG",
+                1.0
+            ],
+            [
+                "F MAO H",
+                0.20908102457241864
+            ],
+            [
+                "F MAO - ENG",
+                0.15930264449271617
+            ],
+            [
+                "F MAO - IRI",
+                0.10194865749388787
+            ],
+            [
+                "F MAO - WES",
+                0.04399858156029555
+            ],
+            [
+                "A BUR S A PIC - BEL",
+                1.0
+            ],
+            [
+                "A BUR - BEL",
+                0.39543744989358653
+            ],
+            [
+                "A BUR S A RUH - BEL",
+                0.2616247100708438
+            ],
+            [
+                "A BUR - MUN",
+                0.2585864381490409
+            ],
+            [
+                "A BUR S A RUH - MUN",
+                0.22701714605775655
+            ],
+            [
+                "A PIC - BEL",
+                1.0
+            ],
+            [
+                "A PIC S A BUR - BEL",
+                0.277749727647364
+            ],
+            [
+                "A PIC S A RUH - BEL",
+                0.20222311690223574
+            ],
+            [
+                "A PIC - BUR",
+                0.1495931948466531
+            ],
+            [
+                "A PIC H",
+                0.13671767046381259
+            ],
+            [
+                "A RUH - KIE",
+                1.0
+            ],
+            [
+                "A RUH - MUN",
+                0.8226950937258402
+            ],
+            [
+                "A RUH - HOL",
+                0.3808479892434649
+            ],
+            [
+                "A RUH S A PIC - BEL",
+                0.2926316285505488
+            ],
+            [
+                "A RUH H",
+                0.20775087566314085
+            ]
+        ],
+        "GERMANY": [
+            [
+                "A HOL S F KIE",
+                1.0
+            ],
+            [
+                "A HOL H",
+                0.8453299093738331
+            ],
+            [
+                "A HOL - KIE",
+                0.7108562419311778
+            ],
+            [
+                "A HOL - RUH",
+                0.44365043059019693
+            ],
+            [
+                "A HOL S A RUH - KIE",
+                0.31999194052717356
+            ],
+            [
+                "F KIE H",
+                1.0
+            ],
+            [
+                "F KIE S A HOL",
+                0.836861239425056
+            ],
+            [
+                "F KIE - DEN",
+                0.43763566515915614
+            ],
+            [
+                "F KIE - BER",
+                0.4190040386527233
+            ],
+            [
+                "F KIE - BAL",
+                0.3374892604936425
+            ],
+            [
+                "A SIL - BER",
+                1.0
+            ],
+            [
+                "A SIL - WAR",
+                0.9104197407204038
+            ],
+            [
+                "A SIL S A GAL - WAR",
+                0.5097503331208385
+            ],
+            [
+                "A SIL - MUN",
+                0.47042869535206405
+            ],
+            [
+                "A SIL H",
+                0.4357552618833936
+            ]
+        ],
+        "ITALY": [
+            [
+                "F EAS S A SYR - SMY",
+                1.0
+            ],
+            [
+                "F EAS - SMY",
+                0.4487449659588743
+            ],
+            [
+                "F EAS S F AEG - SMY",
+                0.21296784714843192
+            ],
+            [
+                "F EAS - AEG",
+                0.042228375743545585
+            ],
+            [
+                "F EAS - ION",
+                0.033194259080698396
+            ],
+            [
+                "A SYR - SMY",
+                1.0
+            ],
+            [
+                "A SYR S F SMY",
+                0.14697090691346992
+            ],
+            [
+                "A SYR - ARM",
+                0.1202274535632086
+            ],
+            [
+                "A SYR S F EAS - SMY",
+                0.07442664927374612
+            ],
+            [
+                "A SYR H",
+                0.052510191854873746
+            ],
+            [
+                "A MUN - KIE",
+                1.0
+            ],
+            [
+                "A MUN H",
+                0.3634299094687919
+            ],
+            [
+                "A MUN - BER",
+                0.1660074836205947
+            ],
+            [
+                "A MUN S A SIL - BER",
+                0.15664571028744684
+            ],
+            [
+                "A MUN - RUH",
+                0.12386326613201534
+            ],
+            [
+                "F AEG - CON",
+                1.0
+            ],
+            [
+                "F AEG S A SYR - SMY",
+                0.7632977125735481
+            ],
+            [
+                "F AEG S F EAS - SMY",
+                0.48609940091310677
+            ],
+            [
+                "F AEG - SMY",
+                0.35069281862408314
+            ],
+            [
+                "F AEG - BUL/SC",
+                0.1254680881604476
+            ],
+            [
+                "A BER - KIE",
+                1.0
+            ],
+            [
+                "A BER - MUN",
+                0.801669191385723
+            ],
+            [
+                "A BER S F KIE",
+                0.770791568273286
+            ],
+            [
+                "A BER H",
+                0.7010004482751326
+            ],
+            [
+                "A BER S A MUN - KIE",
+                0.2804248194768342
+            ]
+        ],
+        "RUSSIA": [
+            [
+                "A WAR S A UKR - GAL",
+                1.0
+            ],
+            [
+                "A WAR - GAL",
+                0.6629919806560607
+            ],
+            [
+                "A WAR H",
+                0.4758154873174266
+            ],
+            [
+                "A WAR - SIL",
+                0.2806254185669365
+            ],
+            [
+                "A WAR - MOS",
+                0.2713383324077107
+            ],
+            [
+                "A SWE - DEN",
+                1.0
+            ],
+            [
+                "A SWE - NWY",
+                0.4219124002185421
+            ],
+            [
+                "A SWE H",
+                0.2796721387191669
+            ],
+            [
+                "A SWE S F BAL - DEN",
+                0.24168929144846052
+            ],
+            [
+                "A SWE S F DEN",
+                0.11438823282477763
+            ],
+            [
+                "F BLA - BUL/EC",
+                1.0
+            ],
+            [
+                "F BLA S A RUM",
+                0.9204501296866295
+            ],
+            [
+                "F BLA S A RUM - BUL",
+                0.805908945251465
+            ],
+            [
+                "F BLA - CON",
+                0.6331551206154932
+            ],
+            [
+                "F BLA S F CON - BUL",
+                0.32616253443589827
+            ],
+            [
+                "A RUM S A SEV",
+                1.0
+            ],
+            [
+                "A RUM - BUL",
+                0.3101502733156917
+            ],
+            [
+                "A RUM H",
+                0.16338190264589256
+            ],
+            [
+                "A RUM - UKR",
+                0.10723434974081274
+            ],
+            [
+                "A RUM S A GAL",
+                0.08962385312010594
+            ],
+            [
+                "F BAL - DEN",
+                1.0
+            ],
+            [
+                "F BAL - KIE",
+                0.9759451356031599
+            ],
+            [
+                "F BAL S A DEN - KIE",
+                0.5493001448004172
+            ],
+            [
+                "F BAL - BER",
+                0.4768303456440558
+            ],
+            [
+                "F BAL S A SWE - DEN",
+                0.4511557722445575
+            ],
+            [
+                "A UKR S A RUM",
+                1.0
+            ],
+            [
+                "A UKR - GAL",
+                0.7785344877512886
+            ],
+            [
+                "A UKR - MOS",
+                0.526557649448917
+            ],
+            [
+                "A UKR - WAR",
+                0.4197333577180496
+            ],
+            [
+                "A UKR S A WAR",
+                0.23673543730390453
+            ]
+        ],
+        "TURKEY": [
+            [
+                "F CON S A SMY",
+                1.0
+            ],
+            [
+                "F CON H",
+                0.06750941551747609
+            ],
+            [
+                "F CON - BUL/SC",
+                0.0637118704299811
+            ],
+            [
+                "F CON - SMY",
+                0.05924583393323218
+            ],
+            [
+                "F CON S F SMY",
+                0.05332721171850303
+            ],
+            [
+                "A ANK S A SMY",
+                1.0
+            ],
+            [
+                "A ANK S F CON",
+                0.3373737017584648
+            ],
+            [
+                "A ANK S F SMY",
+                0.3299271472295759
+            ],
+            [
+                "A ANK - CON",
+                0.1798201771082382
+            ],
+            [
+                "A ANK - SMY",
+                0.12274478455500948
+            ],
+            [
+                "A SMY S F CON",
+                1.0
+            ],
+            [
+                "A SMY H",
+                0.2915934163593571
+            ],
+            [
+                "A SMY - CON",
+                0.1560072323287904
+            ],
+            [
+                "A SMY - ANK",
+                0.09814601911827149
+            ],
+            [
+                "A SMY S A ANK",
+                0.08507741587990111
+            ]
+        ]
+    }
+}

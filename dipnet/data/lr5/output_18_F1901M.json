@@ -1,0 +1,211 @@
+{
+    "state": {
+        "timestamp": 1542989969460569,
+        "zobrist_hash": "8599451225578602862",
+        "note": "",
+        "name": "F1901M",
+        "units": {
+            "AUSTRIA": [
+                "A TRI",
+                "A TYR",
+                "F ALB"
+            ],
+            "FRANCE": [
+                "F MAO",
+                "A BUR",
+                "A PIC"
+            ]
+        },
+        "centers": {
+            "AUSTRIA": [
+                "BUD",
+                "TRI",
+                "VIE"
+            ],
+            "FRANCE": [
+                "BRE",
+                "MAR",
+                "PAR"
+            ]
+        },
+        "homes": {
+            "AUSTRIA": [
+                "BUD",
+                "TRI",
+                "VIE"
+            ],
+            "FRANCE": [
+                "BRE",
+                "MAR",
+                "PAR"
+            ]
+        },
+        "influence": {
+            "AUSTRIA": [
+                "BUD",
+                "VIE",
+                "TRI",
+                "TYR",
+                "ALB"
+            ],
+            "FRANCE": [
+                "BRE",
+                "MAR",
+                "PAR",
+                "MAO",
+                "BUR",
+                "PIC"
+            ]
+        },
+        "civil_disorder": {
+            "AUSTRIA": 0,
+            "FRANCE": 0
+        },
+        "builds": {
+            "AUSTRIA": {
+                "count": 0,
+                "homes": []
+            },
+            "FRANCE": {
+                "count": 0,
+                "homes": []
+            }
+        },
+        "game_id": "CydgcZig2Dt430t5",
+        "map": "standard_france_austria",
+        "rules": [
+            "NO_PRESS",
+            "POWER_CHOICE"
+        ],
+        "retreats": {
+            "AUSTRIA": {},
+            "FRANCE": {}
+        }
+    },
+    "alterations": {
+        "AUSTRIA": [
+            [
+                "A TRI - VEN",
+                1.0
+            ],
+            [
+                "A TRI - SER",
+                0.059684550222964455
+            ],
+            [
+                "A TRI H",
+                0.017542294859383554
+            ],
+            [
+                "A TRI - VIE",
+                0.015222219730643059
+            ],
+            [
+                "A TRI S A TYR - VEN",
+                0.010775601386534286
+            ],
+            [
+                "A TYR - MUN",
+                1.0
+            ],
+            [
+                "A TYR - VEN",
+                0.14040901632866998
+            ],
+            [
+                "A TYR S A TRI - VEN",
+                0.12010543004971547
+            ],
+            [
+                "A TYR - PIE",
+                0.029124285857194728
+            ],
+            [
+                "A TYR - VIE",
+                0.022527241041699148
+            ],
+            [
+                "F ALB - GRE",
+                1.0
+            ],
+            [
+                "F ALB - ION",
+                0.013716219392851758
+            ],
+            [
+                "F ALB H",
+                0.0057772034137340104
+            ],
+            [
+                "F ALB - ADR",
+                0.0028048616998133692
+            ],
+            [
+                "F ALB - TRI",
+                0.0026424257375638363
+            ]
+        ],
+        "FRANCE": [
+            [
+                "F MAO - SPA/SC",
+                1.0
+            ],
+            [
+                "F MAO - POR",
+                0.21709041178291708
+            ],
+            [
+                "F MAO - WES",
+                0.029860713983059756
+            ],
+            [
+                "F MAO - SPA/NC",
+                0.016128221139592405
+            ],
+            [
+                "F MAO H",
+                0.007121135058015582
+            ],
+            [
+                "A BUR - MUN",
+                1.0
+            ],
+            [
+                "A BUR - BEL",
+                0.10207486425608055
+            ],
+            [
+                "A BUR - RUH",
+                0.03877908533248551
+            ],
+            [
+                "A BUR - MAR",
+                0.014951257819923581
+            ],
+            [
+                "A BUR S A PIC - BEL",
+                0.009868321103626645
+            ],
+            [
+                "A PIC - BEL",
+                1.0
+            ],
+            [
+                "A PIC - BUR",
+                0.007474511773281558
+            ],
+            [
+                "A PIC H",
+                0.004259266381783691
+            ],
+            [
+                "A PIC S A BUR - BEL",
+                0.00404657350660783
+            ],
+            [
+                "A PIC S A BUR",
+                0.0038099273389490627
+            ]
+        ]
+    }
+}
