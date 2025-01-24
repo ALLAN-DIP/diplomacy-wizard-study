@@ -33,7 +33,7 @@ with open('overview.html', 'w') as f:
     for i, row in selected_games.sort_values(by='n_units').iterrows():
         game_id, gname, power = row['name'].split('_')
         level, n_units = row['complexity'], row['n_units']
-        f.write(f'<li>{game_id} - {gname} - {power} (Level: {level}, # units involved: {n_units})</li>\n')
+        f.write(f'<li>{game_id}_{gname}_{power} (Level: {level}, # units involved: {n_units})</li>\n')
         notes = row['notes']
         if notes:
             f.write(f'<p>{notes}</p>\n')
