@@ -1,0 +1,19 @@
+name,n_units,complexity,notes
+78_F1903M_TURKEY,8,E,holding all units might be the best thing to do but if stance toward austria/russia/italy's were given we can have multiple cases
+78_F1904M_FRANCE,11,M,France is in a fight with england and italy in north at the same time. Given stance toward them we can have multiple cases
+28_S1904M_GERMANY,12,M,good support moves can be there
+69_S1904M_ITALY,10,M,stance toward austria can make a huge difference
+62_F1906M_GERMANY,17,H,a nearly bipolar state
+46_F1903M_ITALY,8,E,stance toward austria/russia can make a difference
+31_S1906M_RUSSIA,16,H,Having dominating power dynamics with sparse units over map
+72_F1904M_RUSSIA,11,M,Units scattered all over the map
+23_S1909M_TURKEY,17,H,lots of backstabbing opportunities
+32_S1905M_RUSSIA,14,M,Powerful neighbors that stance toward them matters
+81_F1905M_FRANCE,15,M,is losing a center to england and may plan for retaking it
+69_S1910M_ITALY,23,H,a game with four powerful powers. we can define friendly/neutral/hostile stance toward them
+88_S1902M_AUSTRIA,4,E,Bottlenecked in the middle of the map
+75_S1904M_ITALY,22,H,units are scattered all over the map. alliance are important
+18_F1901M_AUSTRIA,5,E,the initial phases of the game. moves can be crucial for the rest of the game
+45_F1908M_TURKEY,7,E,units are scattered all over the map
+88_F1908M_ENGLAND,7,E,units are scattered all over the map
+69_S1905M_GERMANY,15,M,may need to deal with other powers for alliance
