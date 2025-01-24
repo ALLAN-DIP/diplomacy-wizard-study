@@ -39,6 +39,17 @@ def list_to_bullet_points(data):
     html += '</ul>'
     return html
 
+
+def list_to_bullet_points_best(data):
+    """Converts a nested list into a list of bullet points."""
+    html = '<ul>\n'
+    for row in data:
+        action, prob = row[1]
+        html += f'  <li>{action}</li>\n'
+    html += '</ul>'
+    return html
+
+
 path2data = sys.argv[1]
 with open(path2data, 'r') as f:
     data = json.load(f)
@@ -66,3 +77,5 @@ data2table = [
 html_bullet_points = list_to_bullet_points(data2table)
 print(html_bullet_points)
 
+# html_bullet_points_best = list_to_bullet_points_best(data2table)
+# print(html_bullet_points_best)
