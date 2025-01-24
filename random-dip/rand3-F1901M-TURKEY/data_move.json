@@ -1,0 +1,971 @@
+{
+    "state": {
+        "timestamp": 1734011243772984,
+        "zobrist_hash": "1311378729785829230",
+        "note": "",
+        "name": "F1901M",
+        "units": {
+            "AUSTRIA": [
+                "A BUD",
+                "A VIE",
+                "F TRI"
+            ],
+            "ENGLAND": [
+                "A LVP",
+                "F NWG",
+                "F YOR"
+            ],
+            "FRANCE": [
+                "A MAR",
+                "A PAR",
+                "F ENG"
+            ],
+            "GERMANY": [
+                "F KIE",
+                "A BER",
+                "A MUN"
+            ],
+            "ITALY": [
+                "F NAP",
+                "A ROM",
+                "A VEN"
+            ],
+            "RUSSIA": [
+                "A WAR",
+                "F SEV",
+                "A UKR",
+                "F FIN"
+            ],
+            "TURKEY": [
+                "F ANK",
+                "A CON",
+                "A SMY"
+            ]
+        },
+        "retreats": {
+            "AUSTRIA": {},
+            "ENGLAND": {},
+            "FRANCE": {},
+            "GERMANY": {},
+            "ITALY": {},
+            "RUSSIA": {},
+            "TURKEY": {}
+        },
+        "centers": {
+            "AUSTRIA": [
+                "BUD",
+                "TRI",
+                "VIE"
+            ],
+            "ENGLAND": [
+                "EDI",
+                "LON",
+                "LVP"
+            ],
+            "FRANCE": [
+                "BRE",
+                "MAR",
+                "PAR"
+            ],
+            "GERMANY": [
+                "BER",
+                "KIE",
+                "MUN"
+            ],
+            "ITALY": [
+                "NAP",
+                "ROM",
+                "VEN"
+            ],
+            "RUSSIA": [
+                "MOS",
+                "SEV",
+                "STP",
+                "WAR"
+            ],
+            "TURKEY": [
+                "ANK",
+                "CON",
+                "SMY"
+            ]
+        },
+        "homes": {
+            "AUSTRIA": [
+                "BUD",
+                "TRI",
+                "VIE"
+            ],
+            "ENGLAND": [
+                "EDI",
+                "LON",
+                "LVP"
+            ],
+            "FRANCE": [
+                "BRE",
+                "MAR",
+                "PAR"
+            ],
+            "GERMANY": [
+                "BER",
+                "KIE",
+                "MUN"
+            ],
+            "ITALY": [
+                "NAP",
+                "ROM",
+                "VEN"
+            ],
+            "RUSSIA": [
+                "MOS",
+                "SEV",
+                "STP",
+                "WAR"
+            ],
+            "TURKEY": [
+                "ANK",
+                "CON",
+                "SMY"
+            ]
+        },
+        "influence": {
+            "AUSTRIA": [
+                "BUD",
+                "VIE",
+                "TRI"
+            ],
+            "ENGLAND": [
+                "EDI",
+                "LON",
+                "LVP",
+                "NWG",
+                "YOR"
+            ],
+            "FRANCE": [
+                "BRE",
+                "MAR",
+                "PAR",
+                "ENG"
+            ],
+            "GERMANY": [
+                "KIE",
+                "BER",
+                "MUN"
+            ],
+            "ITALY": [
+                "NAP",
+                "ROM",
+                "VEN"
+            ],
+            "RUSSIA": [
+                "WAR",
+                "MOS",
+                "SEV",
+                "STP",
+                "UKR",
+                "FIN"
+            ],
+            "TURKEY": [
+                "ANK",
+                "CON",
+                "SMY"
+            ]
+        },
+        "civil_disorder": {
+            "AUSTRIA": 0,
+            "ENGLAND": 0,
+            "FRANCE": 0,
+            "GERMANY": 0,
+            "ITALY": 0,
+            "RUSSIA": 0,
+            "TURKEY": 0
+        },
+        "builds": {
+            "AUSTRIA": {
+                "count": 0,
+                "homes": []
+            },
+            "ENGLAND": {
+                "count": 0,
+                "homes": []
+            },
+            "FRANCE": {
+                "count": 0,
+                "homes": []
+            },
+            "GERMANY": {
+                "count": 0,
+                "homes": []
+            },
+            "ITALY": {
+                "count": 0,
+                "homes": []
+            },
+            "RUSSIA": {
+                "count": 0,
+                "homes": []
+            },
+            "TURKEY": {
+                "count": 0,
+                "homes": []
+            }
+        },
+        "game_id": "16C5it7HOda_yVpt",
+        "map": "standard",
+        "rules": [
+            "NO_PRESS",
+            "POWER_CHOICE"
+        ],
+        "moves": {
+            "AUSTRIA": [
+                [
+                    [
+                        "A VIE - GAL",
+                        "F TRI - ALB",
+                        "A BUD - SER"
+                    ],
+                    0.8577248036115501
+                ],
+                [
+                    [
+                        "A VIE - TRI",
+                        "F TRI - ALB",
+                        "A BUD - SER"
+                    ],
+                    0.06888236099878521
+                ],
+                [
+                    [
+                        "A VIE - GAL",
+                        "F TRI - VEN",
+                        "A BUD - SER"
+                    ],
+                    0.0299676095433767
+                ],
+                [
+                    [
+                        "A VIE - BUD",
+                        "F TRI - ALB",
+                        "A BUD - SER"
+                    ],
+                    0.016766574879666055
+                ],
+                [
+                    [
+                        "A VIE - GAL",
+                        "F TRI H",
+                        "A BUD - SER"
+                    ],
+                    0.006697569642496718
+                ],
+                [
+                    [
+                        "A VIE - TRI",
+                        "F TRI - ALB",
+                        "A BUD - GAL"
+                    ],
+                    0.0062201475930546615
+                ],
+                [
+                    [
+                        "A VIE - TYR",
+                        "F TRI - ALB",
+                        "A BUD - SER"
+                    ],
+                    0.0052749807521254195
+                ],
+                [
+                    [
+                        "A VIE - GAL",
+                        "F TRI - ALB",
+                        "A BUD - RUM"
+                    ],
+                    0.004608822573799295
+                ],
+                [
+                    [
+                        "A VIE - TRI",
+                        "F TRI - ALB",
+                        "A BUD - RUM"
+                    ],
+                    0.002507132278010097
+                ],
+                [
+                    [
+                        "A VIE - BUD",
+                        "F TRI H",
+                        "A BUD - SER"
+                    ],
+                    0.0007866124415403946
+                ],
+                [
+                    [
+                        "A VIE H",
+                        "F TRI - ALB",
+                        "A BUD - SER"
+                    ],
+                    0.0005633856855951817
+                ]
+            ],
+            "ENGLAND": [
+                [
+                    [
+                        "F YOR - LON",
+                        "A LVP - YOR",
+                        "F NWG - NTH"
+                    ],
+                    0.3466571336214243
+                ],
+                [
+                    [
+                        "F YOR - NTH",
+                        "A LVP - YOR",
+                        "F NWG - NWY"
+                    ],
+                    0.17546283250076886
+                ],
+                [
+                    [
+                        "F YOR - LON",
+                        "A LVP - WAL",
+                        "F NWG - NTH"
+                    ],
+                    0.15617455237259698
+                ],
+                [
+                    [
+                        "F YOR - NTH",
+                        "A LVP - EDI",
+                        "F NWG - NWY"
+                    ],
+                    0.0711800382029456
+                ],
+                [
+                    [
+                        "F YOR - NTH",
+                        "A LVP - YOR",
+                        "F NWG - BAR"
+                    ],
+                    0.05442247990503534
+                ],
+                [
+                    [
+                        "F YOR - LON",
+                        "A LVP - EDI",
+                        "F NWG - NTH"
+                    ],
+                    0.05342599681539577
+                ],
+                [
+                    [
+                        "F YOR - LON",
+                        "A LVP - YOR",
+                        "F NWG - NWY"
+                    ],
+                    0.04472850472011335
+                ],
+                [
+                    [
+                        "F YOR - NTH",
+                        "A LVP - WAL",
+                        "F NWG - NWY"
+                    ],
+                    0.03103637685797209
+                ],
+                [
+                    [
+                        "F YOR - NTH",
+                        "A LVP - EDI",
+                        "F NWG - BAR"
+                    ],
+                    0.022875544519832255
+                ],
+                [
+                    [
+                        "F YOR - LON",
+                        "A LVP - EDI",
+                        "F NWG - NWY"
+                    ],
+                    0.022488432660260144
+                ],
+                [
+                    [
+                        "F YOR - LON",
+                        "A LVP - WAL",
+                        "F NWG - NWY"
+                    ],
+                    0.021548107823655287
+                ]
+            ],
+            "FRANCE": [
+                [
+                    [
+                        "F ENG - MAO",
+                        "A PAR - BUR",
+                        "A MAR S A PAR - BUR"
+                    ],
+                    0.21659177115522804
+                ],
+                [
+                    [
+                        "F ENG - MAO",
+                        "A PAR - BUR",
+                        "A MAR - SPA"
+                    ],
+                    0.1443477378237038
+                ],
+                [
+                    [
+                        "F ENG - BEL",
+                        "A PAR - BUR",
+                        "A MAR - SPA"
+                    ],
+                    0.14413032117854954
+                ],
+                [
+                    [
+                        "F ENG - BEL",
+                        "A PAR - BUR",
+                        "A MAR S A PAR - BUR"
+                    ],
+                    0.11829372534151417
+                ],
+                [
+                    [
+                        "F ENG - MAO",
+                        "A PAR - PIC",
+                        "A MAR - SPA"
+                    ],
+                    0.08515368505149765
+                ],
+                [
+                    [
+                        "F ENG - NTH",
+                        "A PAR - BUR",
+                        "A MAR - SPA"
+                    ],
+                    0.06816750113647295
+                ],
+                [
+                    [
+                        "F ENG - MAO",
+                        "A PAR - PIC",
+                        "A MAR - BUR"
+                    ],
+                    0.06402884069304333
+                ],
+                [
+                    [
+                        "F ENG - MAO",
+                        "A PAR - BUR",
+                        "A MAR - BUR"
+                    ],
+                    0.05101031944002192
+                ],
+                [
+                    [
+                        "F ENG - NTH",
+                        "A PAR - BUR",
+                        "A MAR S A PAR - BUR"
+                    ],
+                    0.050873465792155306
+                ],
+                [
+                    [
+                        "F ENG - BEL",
+                        "A PAR - PIC",
+                        "A MAR - BUR"
+                    ],
+                    0.03139021438957262
+                ],
+                [
+                    [
+                        "F ENG - MAO",
+                        "A PAR - GAS",
+                        "A MAR - SPA"
+                    ],
+                    0.02601241799824054
+                ]
+            ],
+            "GERMANY": [
+                [
+                    [
+                        "F KIE - DEN",
+                        "A MUN - RUH",
+                        "A BER - KIE"
+                    ],
+                    0.617026491199098
+                ],
+                [
+                    [
+                        "F KIE - HOL",
+                        "A MUN - RUH",
+                        "A BER - KIE"
+                    ],
+                    0.19470107319635202
+                ],
+                [
+                    [
+                        "F KIE - DEN",
+                        "A MUN - BUR",
+                        "A BER - KIE"
+                    ],
+                    0.16160323724483647
+                ],
+                [
+                    [
+                        "F KIE - DEN",
+                        "A MUN H",
+                        "A BER - KIE"
+                    ],
+                    0.009318694411212117
+                ],
+                [
+                    [
+                        "F KIE - HOL",
+                        "A MUN - BUR",
+                        "A BER - KIE"
+                    ],
+                    0.007641701600264599
+                ],
+                [
+                    [
+                        "F KIE - DEN",
+                        "A MUN - RUH",
+                        "A BER - SIL"
+                    ],
+                    0.003512512516684358
+                ],
+                [
+                    [
+                        "F KIE - DEN",
+                        "A MUN - TYR",
+                        "A BER - KIE"
+                    ],
+                    0.0024858616347516824
+                ],
+                [
+                    [
+                        "F KIE - HOL",
+                        "A MUN H",
+                        "A BER - KIE"
+                    ],
+                    0.0016630384518802588
+                ],
+                [
+                    [
+                        "F KIE - DEN",
+                        "A MUN - SIL",
+                        "A BER - KIE"
+                    ],
+                    0.0016129145019988724
+                ],
+                [
+                    [
+                        "F KIE - HOL",
+                        "A MUN - TYR",
+                        "A BER - KIE"
+                    ],
+                    0.0002772930242487697
+                ],
+                [
+                    [
+                        "F KIE - HOL",
+                        "A MUN - SIL",
+                        "A BER - KIE"
+                    ],
+                    0.00015718221867282547
+                ]
+            ],
+            "ITALY": [
+                [
+                    [
+                        "F NAP - ION",
+                        "A ROM - APU",
+                        "A VEN H"
+                    ],
+                    0.37160582464868225
+                ],
+                [
+                    [
+                        "F NAP - ION",
+                        "A ROM - VEN",
+                        "A VEN - TYR"
+                    ],
+                    0.22814415056815004
+                ],
+                [
+                    [
+                        "F NAP - ION",
+                        "A ROM - APU",
+                        "A VEN - PIE"
+                    ],
+                    0.11213947220142384
+                ],
+                [
+                    [
+                        "F NAP - ION",
+                        "A ROM - APU",
+                        "A VEN S F TRI"
+                    ],
+                    0.09845681669420721
+                ],
+                [
+                    [
+                        "F NAP - ION",
+                        "A ROM - VEN",
+                        "A VEN - PIE"
+                    ],
+                    0.07336294454116307
+                ],
+                [
+                    [
+                        "F NAP - ION",
+                        "A ROM - APU",
+                        "A VEN - TRI"
+                    ],
+                    0.03340234644374448
+                ],
+                [
+                    [
+                        "F NAP - ION",
+                        "A ROM - VEN",
+                        "A VEN - TRI"
+                    ],
+                    0.03164436459981197
+                ],
+                [
+                    [
+                        "F NAP - ION",
+                        "A ROM - NAP",
+                        "A VEN H"
+                    ],
+                    0.020594545698814536
+                ],
+                [
+                    [
+                        "F NAP - ION",
+                        "A ROM - APU",
+                        "A VEN - TYR"
+                    ],
+                    0.017086119102454243
+                ],
+                [
+                    [
+                        "F NAP - TYS",
+                        "A ROM - VEN",
+                        "A VEN - PIE"
+                    ],
+                    0.007919104059271645
+                ],
+                [
+                    [
+                        "F NAP - ION",
+                        "A ROM - VEN",
+                        "A VEN - APU"
+                    ],
+                    0.005644311442276685
+                ]
+            ],
+            "RUSSIA": [
+                [
+                    [
+                        "F FIN - SWE",
+                        "A WAR - GAL",
+                        "F SEV - BLA",
+                        "A UKR - RUM"
+                    ],
+                    0.43797305806958237
+                ],
+                [
+                    [
+                        "F FIN - BOT",
+                        "A WAR - GAL",
+                        "F SEV - BLA",
+                        "A UKR - RUM"
+                    ],
+                    0.19104039159010558
+                ],
+                [
+                    [
+                        "F FIN - SWE",
+                        "A WAR - UKR",
+                        "F SEV - BLA",
+                        "A UKR - RUM"
+                    ],
+                    0.15475221165749622
+                ],
+                [
+                    [
+                        "F FIN - SWE",
+                        "A WAR - UKR",
+                        "F SEV S A UKR - RUM",
+                        "A UKR - RUM"
+                    ],
+                    0.075848496564097
+                ],
+                [
+                    [
+                        "F FIN - SWE",
+                        "A WAR - GAL",
+                        "F SEV S A UKR - RUM",
+                        "A UKR - RUM"
+                    ],
+                    0.06914308859676668
+                ],
+                [
+                    [
+                        "F FIN - BOT",
+                        "A WAR - UKR",
+                        "F SEV - BLA",
+                        "A UKR - RUM"
+                    ],
+                    0.017225781280233755
+                ],
+                [
+                    [
+                        "F FIN - SWE",
+                        "A WAR H",
+                        "F SEV - BLA",
+                        "A UKR - RUM"
+                    ],
+                    0.013184425139186181
+                ],
+                [
+                    [
+                        "F FIN - SWE",
+                        "A WAR - GAL",
+                        "F SEV - BLA",
+                        "A UKR - GAL"
+                    ],
+                    0.012249958983700623
+                ],
+                [
+                    [
+                        "F FIN - BOT",
+                        "A WAR - GAL",
+                        "F SEV S A UKR - RUM",
+                        "A UKR - RUM"
+                    ],
+                    0.010849326478158172
+                ],
+                [
+                    [
+                        "F FIN - SWE",
+                        "A WAR - GAL",
+                        "F SEV - BLA",
+                        "A UKR S A WAR - GAL"
+                    ],
+                    0.009775028705549419
+                ],
+                [
+                    [
+                        "F FIN - SWE",
+                        "A WAR H",
+                        "F SEV S A UKR - RUM",
+                        "A UKR - RUM"
+                    ],
+                    0.003879816964448171
+                ],
+                [
+                    [
+                        "F FIN - SWE",
+                        "A WAR - GAL",
+                        "F SEV - RUM",
+                        "A UKR S F SEV - RUM"
+                    ],
+                    0.001455188855301036
+                ],
+                [
+                    [
+                        "F FIN H",
+                        "A WAR - GAL",
+                        "F SEV - BLA",
+                        "A UKR - RUM"
+                    ],
+                    0.0013850024974664727
+                ],
+                [
+                    [
+                        "F FIN - SWE",
+                        "A WAR - GAL",
+                        "F SEV - RUM",
+                        "A UKR - RUM"
+                    ],
+                    0.0012382246179083788
+                ]
+            ],
+            "TURKEY": [
+                [
+                    [
+                        "F ANK - BLA",
+                        "A SMY - CON",
+                        "A CON - BUL"
+                    ],
+                    0.8279522403731792
+                ],
+                [
+                    [
+                        "F ANK - BLA",
+                        "A SMY - ARM",
+                        "A CON - BUL"
+                    ],
+                    0.10698231998063684
+                ],
+                [
+                    [
+                        "F ANK - CON",
+                        "A SMY - ANK",
+                        "A CON - BUL"
+                    ],
+                    0.035788531319614916
+                ],
+                [
+                    [
+                        "F ANK - CON",
+                        "A SMY - ARM",
+                        "A CON - BUL"
+                    ],
+                    0.017825757309058495
+                ],
+                [
+                    [
+                        "F ANK - CON",
+                        "A SMY H",
+                        "A CON - BUL"
+                    ],
+                    0.003984000474218279
+                ],
+                [
+                    [
+                        "F ANK - BLA",
+                        "A SMY - ANK",
+                        "A CON - BUL"
+                    ],
+                    0.002902289219787694
+                ],
+                [
+                    [
+                        "F ANK H",
+                        "A SMY - CON",
+                        "A CON - BUL"
+                    ],
+                    0.0016571750366968113
+                ],
+                [
+                    [
+                        "F ANK - BLA",
+                        "A SMY H",
+                        "A CON - BUL"
+                    ],
+                    0.0016359261122256608
+                ],
+                [
+                    [
+                        "F ANK - ARM",
+                        "A SMY - CON",
+                        "A CON - BUL"
+                    ],
+                    0.0008948605232867258
+                ],
+                [
+                    [
+                        "F ANK - BLA",
+                        "A SMY - SYR",
+                        "A CON - BUL"
+                    ],
+                    0.0003338650516769464
+                ],
+                [
+                    [
+                        "F ANK H",
+                        "A SMY H",
+                        "A CON - BUL"
+                    ],
+                    4.3034599618410956e-05
+                ]
+            ]
+        }
+    },
+    "alterations": {
+        "AUSTRIA": [],
+        "ENGLAND": [],
+        "FRANCE": [],
+        "GERMANY": [],
+        "ITALY": [],
+        "RUSSIA": [],
+        "TURKEY": [
+            [
+                "F ANK - BLA",
+                1.0
+            ],
+            [
+                "F ANK H",
+                0.983906052696372
+            ],
+            [
+                "F ANK - CON",
+                0.14025469472697216
+            ],
+            [
+                "F ANK - ARM",
+                0.05174225372872883
+            ],
+            [
+                "F ANK S A CON",
+                0.013917463694357163
+            ],
+            [
+                "F ANK S A SMY - CON",
+                0.00792553023501065
+            ],
+            [
+                "A CON - BUL",
+                1.0
+            ],
+            [
+                "A CON H",
+                0.4478334328244249
+            ],
+            [
+                "A CON - SMY",
+                0.006949811674084711
+            ],
+            [
+                "A CON S A SMY",
+                0.005338929239887446
+            ],
+            [
+                "A CON - ANK",
+                0.004180308163432412
+            ],
+            [
+                "A CON - RUM VIA",
+                0.0037007174445907046
+            ],
+            [
+                "A SMY H",
+                1.0
+            ],
+            [
+                "A SMY - CON",
+                0.4987666357053392
+            ],
+            [
+                "A SMY - ARM",
+                0.3459195922963426
+            ],
+            [
+                "A SMY - ANK",
+                0.07353967171742998
+            ],
+            [
+                "A SMY S A CON",
+                0.023638801808398086
+            ],
+            [
+                "A SMY - SYR",
+                0.01421062342569242
+            ]
+        ]
+    }
+}
