@@ -37,7 +37,8 @@ with open('overview.html', 'w') as f:
         notes = row['notes']
         if notes:
             f.write(f'<p>{notes}</p>\n')
-        local_path_to_svg = PARRENT_PATH + f'svgs/lr5/output_{game_id}_{gname}_{power}.svg'
+        # local_path_to_svg = PARRENT_PATH + f'svgs/lr5/output_{game_id}_{gname}_{power}.svg'
+        local_path_to_svg = PARRENT_PATH + f'svgs/cicero/output_{game_id}_{gname}_{power}.svg'
         f.write(f'<img src="{local_path_to_svg}" width="800" height="800">\n')
         f.write('<hr>\n')
     f.write('</ul>\n')
