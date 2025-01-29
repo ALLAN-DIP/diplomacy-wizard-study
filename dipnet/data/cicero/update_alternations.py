@@ -8,15 +8,25 @@ def order_key_orders(alter):
     return unit, prob
 
 
+def rescale_sort(alters):
+    alters_cpy = alters.copy()
+    for order, prob in alters_cpy.items():
+        alters[order] = prob / max([prob for order_, prob in alters_cpy.items() if ' '.join(order.split(' ')[:2]) == ' '.join(order_.split(' ')[:2])])
+    return sorted([[x, y] for x, y in alters.items()], key=order_key_orders, reverse=True)
+
+
 def get_alterations(moves):
     alternations = {power: {} for power in moves}
     for power, moves_struct in moves.items():
-        alters = []
+        alters = {}
         for orders_struct in moves_struct:
             orders, prob = orders_struct
             for order in orders:
-                alters.append([order, prob])
-        alternations[power] = sorted(alters, key=order_key_orders, reverse=True)
+                if order not in alters: # getting the max prob for each order in all order sets
+                    alters[order] = prob
+                elif prob > alters[order]:
+                    alters[order] = prob
+        alternations[power] = rescale_sort(alters)
     return alternations
 
 
