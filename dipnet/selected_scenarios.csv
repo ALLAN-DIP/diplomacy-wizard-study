@@ -1,10 +1,43 @@
-Game Name,# units involved,Complexity,Treatment,Suggestions (CICERO),Stance
-46_F1903M_ITALY,8,E,E-C,"Attacking Austria's units in TRI supported by neighbors' units. Attacking Turkey's units in EAS without support (bad suggestion?)","AUSTRIA: -1; TURKEY: -1; RUSSIA: 1"
-88_S1902M_AUSTRIA,4,E,E-N,"Attacking ITALY's army in TRI from BUD supported by SER. Doing the same thing on Russia's fleet on RUM","ITALY: 0; RUSSIA: 0; TURKEY: 0"
-45_F1908M_TURKEY,7,E,E-A,"Trying to get SEV from ITALY and push ITALY's fleet back from CON","ITALY: 1"
-69_S1904M_ITALY,10,M,M-C,"Attacking Austria's GRE with AEG supported by ION fleets. Forming a wall against Austria and taking SER which doesn't include Austria's forces","AUSTRIA: -1; RUSSIA: -0.5; TURKEY: 1; FRANCE: 1"
-81_F1905M_FRANCE,15,M,M-N,"Taking unoccupied states of FRANCE and ITALY and fighting with FRANCE and England on MAO and KIE.","ITALY: 0; FRANCE: 0; GERMANY: 0; ENGLAND: 0"
-69_S1905M_GERMANY,15,M,M-A,"Attacking last state of England (LON) with YOR supported by NTH fleets. Trying to make north safe from Russia and expand west against France.","ENGLAND: 1; FRANCE: 1; RUSSIA: 1; ITALY: -1"
-69_S1910M_ITALY,23,H,H-C,"Taking the last state of Turkey (ANK) attacking. Forming a wall against Russia and France. Taking SPA and trying to push back France. It tried to take RUM with its choked force in UKR but that can be just a deal with Russia so that it can take it out and support it against France.","TURKEY: -1; RUSSIA: 1; FRANCE: -1"
-62_F1906M_GERMANY,17,H,H-N,"Moving LVN to STP to form a bounce against Turkey which may want to take there. Same thing against Russia's only force in PRU which is desperately looking for a state to continue the game. The same for MUN against ITALY's TYR unit. Trying to capture the seas around England for building states out of the three bases there against France (and hence removing England from the game) or supporting France for getting LON. NOTE: this was a case where CICERO's advice implied negative stance toward all.","TURKEY: 0; GERMANY: 0; ITALY: 0; ENGLAND: 0; FRANCE: 0"
-23_S1909M_TURKEY,17,H,H-A,"Trying to take unoccupied state of TUN from France, the same for VEN's Italy but a bit milder. Support Russia's war against France.","FRANCE: 1; ITALY: 0; RUSSIA: -1"
+Game Name,# units involved,Complexity,Treatment,"Suggestions
+(CICERO)",Stance
+46_F1903M_ITALY,8,E,E-C,"Attacking Austria's units in TRI supported by neoighbors units.
+Attacking Turkey's units in EAS without support (bad suggestion?)","AUSTRIA: -1
+TURKEY: -1
+RUSSIA: 1"
+88_S1902M_AUSTRIA,4,E,E-N,"Attacking ITALY's army in TRI from BUD supported by SER.
+Doing the same thing on Russia's fleet on RUM","ITALY: 0
+RUSSIA: 0
+TURKEY: 0"
+45_F1908M_TURKEY,7,E,E-A,Trying to get SEV from ITALY and push ITALY's fleet back from CON,ITALY: 1
+69_S1904M_ITALY,10,M,M-C,"Attacking Austria's GRE wuth AEG supported by ION fleets.
+Forming a wall against Austria and taking SER which doesn't include Austria's forces","AUSTRIA: -1
+RUSSIA: -1
+TURKEY: 1
+FRANCE: 1"
+81_F1905M_FRANCE,15,M,M-N,Taking onuccipied states of FRANCE and ITALY and fighting with FRANCE  and England on MAO and KIE.,"ITALY: 0
+FRANCE: 0
+GERMANY: 0
+ENGLAND: 0"
+69_S1905M_GERMANY,15,M,M-A,"Attacking last state of England (LON) with YOR supported by NTH fleets.
+Trying to make north safe from russian and exapnd west against france.","ENGLAND: 1
+FRANCE: 1
+RUSSIA: 1
+ITALY: -1"
+69_S1910M_ITALY,23,H,H-C,"Taking the last state of Turkey (ANK) attacking. forming a wall against russia and france.
+taking SPA and trying to push back France.
+It tried to take RUM with it's choked force in UKR but that can be a just a deal with russia so that it can take it out and support it against france.","TURKEY: -1
+RUSSIA: 1
+FRANCE: -1"
+62_F1906M_GERMANY,17,H,H-N,"Moving LVN to STP to form a bounce against Turkey which may want to take there.
+Same thing against Russia's only force in PRU which is desparatly looking for a state to continue the game.
+The same for MUN against ITALY's TYR unit.
+Trying to capture the seas around England for building states out of the three bases there against France (and hence removing England from the game) or supporting France for getting LON.
+NOTE: this was a case where CICERO's advice implied negative stance toward all","TURKEY: 0
+GERMANY: 0
+ITALY: 0
+ENGLAND: 0
+FRANCE: 0"
+23_S1909M_TURKEY,17,H,H-A,"Trying to take unoccupied state of TUN from france, the same for VEN's Italy but a bit milder.
+support russia's war against france","FRANCE: 1
+ITALY: -1
+RUSSIA: -1"
