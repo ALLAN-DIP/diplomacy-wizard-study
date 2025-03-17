@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play</title>
+</head>
+<body>
+    <h1>Welcome, {{ user.username }}!</h1>
+    <p>Let's play!</p>
+    <p>Click the button below to start the annotation:</p>
+    <form action="/annotate_simple" method="get">
+        <button type="submit">Annotate Simple Games</button>
+    </form>
+    <form action="/annotate_multi" method="get">
+        <button type="submit">Annotate Multi Games</button>
+    </form>
+</body>
+</html>
