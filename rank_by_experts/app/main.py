@@ -32,10 +32,10 @@ def register_user(username: str = Form(...), db: Session = Depends(get_db)):
 def logout_user():
     return logout()
 
-@app.get("/annotate_simple", response_class=HTMLResponse)
+@app.get("/annotate/simple", response_class=HTMLResponse)
 def annotate_simple(request: Request, user: User = Depends(get_current_user)):
     return templates.TemplateResponse("annotate_simple.html", {"request": request, "user": user})
 
-@app.get("/annotate_multi", response_class=HTMLResponse)
+@app.get("/annotate/multi", response_class=HTMLResponse)
 def annotate_multi(request: Request, user: User = Depends(get_current_user)):
     return templates.TemplateResponse("annotate_multi.html", {"request": request, "user": user})
