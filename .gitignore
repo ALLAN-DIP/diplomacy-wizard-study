@@ -175,3 +175,4 @@ cython_debug/
 
 dipnet/participant/_agg_delayed/*.html
 dipnet/participant/_agg_simple/*.html
+*.db*
