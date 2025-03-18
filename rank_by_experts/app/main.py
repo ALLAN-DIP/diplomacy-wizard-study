@@ -27,8 +27,8 @@ def register_page(request: Request):
 @app.post("/register")
 def register_user(username: str = Form(...), db: Session = Depends(get_db)):
     register(username, db)
-    login(username, db)
-    return RedirectResponse(url="/", status_code=303)
+    result = login(username, db)
+    return RedirectResponse(url="/", status_code=303, headers=result.headers)
 
 
 @app.post("/logout")
