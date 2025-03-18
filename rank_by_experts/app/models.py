@@ -1,11 +1,8 @@
 from sqlalchemy import Column, Integer, String, ForeignKey, Float
-from sqlalchemy.orm import relationship
 from .database import Base
 from dataclasses import dataclass
 from enum import Enum
 from typing import Dict
-import json
-import os
 
 class Power(Enum):
     GERMANY = 'GERMANY'
@@ -205,8 +202,13 @@ class User(Base):
 class ResponseSimple(Base):
     __tablename__ = "responses_simple"
     id = Column(Integer, primary_key=True, index=True)
+    qid = Column(Integer)
+    number_of_annotations = Column(Integer, default=0)
     participant_name = Column(String)
-    scenario = Column(String)
+    map_name = Column(String)
+    player_name = Column(String)
+    context = Column(String)
+    stance = Column(String)
     treatment = Column(String)
     orders = Column(String)
     time_spent = Column(Float)
@@ -220,12 +222,19 @@ class ResponseSimple(Base):
     how_frustrating = Column(String)
     orders_str = Column(String)
     map_url = Column(String)
+    time_spent_normalized_by_null = Column(Float)
+    number_of_clicks_normalized_by_null = Column(Float)
 
 class ResponseMulti(Base):
     __tablename__ = "responses_multi"
     id = Column(Integer, primary_key=True, index=True)
+    qid = Column(Integer)
+    number_of_annotations = Column(Integer, default=0)
     participant_name = Column(String)
-    scenario = Column(String)
+    map_name = Column(String)
+    player_name = Column(String)
+    context = Column(String)
+    stance = Column(String)
     treatment = Column(String)
     orders = Column(String)
     time_spent = Column(String)
@@ -243,6 +252,13 @@ class ResponseMulti(Base):
     map_url1 = Column(String)
     comments0_str = Column(String)
     comments1_str = Column(String)
+    time_diff = Column(Float)
+    click_diff = Column(Integer)
+    mental_demand_diff = Column(Integer)
+    successful_in_accomplishing_diff = Column(Integer)
+    how_hard_diff = Column(Integer)
+    how_frustrating_diff = Column(Integer)
+    order_diff = Column(Integer)
 
 class PairwiseComparisonSimple(Base):
     __tablename__ = "pairwise_comparisons_simple"

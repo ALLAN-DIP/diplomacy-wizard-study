@@ -30,12 +30,15 @@ def create_db():
 
 def init_db():
     create_db()
-    simple_responses_df = pd.read_excel(os.path.join(DATA_PATH, 'survey_responses.xlsx'), sheet_name='simple_responses')
-    delayed_responses_df = pd.read_excel(os.path.join(DATA_PATH, 'survey_responses.xlsx'), sheet_name='delayed_responses')
+    simple_responses_df = pd.read_excel(os.path.join(DATA_PATH, 'survey_responses.xlsx'), sheet_name='simple_responses').drop(columns=['scenario'])
+    delayed_responses_df = pd.read_excel(os.path.join(DATA_PATH, 'survey_responses.xlsx'), sheet_name='delayed_responses').drop(columns=['scenario'])
+    simple_responses_df['number_of_annotations'] = 0
+    delayed_responses_df['number_of_annotations'] = 0
     
     db = SessionLocal()
     try:
-        simple_responses_df.to_sql('responses_simple', con=engine, if_exists='replace', index=False)
-        delayed_responses_df.to_sql('responses_multi', con=engine, if_exists='replace', index=False)
+        # update the database with the new data, don't replace it
+        simple_responses_df.to_sql('responses_simple', con=engine, if_exists='append', index=False)
+        delayed_responses_df.to_sql('responses_multi', con=engine, if_exists='append', index=False)
     finally:
         db.close()

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annotate Multi</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            width: 90%;
+        }
+        .response-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .response {
+            background: #fff;
+            padding: 5px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 45%;
+            text-align: left;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .choice-form {
+            margin-top: 20px;
+        }
+        button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .equal-btn {
+            background: gray;
+        }
+        .equal-btn:hover {
+            background: darkgray;
+        }
+        .score-container {
+            font-size: 18px;
+            font-weight: bold;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="score-container">
+            Your Score: <span>{{ user_score['total'] }}</span> 🎯
+        </div>
+        <h1>Annotate Multi Responses</h1>
+        <p>Select <b>the better</b> response or mark them as equal.</p>
+
+        <div class="response-container">
+            <div class="response">
+                <h2>Response 1</h2>
+                <p><strong>Participant:</strong> {{ response1.participant_name }}</p>
+                <p><strong>Map Name:</strong> {{ response1.map_name }}</p>
+                <p><strong>Player Name:</strong> {{ response1.player_name }}</p>
+                <p><strong>Stance:</strong> {{ response1.stance }}</p>
+                <p><strong>Orders 0:</strong> {{ response1.orders[0] | replace('\n', '<br>') | safe }}</p>
+                <p><strong>Orders 1:</strong> {{ response1.orders[1] | replace('\n', '<br>') | safe }}</p>
+                <img src="{{ response1.map[0] }}" alt="Response 1 Map 0">
+                <img src="{{ response1.map[1] }}" alt="Response 1 Map 1">
+                <form class="choice-form" action="/annotate/multi" method="post">
+                    <input type="hidden" name="response1_id" value="{{ response1.id }}">
+                    <input type="hidden" name="response2_id" value="{{ response2.id }}">
+                    <button type="submit">Choose Response 1</button>
+                </form>
+            </div>
+
+            <div class="response">
+                <h2>Response 2</h2>
+                <p><strong>Participant:</strong> {{ response2.participant_name }}</p>
+                <p><strong>Map Name:</strong> {{ response2.map_name }}</p>
+                <p><strong>Player Name:</strong> {{ response2.player_name }}</p>
+                <p><strong>Stance:</strong> {{ response2.stance }}</p>
+                <p><strong>Orders 0:</strong> {{ response2.orders[0] | replace('\n', '<br>') | safe }}</p>
+                <p><strong>Orders 1:</strong> {{ response2.orders[1] | replace('\n', '<br>') | safe }}</p>
+                <img src="{{ response2.map[0] }}" alt="Response 2 Map 0">
+                <img src="{{ response2.map[1] }}" alt="Response 2 Map 1">
+                <form class="choice-form" action="/annotate/multi" method="post">
+                    <input type="hidden" name="response1_id" value="{{ response2.id }}">
+                    <input type="hidden" name="response2_id" value="{{ response1.id }}">
+                    <button type="submit">Choose Response 2</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- "Both are the same" button -->
+        <form class="choice-form" action="/annotate/multi/equals" method="post">
+            <input type="hidden" name="response1_id" value="{{ response1.id }}">
+            <input type="hidden" name="response2_id" value="{{ response2.id }}">
+            <button type="submit" class="equal-btn">Both are the same</button>
+        </form>
+    </div>
+
+</body>
+</html>
