@@ -117,6 +117,8 @@ def annotate_simple_post(response1_id: int = Form(...), response2_id: int = Form
         response2 = db.query(ResponseSimple).filter(ResponseSimple.id == response2_id).first()
         response2.number_of_annotations += 1
         annotation = PairwiseComparisonSimple(user_id=user.id, preferred_response_id=response1_id, other_response_id=response2_id)
+        user = db.merge(user)
+        user.score += 1
         db.add(annotation)
         db.commit()
     return RedirectResponse(url="/annotate/simple", status_code=303)
@@ -132,6 +134,8 @@ def annotate_simple_equals(response1_id: int = Form(...), response2_id: int = Fo
         response2.number_of_annotations += 1
         annotation1 = PairwiseComparisonSimple(user_id=user.id, preferred_response_id=response1_id, other_response_id=response2_id)
         annotation2 = PairwiseComparisonSimple(user_id=user.id, preferred_response_id=response2_id, other_response_id=response1_id)
+        user = db.merge(user)
+        user.score += 1
         db.add(annotation1)
         db.add(annotation2)
         db.commit()
@@ -161,6 +165,8 @@ def annotate_multi_post(response1_id: int = Form(...), response2_id: int = Form(
         response2 = db.query(ResponseMulti).filter(ResponseMulti.id == response2_id).first()
         response2.number_of_annotations += 1
         annotation = PairwiseComparisonMulti(user_id=user.id, preferred_response_id=response1_id, other_response_id=response2_id)
+        user = db.merge(user)
+        user.score += 1
         db.add(annotation)
         db.commit()
     return RedirectResponse(url="/annotate/multi", status_code=303)
@@ -176,6 +182,8 @@ def annotate_multi_equals(response1_id: int = Form(...), response2_id: int = For
         response2.number_of_annotations += 1
         annotation1 = PairwiseComparisonMulti(user_id=user.id, preferred_response_id=response1_id, other_response_id=response2_id)
         annotation2 = PairwiseComparisonMulti(user_id=user.id, preferred_response_id=response2_id, other_response_id=response1_id)
+        user = db.merge(user)
+        user.score += 1
         db.add(annotation1)
         db.add(annotation2)
         db.commit()
