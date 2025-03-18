@@ -78,21 +78,21 @@ def graph_simple(qid: int):
         annotations = db.query(PairwiseComparisonSimple).all()
     graph = {response.id: [] for response in responses}
     for annotation in annotations:
-        if annotation.preferred_response_id in graph:
-            graph[annotation.preferred_response_id].append(annotation.other_response_id)
+        if annotation.other_response_id in graph:
+            graph[annotation.other_response_id].append(annotation.preferred_response_id)
     return graph
 
 @app.get("/graph/multi", response_class=JSONResponse)
 def graph_multi(qid: int):
     with SessionLocal() as db:
         responses = db.query(ResponseMulti).filter(ResponseMulti.qid == qid).all()
-        annotations = db.query(PairwiseComparisonMulti).all()
+        annotations = db.query(PairwiseComparisonMulti)
     graph = {response.id: [] for response in responses}
     for annotation in annotations:
-        if annotation.preferred_response_id in graph:
-            graph[annotation.preferred_response_id].append(annotation.other_response_id)
+        if annotation.other_response_id in graph:
+            graph[annotation.other_response_id].append(annotation.preferred_response_id)
     return graph
-    
+
 
 @app.get("/annotate/simple", response_class=HTMLResponse)
 def annotate_simple(request: Request, user: User = Depends(get_current_user)):
