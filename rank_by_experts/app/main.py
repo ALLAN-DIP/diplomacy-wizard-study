@@ -44,6 +44,52 @@ def rank_users():
         user_annotations = {user.username: get_user_score(user, db) for user in users}
     return user_annotations
 
+@app.get("/rank/responses", response_class=JSONResponse)
+def rank_responses():
+    """Rank responses based on the number of annotations"""
+    with SessionLocal() as db:
+        simple_responses = db.query(ResponseSimple).all()
+        simple_annotations = {response.id: response.number_of_annotations for response in simple_responses}
+        multi_responses = db.query(ResponseMulti).all()
+        multi_annotations = {response.id: response.number_of_annotations for response in multi_responses}
+    return {"simple": simple_annotations, "multi": multi_annotations}
+
+@app.get("/show/pairwise/simple", response_class=JSONResponse)
+def show_pairwise_simple():
+    """Show pairwise annotations for simple responses"""
+    with SessionLocal() as db:
+        annotations = db.query(PairwiseComparisonSimple).all()
+    return [{"user_id": annotation.user_id, "preferred_response_id": annotation.preferred_response_id, "other_response_id": annotation.other_response_id} for annotation in annotations]
+
+@app.get("/show/pairwise/multi", response_class=JSONResponse)
+def show_pairwise_multi():
+    """Show pairwise annotations for multi responses"""
+    with SessionLocal() as db:
+        annotations = db.query(PairwiseComparisonMulti).all()
+    return [{"user_id": annotation.user_id, "preferred_response_id": annotation.preferred_response_id, "other_response_id": annotation.other_response_id} for annotation in annotations]
+
+@app.get("/graph/simple", response_class=JSONResponse)
+def graph_simple(qid: int):
+    with SessionLocal() as db:
+        responses = db.query(ResponseSimple).filter(ResponseSimple.qid == qid).all()
+        annotations = db.query(PairwiseComparisonSimple).all()
+    graph = {response.id: [] for response in responses}
+    for annotation in annotations:
+        if annotation.preferred_response_id in graph:
+            graph[annotation.preferred_response_id].append(annotation.other_response_id)
+    return graph
+
+@app.get("/graph/multi", response_class=JSONResponse)
+def graph_multi(qid: int):
+    with SessionLocal() as db:
+        responses = db.query(ResponseMulti).filter(ResponseMulti.qid == qid).all()
+        annotations = db.query(PairwiseComparisonMulti).all()
+    graph = {response.id: [] for response in responses}
+    for annotation in annotations:
+        if annotation.preferred_response_id in graph:
+            graph[annotation.preferred_response_id].append(annotation.other_response_id)
+    return graph
+    
 
 @app.get("/annotate/simple", response_class=HTMLResponse)
 def annotate_simple(request: Request, user: User = Depends(get_current_user)):
