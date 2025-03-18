@@ -6,7 +6,7 @@ from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from .database import engine, get_db
 from .models import Base, User, ResponseSimple, ResponseMulti, PairwiseComparisonSimple, PairwiseComparisonMulti
 from .auth import register, login, logout, get_current_user
-from .functions import get_user_score, get_response_obj_simple, get_response_obj_multi
+from .functions import get_user_annotations, get_response_obj_simple, get_response_obj_multi
 from .database import SessionLocal
 
 app = FastAPI()
@@ -44,7 +44,7 @@ def rank_users():
     """Rank users based on the number of annotations"""
     with SessionLocal() as db:
         users = db.query(User).all()
-        user_annotations = {user.username: get_user_score(user, db) for user in users}
+        user_annotations = {user.username: get_user_annotations(user, db) for user in users}
     return user_annotations
 
 @app.get("/rank/responses", response_class=JSONResponse)
@@ -105,8 +105,7 @@ def annotate_simple(request: Request, user: User = Depends(get_current_user)):
         "request": request,
         "user": user,
         "response1": get_response_obj_simple(r1),
-        "response2": get_response_obj_simple(r2),
-        "user_score": get_user_score(user, db)})
+        "response2": get_response_obj_simple(r2)})
 
 
 @app.post("/annotate/simple")
@@ -150,8 +149,7 @@ def annotate_multi(request: Request, user: User = Depends(get_current_user)):
         "request": request,
         "user": user,
         "response1": get_response_obj_multi(r1),
-        "response2": get_response_obj_multi(r2),
-        "user_score": get_user_score(user, db)})
+        "response2": get_response_obj_multi(r2)})
 
 
 @app.post("/annotate/multi")

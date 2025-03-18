@@ -5,7 +5,7 @@ from .database import SessionLocal
 from .models import User, PairwiseComparisonSimple, PairwiseComparisonMulti, ResponseSimple, ResponseMulti, Power
 
 
-def get_user_score(user: User, db: Session):
+def get_user_annotations(user: User, db: Session):
     """Retrieve user annotation counts."""
     with SessionLocal() as db:
         simple_annotations = db.query(PairwiseComparisonSimple).filter(PairwiseComparisonSimple.user_id == user.id).count()
@@ -19,12 +19,18 @@ def get_user_score(user: User, db: Session):
 
 def get_response_obj_simple(response: ResponseSimple):
     """Format a simple response object."""
+    stance = {}
+    for k, v in json.loads(response.stance.replace("'", "\"")).items():
+        if v == 1:
+            stance[k] = 'Allied'
+        elif v == -1:
+            stance[k] = 'Enemy'
     return {
         "id": response.id,
         "participant_name": response.participant_name,
         "map_name": response.map_name,
         "player_name": Power[response.player_name],
-        "stance": json.loads(response.stance.replace("'", "\"")),
+        "stance": stance,
         "orders": response.orders_str,
         "map": response.map_url,
     }
@@ -32,12 +38,18 @@ def get_response_obj_simple(response: ResponseSimple):
 
 def get_response_obj_multi(response: ResponseMulti):
     """Format a multi-response object."""
+    stance = {}
+    for k, v in json.loads(response.stance.replace("'", "\"")).items():
+        if v == 1:
+            stance[k] = 'Allied'
+        elif v == -1:
+            stance[k] = 'Enemy'
     return {
         "id": response.id,
         "participant_name": response.participant_name,
         "map_name": response.map_name,
         "player_name": Power[response.player_name],
-        "stance": json.loads(response.stance.replace("'", "\"")),
+        "stance": stance,
         "orders": {
             0: response.orders0_str,
             1: response.orders1_str,

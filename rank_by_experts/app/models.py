@@ -198,6 +198,7 @@ class User(Base):
     __tablename__ = "users"
     id = Column(Integer, primary_key=True, index=True)
     username = Column(String, unique=True, index=True)
+    score = Column(Integer, default=0)
 
 class ResponseSimple(Base):
     __tablename__ = "responses_simple"
