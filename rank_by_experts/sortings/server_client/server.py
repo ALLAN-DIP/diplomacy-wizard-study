@@ -5,46 +5,46 @@ import asyncio
 
 app = FastAPI()
 
-# Global storage for current ranking request
-current_request: Optional[List[int]] = None
-order_event = asyncio.Event()  # Used to signal when an order is received
-ordered_response: Optional[List[int]] = None
+# Global variables for storing the ranking request and user response
+current_ranking_task: Optional[List[int]] = None
+order_event = asyncio.Event()  # Event to signal when a user response is received
+user_sorted_response: Optional[List[int]] = None
 
-class RankRequest(BaseModel):
-    array: List[int]
+class RankingRequest(BaseModel):
+    elements: List[int]
 
-@app.get("/current_rank_request")
-async def get_current_rank_request():
+@app.get("/ranking/task")
+async def get_ranking_task():
     """
-    Returns the current ranking request that the user needs to sort.
+    Retrieves the current ranking task that the user needs to sort.
     """
-    return {"to_rank": current_request or []}
+    return {"task": current_ranking_task or []}
 
-@app.post("/current_rank_request")
-async def set_current_rank_request(request: RankRequest):
+@app.post("/ranking/task")
+async def set_ranking_task(request: RankingRequest):
     """
-    Sets the current ranking request that the user needs to sort.
+    Sets the ranking task that the user needs to sort.
     """
-    global current_request, ordered_response
-    current_request = request.array
-    ordered_response = None  # Reset the ordered response
-    return {"status": "Request received"}
+    global current_ranking_task, user_sorted_response
+    current_ranking_task = request.elements
+    user_sorted_response = None  # Reset the user response
+    return {"status": "Task received"}
 
-@app.post("/submit_order")
-async def submit_order(request: RankRequest):
+@app.post("/ranking/response")
+async def submit_ranking_response(request: RankingRequest):
     """
-    Receives the ordered response from the user and notifies the sorting process.
+    Receives the sorted ranking from the user and notifies the sorting process.
     """
-    global ordered_response
-    ordered_response = request.array
-    order_event.set()  # Notify that an order is received
-    return {"status": "Order received"}
+    global user_sorted_response
+    user_sorted_response = request.elements
+    order_event.set()  # Signal that a ranking response is received
+    return {"status": "Response received"}
 
-@app.get("/get_ordered_response")
-async def get_ordered_response():
+@app.get("/ranking/response")
+async def get_ranking_response():
     """
-    Returns the ordered response from the user.
+    Retrieves the user-submitted ranking response.
     """
-    if ordered_response is None:
+    if user_sorted_response is None:
         return {}
-    return {"ordered_response": ordered_response}
+    return {"sorted_order": user_sorted_response}

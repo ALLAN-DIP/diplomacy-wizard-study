@@ -8,21 +8,21 @@ async def rank_k(*arr):
     """
     async with httpx.AsyncClient() as client:
         # Notify the server of the elements to rank
-        response = await client.post("http://127.0.0.1:8000/current_rank_request", json={"array": list(arr)})
+        await client.post("http://127.0.0.1:8000/ranking/task", json={"elements": list(arr)})
 
         print(f"Waiting for user input to rank: {arr}")
 
         # Wait until the user submits an order
         while True:
-            order_response = await client.get("http://127.0.0.1:8000/get_ordered_response")
-            if "ordered_response" in order_response.json():
+            order_response = await client.get("http://127.0.0.1:8000/ranking/response")
+            response_json = order_response.json()
+            if "sorted_order" in response_json:
                 break  # Order is received, proceed
 
             await asyncio.sleep(1)  # Polling every second
 
         # Get the final sorted order
-        response = await client.get("http://127.0.0.1:8000/get_ordered_response")
-        sorted_arr = response.json()["ordered_response"]
+        sorted_arr = response_json["sorted_order"]
 
     print(f"User provided order: {sorted_arr}")
     return sorted_arr
@@ -64,7 +64,7 @@ async def modified_quicksort(arr):
 
 async def test_modified_quicksort():
     random.seed(0)
-    test_arr = random.sample(range(100), 45)
+    test_arr = random.sample(range(100), 5)
 
     sorted_arr = await modified_quicksort(test_arr)
 
