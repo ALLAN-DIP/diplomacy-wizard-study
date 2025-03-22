@@ -4,8 +4,8 @@ from sqlalchemy.orm import Session
 from fastapi import FastAPI, Depends, Form, Request, Query
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse, RedirectResponse
-from .database import engine, get_db
-from .models import Base, User, RankingRequest
+from .database import engine, get_db, SessionLocal
+from .models import Base, User, Order, RankingRequest
 from .auth import register, login, logout, get_current_user
 
 app = FastAPI()
@@ -13,19 +13,8 @@ templates = Jinja2Templates(directory="app/templates")
 Base.metadata.create_all(bind=engine)
 
 # --- Sorting and Ranking Logic ---
-sorting_states = {
-    qid: {
-        "array": [18, 46, 49, 23, 5],  # Example array per qid
-        "sorted_array": [],
-        "processing": False,
-        "ranking_event": asyncio.Event(),
-        "current_ranking_task": None,
-        "ranking_result": None,
-    }
-    for qid in range(1, 10)  # Creating separate states for qids 1-9
-}
-
-event_loops = {qid: None for qid in range(1, 10)}  # Store separate event loops per qid
+sorting_states = None
+event_loops = None
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -147,6 +136,22 @@ def run_sorting(qid: int):
 @app.on_event("startup")
 async def start_sorting():
     """Starts sorting in background threads for all qids."""
+    global sorting_states, event_loops
+    with SessionLocal() as db:
+        orders = db.query(Order).all()
+        qids = set(order.qid for order in orders)
+        
+        sorting_states = {
+            qid: {
+                "array": [order.id for order in orders if order.qid == qid],
+                "processing": False,
+                "sorted_array": [],
+                "current_ranking_task": None,
+                "ranking_event": asyncio.Event()
+            } for qid in qids
+        }
+        event_loops = {qid: None for qid in qids}  # Store separate event loops per qid
+
     for qid in range(1, 10):
         thread = threading.Thread(target=run_sorting, args=(qid,), daemon=True)
         thread.start()

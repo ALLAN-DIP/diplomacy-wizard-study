@@ -206,8 +206,7 @@ class User(Base):
     score = Column(Integer, default=0)
     last_qid_working_on = Column(Integer, default=0)
 
-# qid	orders_id	map_name	player_name	context	stance	map_url	orders_str
-class Orders(Base):
+class Order(Base):
     __tablename__ = "orders"
     id = Column(Integer, primary_key=True, index=True)
     qid = Column(Integer)
@@ -219,7 +218,7 @@ class Orders(Base):
     map_url = Column(String)
     orders_str = Column(String)
 
-class Comparisons(Base):
+class Comparison(Base):
     __tablename__ = "comparisons"
     id = Column(Integer, primary_key=True, index=True)
     qid = Column(Integer)

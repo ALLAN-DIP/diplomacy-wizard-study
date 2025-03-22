@@ -32,11 +32,5 @@ def create_db():
 def init_db():
     create_db()
     
-    db = SessionLocal()
     orders_df = pd.read_excel(os.path.join(DATA_PATH, 'orders.xlsx'), sheet_name='orders')
-    
-    db = SessionLocal()
-    try:
-        orders_df.to_sql('orders', con=engine, if_exists='append', index=False)
-    finally:
-        db.close()
+    orders_df.to_sql('orders', con=engine, if_exists='append', index=False)
