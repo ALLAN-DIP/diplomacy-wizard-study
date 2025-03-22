@@ -143,7 +143,7 @@ async def start_sorting():
         
         sorting_states = {
             qid: {
-                "array": [order.id for order in orders if order.qid == qid],
+                "array": [order.orders_id for order in orders if order.qid == qid],
                 "processing": False,
                 "sorted_array": [],
                 "current_ranking_task": None,
@@ -152,7 +152,7 @@ async def start_sorting():
         }
         event_loops = {qid: None for qid in qids}  # Store separate event loops per qid
 
-    for qid in range(1, 10):
+    for qid in qids:
         thread = threading.Thread(target=run_sorting, args=(qid,), daemon=True)
         thread.start()
 
