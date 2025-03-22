@@ -61,6 +61,7 @@ def assign_qid(db: Session, user: User):
 @app.get("/", response_class=HTMLResponse)
 def home_page(request: Request, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
     """Serves the ranking UI for the assigned qid."""
+    
     if user.last_qid_working_on == 0 or user.last_qid_working_on not in sorting_states:
         new_qid = assign_qid(db, user)
         if new_qid is None:
@@ -71,9 +72,31 @@ def home_page(request: Request, db: Session = Depends(get_db), user: User = Depe
     state = sorting_states[qid]
     if state["processing"] is False:
         return templates.TemplateResponse("index.html", {"request": request, "message": f"Sorting complete for qid {qid}"})
+    
+    # Filter orders for the current task
     orders_filtered = [order for order in orders if order.orders_id in sorting_states[qid]["current_ranking_task"]]
+
+    last_ranking = request.cookies.get(f"last_ranking")
+    if last_ranking:
+        last_ranking_ids = [int(order_id) for order_id in json.loads(last_ranking)]
+        logging.info(f"User {user.username} fetched last ranking for qid {qid}: {last_ranking_ids} vs {[o.orders_id for o in orders_filtered]}")
+        try:
+            temp = [None] * len(orders_filtered)
+            for i, order in enumerate(orders_filtered):
+                if order.orders_id in last_ranking_ids:
+                    temp[last_ranking_ids.index(order.orders_id)] = order
+            for i, order in enumerate(orders_filtered):
+                if order.orders_id not in last_ranking_ids:
+                    temp[temp.index(None)] = order
+            logging.info(f"User {user.username} reordered orders for qid {qid} as {[o.orders_id for o in temp]}")
+            orders_filtered = temp
+        except (ValueError, IndexError):
+            logging.info(f"User {user.username} fetched last ranking for qid {qid} with missing orders")
+
+    
     logging.info(f"Fetched orders for qid {qid} for user {user.username} when orders {[o.orders_id for o in orders]}: {[o.orders_id for o in orders_filtered]}")
     logging.info(f"User {user.username} working on qid {qid} with orders {sorting_states[qid]['current_ranking_task']}")
+
     return templates.TemplateResponse("index.html", {
         "request": request,
         "orders": orders_filtered,
@@ -107,7 +130,11 @@ async def submit_ranking(request: Request, db: Session = Depends(get_db), user: 
         if new_qid is None:
             return RedirectResponse(url="/", status_code=303)
 
-    return RedirectResponse(url="/", status_code=303)
+    # Store the ranking in a cookie
+    response = RedirectResponse(url="/", status_code=303)
+    response.set_cookie(key="last_ranking", value=ranking_list, max_age=86400)
+
+    return response
 
 
 # --- Ranking API ---
