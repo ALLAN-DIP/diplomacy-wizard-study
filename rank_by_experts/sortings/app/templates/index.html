@@ -3,52 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diplomacy Annotation</title>
+    <title>Rank Orders</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background-color: #f8f9fa; 
             margin: 0;
+            padding: 20px;
+        }
+        h2 { color: #333; }
+        .container { 
+            max-width: 100%; 
+            margin: auto; 
+        }
+        .order-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px;
+        }
+        .order-list {
+            display: flex;
+            list-style: none;
             padding: 0;
+            overflow-x: auto;
+            gap: 15px;
         }
-        .container {
-            margin-top: 50px;
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            display: inline-block;
+        .order-item {
+            padding: 15px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: grab;
+            text-align: center;
+            width: 500px;
+            min-width: 200px;
         }
-        h1 {
-            color: #333;
+        .order-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
         }
-        p {
-            font-size: 18px;
-            color: #555;
+        .arrow {
+            font-size: 2rem;
+            color: #007bff;
+            user-select: none;
         }
         button {
-            background: #007BFF;
+            padding: 12px 20px;
+            font-size: 16px;
+            background-color: #007bff;
             color: white;
             border: none;
-            padding: 10px 20px;
-            margin: 10px;
-            font-size: 16px;
-            cursor: pointer;
             border-radius: 5px;
-            transition: 0.3s ease;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 15px;
         }
         button:hover {
-            background: #0056b3;
-        }
-        form {
-            display: inline-block;
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
 
+    <h2>Rank Orders for QID: {{ qid }}</h2>
+    <strong>{{ orders[0].player_name }} - {{ orders[0].map_name }}</strong> <br>
+    <p>{{ orders[0].stance }}</p>
+    <p>Drag & drop to reorder. Left = lower rank, Right = higher rank.</p>
 
+    {% if orders %}
+    <div class="container">
+        <div class="order-container">
+            <span class="arrow">⬅</span>
+            <ul id="sortable-list" class="order-list">
+                {% for order in orders %}
+                <li class="order-item" data-id="{{ order.orders_id }}">
+                    <img src="{{ order.map_url }}" alt="Map"> <br>
+                    {{ order.orders_str | replace('\n', '<br>') | safe }}
+                    <p>{{ order.orders_id }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+            <span class="arrow">➡</span>
+        </div>
+        <button onclick="submitRanking()">Submit Ranking</button>
+    </div>
+    {% else %}
+        <p>No orders available for ranking.</p>
+    {% endif %}
+
+    <script>
+        // Enable drag-and-drop sorting
+        new Sortable(document.getElementById("sortable-list"), {
+            animation: 200,
+            easing: "cubic-bezier(0.25, 1, 0.5, 1)"
+        });
+
+        function submitRanking() {
+            let rankedOrder = [];
+            document.querySelectorAll(".order-item").forEach(item => {
+                rankedOrder.push(item.getAttribute("data-id"));
+            });
+
+            fetch("/", {
+                method: "POST",
+                body: new URLSearchParams({ "ranking": JSON.stringify(rankedOrder) }),
+                headers: { "Content-Type": "application/x-www-form-urlencoded" }
+            }).then(response => {
+                if (response.ok) {
+                    window.location.reload();
+                }
+            });
+        }
+    </script>
 
 </body>
 </html>

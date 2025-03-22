@@ -1,30 +1,113 @@
 import asyncio
 import threading
+import json
 from sqlalchemy.orm import Session
 from fastapi import FastAPI, Depends, Form, Request, Query
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse, RedirectResponse
 from .database import engine, get_db, SessionLocal
-from .models import Base, User, Order, RankingRequest
+from .models import Base, User, Order, RankingRequest, Comparison, CompleteRanking
 from .auth import register, login, logout, get_current_user
+import logging
 
 app = FastAPI()
 templates = Jinja2Templates(directory="app/templates")
 Base.metadata.create_all(bind=engine)
+logging.basicConfig(filename='app.log', level=logging.DEBUG)
+
 
 # --- Sorting and Ranking Logic ---
 sorting_states = None
 event_loops = None
 
 
-@app.get("/", response_class=HTMLResponse)
-def home_page(request: Request, user: User = Depends(get_current_user)):
-    return templates.TemplateResponse("index.html", {"request": request, "user": user})
+@app.get("/register", response_class=HTMLResponse)
+def register_page(request: Request):
+    logging.info("Register page accessed")
+    return templates.TemplateResponse("register.html", {"request": request})
 
+
+@app.post("/register")
+def register_user(username: str = Form(...), db: Session = Depends(get_db)):
+    register(username, db)
+    result = login(username, db)
+    response = RedirectResponse(url="/", status_code=303)
+    for cookie in result.headers.getlist("set-cookie"):
+        response.headers.append("set-cookie", cookie)
+        logging.info(f"User {username} registered with session id {result.headers['set-cookie']}")
+    return response
 
 @app.post("/logout")
 def logout_user():
     return logout()
+
+
+def assign_qid(db: Session, user: User):
+    """Assigns a new qid to a user if they need one."""
+    available_qids = set(order.qid for order in db.query(Order).all()) - set(
+        user.last_qid_working_on for user in db.query(User).all()
+    )
+
+    if not available_qids:
+        return None  # No new qids available
+
+    new_qid = min(available_qids)  # Assign the smallest available qid
+    user.last_qid_working_on = new_qid
+    db.commit()
+    logging.info(f"User {user.username} assigned qid {new_qid}")
+    return new_qid
+
+
+@app.get("/", response_class=HTMLResponse)
+def home_page(request: Request, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
+    """Serves the ranking UI for the assigned qid."""
+    if user.last_qid_working_on == 0 or user.last_qid_working_on not in sorting_states:
+        new_qid = assign_qid(db, user)
+        if new_qid is None:
+            return templates.TemplateResponse("index.html", {"request": request, "message": "All sorting completed!"})
+
+    qid = user.last_qid_working_on
+    orders = db.query(Order).filter(Order.qid == qid).all()
+    state = sorting_states[qid]
+    if state["processing"] is False:
+        return templates.TemplateResponse("index.html", {"request": request, "message": f"Sorting complete for qid {qid}"})
+    orders_filtered = [order for order in orders if order.orders_id in sorting_states[qid]["current_ranking_task"]]
+    logging.info(f"Fetched orders for qid {qid} for user {user.username} when orders {[o.orders_id for o in orders]}: {[o.orders_id for o in orders_filtered]}")
+    logging.info(f"User {user.username} working on qid {qid} with orders {sorting_states[qid]['current_ranking_task']}")
+    return templates.TemplateResponse("index.html", {
+        "request": request,
+        "orders": orders_filtered,
+        "qid": qid
+    })
+
+
+@app.post("/")
+async def submit_ranking(request: Request, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
+    """Receives a ranking response and stores it."""
+    form_data = await request.form()
+    ranking_json = form_data.get("ranking")
+    if not ranking_json:
+        return RedirectResponse(url="/", status_code=303)
+
+    ranking_list = [int(order_id) for order_id in json.loads(ranking_json)]
+    qid = user.last_qid_working_on
+    db.add(Comparison(qid=qid, user_id=user.id, comparison=ranking_json))
+    db.commit()
+
+    # Signal sorting to continue
+    sorting_states[qid]["ranking_result"] = ranking_list
+    future = asyncio.run_coroutine_threadsafe(set_ranking_event(qid), event_loops[qid])
+    future.result()
+
+    logging.info(f"User {user.username} submitted ranking for qid {qid} as {ranking_list}")
+
+    # If sorting is complete, assign a new qid
+    if not sorting_states[qid]["processing"]:
+        new_qid = assign_qid(db, user)
+        if new_qid is None:
+            return RedirectResponse(url="/", status_code=303)
+
+    return RedirectResponse(url="/", status_code=303)
 
 
 # --- Ranking API ---
@@ -53,7 +136,6 @@ async def receive_ranking_response(qid: int = Query(...), request: RankingReques
     future.result()
 
     return {"status": "Response received"}
-
 
 async def set_ranking_event(qid: int):
     """Sets the ranking event for a specific qid."""
@@ -150,7 +232,7 @@ async def start_sorting():
                 "ranking_event": asyncio.Event()
             } for qid in qids
         }
-        event_loops = {qid: None for qid in qids}  # Store separate event loops per qid
+        event_loops = {qid: None for qid in qids}
 
     for qid in qids:
         thread = threading.Thread(target=run_sorting, args=(qid,), daemon=True)
