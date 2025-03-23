@@ -69,14 +69,54 @@
         button:hover {
             background-color: #0056b3;
         }
+        .austria { background-color: rgb(247, 82, 82); } /* Light Orange */
+        .england { background-color: rgb(253, 103, 196); } /* Light Blue */
+        .france { background-color: rgb(124, 124, 243); } /* Blue */
+        .germany { background-color: rgb(230, 197, 146); } /* Grey */
+        .italy { background-color: rgb(126, 227, 126); } /* Green */
+        .russia { background-color: rgb(206, 189, 224); } /* Purple */
+        .turkey { background-color: rgb(242, 242, 80); } /* Yellow */
+        .power {
+            padding: 8px;
+            margin: 4px;
+            list-style: none;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
 
-    <h2>Rank Orders for QID: {{ qid }}</h2>
-    <strong>{{ orders[0].player_name }} - {{ orders[0].map_name }}</strong> <br>
-    <p>{{ orders[0].stance }}</p>
-    <p>Drag & drop to reorder. Left = lower rank, Right = higher rank.</p>
+    <h2>Rank Orders (Scenario #{{ qid }})</h2>
+    Playing as:
+    <strong class="{{ orders[0].player_name.lower() }}">
+        {{ orders[0].player_name }}
+    </strong>
+    <br>
+
+    <p>
+        {% if stance_friends|length > 0 %}
+            <strong>Friends:</strong> 
+            {% for power in stance_friends %}
+                <span class="{{ power.lower() }}">{{ power }}</span>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+        {% endif %}
+    
+        {% if stance_foes %}
+            {% if stance_friends|length > 0 %} | {% endif %}
+            <strong>Enemies:</strong> 
+            {% for power in stance_foes %}
+                <span class="{{ power.lower() }}">{{ power }}</span>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+        {% endif %}
+    
+        {% if stance_neutral|length > 0 %}
+            {% if stance_friends|length > 0 or stance_foes|length > 0 %} | {% endif %}
+            No information about others (neutral)
+        {% endif %}
+    </p>
+    
 
     {% if orders %}
     <div class="container">
