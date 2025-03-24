@@ -41,8 +41,8 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             cursor: grab;
             text-align: center;
-            width: 500px; /* Set width to 700px */
-            min-width: 500px; /* Optional: ensure items are not smaller than 700px */
+            width: 400px; /* Set width to 700px */
+            min-width: 400px; /* Optional: ensure items are not smaller than 700px */
             flex-shrink: 0; /* Prevent shrinking of items */
         }
         .order-item img {
@@ -70,11 +70,11 @@
             background-color: #0056b3;
         }
         .austria { background-color: rgb(247, 82, 82); } /* Light Orange */
-        .england { background-color: rgb(253, 103, 196); } /* Light Blue */
+        .england { background-color: rgb(206, 189, 224); } /* Light Blue */
         .france { background-color: rgb(124, 124, 243); } /* Blue */
         .germany { background-color: rgb(230, 197, 146); } /* Grey */
         .italy { background-color: rgb(126, 227, 126); } /* Green */
-        .russia { background-color: rgb(206, 189, 224); } /* Purple */
+        .russia { background-color: rgb(163, 163, 163); } /* Purple */
         .turkey { background-color: rgb(242, 242, 80); } /* Yellow */
         .power {
             padding: 8px;
@@ -117,6 +117,7 @@
         {% endif %}
     </p>
     
+    Drag & drop to reorder these <strong> {{ orders|length }} </strong> orders based on quality. Left = lower rank, Right = higher rank.
 
     {% if orders %}
     <div class="container">
