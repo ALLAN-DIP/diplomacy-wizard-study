@@ -46,7 +46,7 @@ def assign_qid(db: Session, user: User):
     """Assigns a new qid to a user if they need one."""
     available_qids = set(order.qid for order in db.query(Order).all()) - set(
         user.last_qid_working_on for user in db.query(User).all()
-    )
+    ) - set(ranking.qid for ranking in db.query(CompleteRanking).all())
 
     if not available_qids:
         return None  # No new qids available
@@ -65,15 +65,14 @@ def home_page(request: Request, db: Session = Depends(get_db), user: User = Depe
     if user.last_qid_working_on == 0 or user.last_qid_working_on not in sorting_states:
         new_qid = assign_qid(db, user)
         if new_qid is None:
-            return templates.TemplateResponse("index.html", {"request": request, "message": "All sorting completed!"})
+            return templates.TemplateResponse("done.html", {"request": request})
 
     qid = user.last_qid_working_on
     orders = db.query(Order).filter(Order.qid == qid).all()
     state = sorting_states[qid]
     if state["processing"] is False:
-        return templates.TemplateResponse("index.html", {"request": request, "message": f"Sorting complete for qid {qid}"})
-    
-    # Filter orders for the current task
+        return templates.TemplateResponse("done.html", {"request": request})
+
     orders_filtered = [order for order in orders if order.orders_id in sorting_states[qid]["current_ranking_task"]]
 
     last_ranking = request.cookies.get(f"last_ranking")
@@ -242,7 +241,12 @@ def run_sorting(qid: int):
         modified_quicksort(qid, sorting_states[qid]["array"])
     )
     sorting_states[qid]["processing"] = False
-    print(f"Sorting complete for qid {qid}: {sorting_states[qid]['sorted_array']}")
+    logging.info(f"Sorting complete for qid {qid}: {sorting_states[qid]['sorted_array']}")
+    event_loops[qid].close()
+    with SessionLocal() as db:
+        db.query(CompleteRanking).filter(CompleteRanking.qid == qid).delete()
+        db.add(CompleteRanking(qid=qid, ranking=json.dumps(sorting_states[qid]["sorted_array"])))
+        db.commit()
 
 
 @app.on_event("startup")
