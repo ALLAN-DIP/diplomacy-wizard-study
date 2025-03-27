@@ -297,15 +297,3 @@ async def start_sorting():
         thread = threading.Thread(target=run_sorting, args=(qid,), daemon=True)
         thread.start()
 
-
-@app.get("/sorted_result")
-async def get_sorted_result(qid: int = Query(...)):
-    """Returns the final sorted array for a specific qid."""
-    if qid not in sorting_states:
-        return {"error": "Invalid qid"}
-    
-    state = sorting_states[qid]
-    if state["processing"]:
-        return {"status": "Sorting in progress"}
-    
-    return {"sorted_array": state["sorted_array"]}
