@@ -146,11 +146,12 @@ def get_sorted_result(request: Request, qid: int = Query(...), db: Session = Dep
         return templates.TemplateResponse("sorted_results.html", {"request": request, "qid": qid, "orders": []})
 
     state = sorting_states[qid]
-    
-    if state["processing"]:
+    # get infor from db, complete ranking table
+    complete_ranking = db.query(CompleteRanking).filter(CompleteRanking.qid == qid).first()
+    if not complete_ranking:
         return HTMLResponse(content="<h2>Sorting is still in progress...</h2>", status_code=200)
 
-    sorted_order_ids = state["sorted_array"]
+    sorted_order_ids = json.loads(complete_ranking.ranking)
     if not sorted_order_ids:
         return templates.TemplateResponse("sorted_results.html", {"request": request, "qid": qid, "orders": []})
 
