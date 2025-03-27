@@ -61,7 +61,7 @@
 <body>
 
     <h2>Final Sorted Orders for QID: {{ qid }}</h2>
-    <strong>{{ orders[0].player_name }} - {{ orders[0].map_name }}</strong> <br>
+    <strong>{{ orders[0].player_name }} - {{ orders[0].map_name }} - {{ orders[0].context }}</strong> <br>
     <strong>{{ orders[0].stance }} </strong> <br>
 
     {% if orders %}
@@ -69,7 +69,6 @@
             {% for order in orders | reverse %}
                 <div class="order-item">
                     <div class="order-number">#{{ loop.index}}</div>
-                    <em>{{ order.context }}</em> <br>
                     <img src="{{ order.map_url }}" alt="Map"> <br>
                     <p>
                         <strong>Order:</strong> {{ order.orders_str | replace('\n', '<br>') | safe }}
