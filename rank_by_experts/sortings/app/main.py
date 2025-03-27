@@ -139,6 +139,31 @@ async def submit_ranking(request: Request, db: Session = Depends(get_db), user: 
     return response
 
 
+@app.get("/sorted_result", response_class=HTMLResponse)
+def get_sorted_result(request: Request, qid: int = Query(...), db: Session = Depends(get_db)):
+    """Returns the final sorted array as an HTML page."""
+    if qid not in sorting_states:
+        return templates.TemplateResponse("sorted_results.html", {"request": request, "qid": qid, "orders": []})
+
+    state = sorting_states[qid]
+    
+    if state["processing"]:
+        return HTMLResponse(content="<h2>Sorting is still in progress...</h2>", status_code=200)
+
+    sorted_order_ids = state["sorted_array"]
+    if not sorted_order_ids:
+        return templates.TemplateResponse("sorted_results.html", {"request": request, "qid": qid, "orders": []})
+
+    # Fetch order details from DB
+    orders = db.query(Order).filter(Order.qid == qid, Order.orders_id.in_(sorted_order_ids)).all()
+
+    # Sort them based on stored order
+    order_dict = {order.orders_id: order for order in orders}
+    sorted_orders = [order_dict[oid] for oid in sorted_order_ids if oid in order_dict]
+
+    return templates.TemplateResponse("sorted_results.html", {"request": request, "qid": qid, "orders": sorted_orders})
+
+
 # --- Ranking API ---
 @app.get("/ranking/task")
 async def get_ranking_task(qid: int = Query(...)):

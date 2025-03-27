@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorted Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px;
+        }
+        h2 { color: #333; }
+        .order-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            justify-items: center;
+            margin-top: 20px;
+        }
+        .order-item {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: left;
+            width: 100%;
+            max-width: 280px;
+            position: relative;
+        }
+        .order-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .order-number {
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #007bff;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        .arrow-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .arrow {
+            font-size: 24px;
+            color: #007bff;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Final Sorted Orders for QID: {{ qid }}</h2>
+
+    {% if orders %}
+        <div class="order-container">
+            {% for order in orders %}
+                <div class="order-item">
+                    <div class="order-number">#{{ loop.index }}</div>
+                    <strong>{{ order.player_name }} - {{ order.map_name }}</strong> <br>
+                    <em>{{ order.context }}</em> <br>
+                    <img src="{{ order.map_url }}" alt="Map"> <br>
+                    <p>
+                        <strong>Order:</strong> {{ order.orders_str | replace('\n', '<br>') | safe }}
+                    </p>
+                    <p><strong>ID:</strong> {{ order.orders_id }}</p>
+                </div>
+                
+                {% if not loop.last and loop.index % 4 == 0 %}
+                    <!-- Add arrow row after every 4 items -->
+                    <div class="arrow-container" style="grid-column: span 4;">
+                        <span class="arrow">⬅️</span>
+                        <span class="arrow">⬅️</span>
+                        <span class="arrow">⬅️</span>
+                        <span class="arrow">⬅️</span>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    {% else %}
+        <h3>No sorted results available.</h3>
+    {% endif %}
+
+</body>
+</html>
