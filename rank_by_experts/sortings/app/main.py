@@ -164,6 +164,11 @@ def get_sorted_result(request: Request, qid: int = Query(...), db: Session = Dep
 
     return templates.TemplateResponse("sorted_results.html", {"request": request, "qid": qid, "orders": sorted_orders})
 
+@app.get("get_number_of_comparison", response_class=HTMLResponse)
+def get_number_of_comparison(request: Request, qid: int = Query(...), db: Session = Depends(get_db)):
+    """Returns the number of comparisons for each qid."""
+    comparisons = db.query(Comparison).filter(Comparison.qid == qid).all()
+    return len(comparisons)
 
 # --- Ranking API ---
 @app.get("/ranking/task")
