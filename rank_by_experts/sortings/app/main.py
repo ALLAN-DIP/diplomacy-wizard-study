@@ -4,7 +4,7 @@ import json
 from sqlalchemy.orm import Session
 from fastapi import FastAPI, Depends, Form, Request, Query
 from fastapi.templating import Jinja2Templates
-from fastapi.responses import HTMLResponse, RedirectResponse
+from fastapi.responses import HTMLResponse, RedirectResponse, JSONResponse
 from .database import engine, get_db, SessionLocal
 from .models import Base, User, Order, RankingRequest, Comparison, CompleteRanking
 from .auth import register, login, logout, get_current_user
@@ -164,11 +164,11 @@ def get_sorted_result(request: Request, qid: int = Query(...), db: Session = Dep
 
     return templates.TemplateResponse("sorted_results.html", {"request": request, "qid": qid, "orders": sorted_orders})
 
-@app.get("get_number_of_comparison", response_class=HTMLResponse)
+@app.get("/get_number_of_comparison", response_class=JSONResponse)
 def get_number_of_comparison(request: Request, qid: int = Query(...), db: Session = Depends(get_db)):
     """Returns the number of comparisons for each qid."""
     comparisons = db.query(Comparison).filter(Comparison.qid == qid).all()
-    return len(comparisons)
+    return {"number_of_comparisons": len(comparisons)}
 
 # --- Ranking API ---
 @app.get("/ranking/task")
