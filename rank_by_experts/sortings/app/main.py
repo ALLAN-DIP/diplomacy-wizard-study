@@ -170,6 +170,15 @@ def get_number_of_comparison(request: Request, qid: int = Query(...), db: Sessio
     comparisons = db.query(Comparison).filter(Comparison.qid == qid).all()
     return {"number_of_comparisons": len(comparisons)}
 
+@app.get("/get_complete_ranking", response_class=JSONResponse)
+def get_complete_ranking(request: Request, qid: int = Query(...), db: Session = Depends(get_db)):
+    """Returns the complete ranking for a specific qid."""
+    complete_ranking = db.query(CompleteRanking).filter(CompleteRanking.qid == qid).first()
+    if complete_ranking:
+        return {"ranking": json.loads(complete_ranking.ranking)}
+    else:
+        return {"ranking": []}
+
 # --- Ranking API ---
 @app.get("/ranking/task")
 async def get_ranking_task(qid: int = Query(...)):
