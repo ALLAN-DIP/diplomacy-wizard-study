@@ -32,10 +32,12 @@ for t, s, f in product(TYPES, SIDE, FRICTION):
             continue
         if f in ["YCO", "ROO"] and s not in ["side-self", "both"]:
             continue
-    t_str = "null" if t == "null" else t.replace("sugg-", "")
-    s_str = "null" if s == "null" else s.replace("side-", "")
-    f_str = f
-    print(f"{t_str} {s_str} {f_str}")
+    t_str = "N" if t == "null" else t.replace("sugg-", "")
+    s_str = "N" if s == "null" else s.replace("both", "SO")
+    s_str = "S" if s_str == "side-self" else s_str
+    s_str = "O" if s_str == "side-other" else s_str
+    f_str = "N" if f == "null" else f
+    print(f"{t_str}-{s_str}-{f_str}")
     if t_str == "null" and s_str == "null" and f_str in ["null", "ERO"]:
         continue
     treatments["type"].append(t)

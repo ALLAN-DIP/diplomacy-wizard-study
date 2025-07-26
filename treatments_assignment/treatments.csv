@@ -1,4 +1,6 @@
 type,side,friction
+null,null,null
+null,null,ERO
 sugg-TB,side-self,null
 sugg-TB,side-self,YCO
 sugg-TB,side-self,ROO
