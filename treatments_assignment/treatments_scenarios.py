@@ -18,7 +18,6 @@ print("TYPE2SCENARIO:", TYPE2SCENARIO)
 # invalid combinations:
 # if type is null, side must be null, friction could be only ERO or null
 # if type is not null, side must be a not null item, friction could be null, YCO, ROO, ERO
-# if friction is YCO or ROO, side must be side-self or both
 
 # then we would have 42 valid combinations
 # because of symmetry, we can remove N-N-ERO
@@ -37,8 +36,6 @@ for t, s, f in product(TYPES, SIDE, FRICTION):
             continue
     else:
         if s == "null":
-            continue
-        if f in ["YCO", "ROO"] and s not in ["side-self", "both"]:
             continue
     t_str = "N" if t == "null" else t.replace("sugg-", "")
     s_str = "N" if s == "null" else s.replace("both", "SO")

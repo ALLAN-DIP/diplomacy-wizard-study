@@ -6,6 +6,8 @@ scenario_id,type,side,friction
 3,sugg-TB,side-self,ROO
 3,sugg-TB,side-self,ERO
 3,sugg-TB,side-other,null
+3,sugg-TB,side-other,YCO
+3,sugg-TB,side-other,ROO
 3,sugg-TB,side-other,ERO
 3,sugg-TB,both,null
 3,sugg-TB,both,YCO
@@ -16,6 +18,8 @@ scenario_id,type,side,friction
 1,sugg-TKT,side-self,ROO
 1,sugg-TKT,side-self,ERO
 1,sugg-TKT,side-other,null
+1,sugg-TKT,side-other,YCO
+1,sugg-TKT,side-other,ROO
 1,sugg-TKT,side-other,ERO
 1,sugg-TKT,both,null
 1,sugg-TKT,both,YCO
@@ -26,6 +30,8 @@ scenario_id,type,side,friction
 2,sugg-VB,side-self,ROO
 2,sugg-VB,side-self,ERO
 2,sugg-VB,side-other,null
+2,sugg-VB,side-other,YCO
+2,sugg-VB,side-other,ROO
 2,sugg-VB,side-other,ERO
 2,sugg-VB,both,null
 2,sugg-VB,both,YCO
@@ -36,6 +42,8 @@ scenario_id,type,side,friction
 4,sugg-VKT,side-self,ROO
 4,sugg-VKT,side-self,ERO
 4,sugg-VKT,side-other,null
+4,sugg-VKT,side-other,YCO
+4,sugg-VKT,side-other,ROO
 4,sugg-VKT,side-other,ERO
 4,sugg-VKT,both,null
 4,sugg-VKT,both,YCO
