@@ -78,9 +78,9 @@ The study investigates three main factors:
 1. **Suggestion Type (TYPE)**
    - `null` - No suggestions
    - `sugg-TB` - Text-best suggestions
-   - `sugg-TKT` - Text-best with key terms
-   - `sugg-VB` - Visual-k-top suggestions
-   - `sugg-VKT` - Visual-k-top with key terms
+   - `sugg-TKT` - Text-k-top suggestions
+   - `sugg-VB` - Visual-best suggestions
+   - `sugg-VKT` - Visual-k-top suggestions
 
 2. **Side (SIDE)**
    - `null` - No side information
