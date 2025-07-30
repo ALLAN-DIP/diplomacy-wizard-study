@@ -49,10 +49,10 @@ The study investigates three main factors:
 
 1. **Suggestion Type (TYPE)**
    - `null` - No suggestions
-   - `sugg-TB` - Text-based suggestions
-   - `sugg-TKT` - Text-based with key terms
-   - `sugg-VB` - Visual-based suggestions
-   - `sugg-VKT` - Visual-based with key terms
+   - `sugg-TB` - Text-best suggestions
+   - `sugg-TKT` - Text-best with key terms
+   - `sugg-VB` - Visual-k-top suggestions
+   - `sugg-VKT` - Visual-k-top with key terms
 
 ### Scenarios
 
@@ -77,10 +77,10 @@ The study investigates three main factors:
 
 1. **Suggestion Type (TYPE)**
    - `null` - No suggestions
-   - `sugg-TB` - Text-based suggestions
-   - `sugg-TKT` - Text-based with key terms
-   - `sugg-VB` - Visual-based suggestions
-   - `sugg-VKT` - Visual-based with key terms
+   - `sugg-TB` - Text-best suggestions
+   - `sugg-TKT` - Text-best with key terms
+   - `sugg-VB` - Visual-k-top suggestions
+   - `sugg-VKT` - Visual-k-top with key terms
 
 2. **Side (SIDE)**
    - `null` - No side information
@@ -90,9 +90,9 @@ The study investigates three main factors:
 
 3. **Friction (FRICTION)**
    - `null` - No friction
-   - `YCO` - You can only (restriction)
-   - `ROO` - Read only (restriction)
-   - `ERO` - Early reveal only
+   - `YCO` - Commentary for the suggested orders
+   - `ROO` - Asking for rationals for the suggested orders
+   - `ERO` - Asking for rationals for the set orders
 
 ### Scenarios
 
