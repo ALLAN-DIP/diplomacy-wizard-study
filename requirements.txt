@@ -1,0 +1,40 @@
+# Core web framework and server
+fastapi>=0.68.0
+uvicorn>=0.15.0
+
+# Database and ORM
+sqlalchemy>=1.4.0
+
+# Template engine
+jinja2>=3.0.0
+
+# File upload handling
+python-multipart>=0.0.5
+
+# Data processing
+pandas>=1.3.0
+numpy>=1.21.0
+
+# HTML parsing and manipulation
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+
+# Progress bars
+tqdm>=4.62.0
+
+# JSON schema validation (optional)
+jsonschema>=3.2.0
+
+# System monitoring (optional)
+psutil>=5.8.0
+
+# HTTP requests
+requests>=2.25.0
+
+# Image processing (for SVG handling)
+Pillow>=8.3.0
+
+# Development tools (optional)
+pytest>=6.2.0
+black>=21.0.0
+flake8>=3.9.0 
