@@ -1,0 +1,7 @@
+SELF:
+- Why do you think X is not in the top suggestions? Haven't you had that originally in your mind?
++ Why do you think X is in the top suggestions? Have you had that originally in your mind?
+
+OTHER:
++ For France, why do you think X is in the top suggestions? What other move were you predicting?
+- For France, why do you think X is not in the top suggestions? What move were you predicting for it?
