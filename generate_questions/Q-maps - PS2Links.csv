@@ -1,0 +1,13 @@
+PSi,Scenario 1 [TKT],Scenario 2 [VB],Scenario 3 [TB],Scenario 4 [VKT],Link
+PS1,N-S,YCO-O,ROO-SO,ERO-S,https://usc.qualtrics.com/jfe/form/SV_5ANvI3dIu0fryXs?side1=S&friction1=N&side2=O&friction2=YCO&side3=SO&friction3=ROO&side4=S&friction4=ERO
+PS2,YCO-S,ROO-O,ERO-SO,N-S,https://usc.qualtrics.com/jfe/form/SV_5ANvI3dIu0fryXs?side1=S&friction1=YCO&side2=O&friction2=ROO&side3=SO&friction3=ERO&side4=S&friction4=N
+PS3,ROO-S,ERO-O,N-SO,YCO-S,https://usc.qualtrics.com/jfe/form/SV_5ANvI3dIu0fryXs?side1=S&friction1=ROO&side2=O&friction2=ERO&side3=SO&friction3=N&side4=S&friction4=YCO
+PS4,ERO-S,N-O,YCO-SO,ROO-S,https://usc.qualtrics.com/jfe/form/SV_5ANvI3dIu0fryXs?side1=S&friction1=ERO&side2=O&friction2=N&side3=SO&friction3=YCO&side4=S&friction4=ROO
+PS5,N-O,YCO-SO,ROO-S,ERO-O,https://usc.qualtrics.com/jfe/form/SV_5ANvI3dIu0fryXs?side1=O&friction1=N&side2=SO&friction2=YCO&side3=S&friction3=ROO&side4=O&friction4=ERO
+PS6,YCO-O,ROO-SO,ERO-S,N-O,https://usc.qualtrics.com/jfe/form/SV_5ANvI3dIu0fryXs?side1=O&friction1=YCO&side2=SO&friction2=ROO&side3=S&friction3=ERO&side4=O&friction4=N
+PS7,ROO-O,ERO-SO,N-S,YCO-O,https://usc.qualtrics.com/jfe/form/SV_5ANvI3dIu0fryXs?side1=O&friction1=ROO&side2=SO&friction2=ERO&side3=S&friction3=N&side4=O&friction4=YCO
+PS8,ERO-O,N-SO,YCO-S,ROO-O,https://usc.qualtrics.com/jfe/form/SV_5ANvI3dIu0fryXs?side1=O&friction1=ERO&side2=SO&friction2=N&side3=S&friction3=YCO&side4=O&friction4=ROO
+PS9,N-SO,YCO-S,ROO-O,ERO-SO,https://usc.qualtrics.com/jfe/form/SV_5ANvI3dIu0fryXs?side1=SO&friction1=N&side2=S&friction2=YCO&side3=O&friction3=ROO&side4=SO&friction4=ERO
+PS10,YCO-SO,ROO-S,ERO-O,N-SO,https://usc.qualtrics.com/jfe/form/SV_5ANvI3dIu0fryXs?side1=SO&friction1=YCO&side2=S&friction2=ROO&side3=O&friction3=ERO&side4=SO&friction4=N
+PS11,ROO-SO,ERO-S,N-O,YCO-SO,https://usc.qualtrics.com/jfe/form/SV_5ANvI3dIu0fryXs?side1=SO&friction1=ROO&side2=S&friction2=ERO&side3=O&friction3=N&side4=SO&friction4=YCO
+PS12,ERO-SO,N-S,YCO-O,ROO-SO,https://usc.qualtrics.com/jfe/form/SV_5ANvI3dIu0fryXs?side1=SO&friction1=ERO&side2=S&friction2=N&side3=O&friction3=YCO&side4=SO&friction4=ROO
