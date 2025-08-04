@@ -12,7 +12,19 @@ BASE_LINK = (
     "&side4={side4}&friction4={friction4}"
 )
 
-# Function to extract side and friction from a scenario string
+
+SIDE_MAP = {
+    'S': 'side-self',
+    'O': 'side-other',
+    'SO': 'both'
+}
+FRICTION_MAP = {
+    'N': 'null',
+    'YCO': 'YCO',
+    'ERO': 'ERO',
+    'ROO': 'ROO',
+}
+
 def parse_scenario(s):
     if pd.isna(s) or "-" not in s:
         return ("null", "null")
@@ -22,7 +34,7 @@ def parse_scenario(s):
     else:
         # fallback for malformed entries
         friction, side = "null", "null"
-    return (side.strip(), friction.strip())
+    return (SIDE_MAP[side.strip()], FRICTION_MAP[friction.strip()])
 
 # Apply the function to generate the Link
 links = []
@@ -45,3 +57,4 @@ ps2link_df["Link"] = links
 
 # Save the updated DataFrame to a new CSV (or overwrite)
 ps2link_df.to_csv("Q-maps - PS2Links.csv", index=False)
+# ps2link_df.to_csv("Q-maps - PS2Links.tsv", index=False, sep='\t')
