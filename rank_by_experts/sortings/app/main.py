@@ -100,9 +100,10 @@ def home_page(request: Request, db: Session = Depends(get_db), user: User = Depe
         "request": request,
         "orders": orders_filtered,
         "qid": qid,
-        "stance_friends": [k for k,v in dict(eval(orders[0].stance)).items() if v > 0],
-        "stance_foes": [k for k,v in dict(eval(orders[0].stance)).items() if v < 0],
-        "stance_neutral": [k for k,v in dict(eval(orders[0].stance)).items() if v == 0]
+        "vid_url": orders_filtered[0].video_url if orders_filtered else None,
+        # "stance_friends": [k for k,v in dict(eval(orders[0].stance)).items() if v > 0],
+        # "stance_foes": [k for k,v in dict(eval(orders[0].stance)).items() if v < 0],
+        # "stance_neutral": [k for k,v in dict(eval(orders[0].stance)).items() if v == 0]
     })
 
 

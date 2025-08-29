@@ -8,7 +8,7 @@ import datetime
 
 DB_NAME = ".db"
 DATABASE_URL = f"sqlite:///./{DB_NAME}"
-DATA_PATH = os.path.join(os.path.dirname(__file__), "../../../../collected-data/n45")
+DATA_PATH = os.path.join(os.path.dirname(__file__), "../../../../collected-data/toa")
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
@@ -32,5 +32,5 @@ def create_db():
 def init_db():
     create_db()
     
-    orders_df = pd.read_excel(os.path.join(DATA_PATH, 'orders.xlsx'), sheet_name='orders')
+    orders_df = pd.read_excel(os.path.join(DATA_PATH, 'orders.xlsx'))
     orders_df.to_sql('orders', con=engine, if_exists='append', index=False)

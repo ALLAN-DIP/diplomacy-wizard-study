@@ -222,6 +222,7 @@ class ResponseSimple(Base):
     how_hard = Column(String)
     how_frustrating = Column(String)
     orders_str = Column(String)
+    video_url = Column(String)
     map_url = Column(String)
     time_spent_normalized_by_null = Column(Float)
     number_of_clicks_normalized_by_null = Column(Float)

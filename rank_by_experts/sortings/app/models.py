@@ -210,13 +210,14 @@ class Order(Base):
     __tablename__ = "orders"
     id = Column(Integer, primary_key=True, index=True)
     qid = Column(Integer)
-    orders_id = Column(Integer)
+    orders_id = Column(String)
     map_name = Column(String)
     player_name = Column(String)
     context = Column(String)
     stance = Column(String)
     map_url = Column(String)
     orders_str = Column(String)
+    video_url = Column(String)
 
 class Comparison(Base):
     __tablename__ = "comparisons"
