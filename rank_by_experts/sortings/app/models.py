@@ -210,7 +210,7 @@ class Order(Base):
     __tablename__ = "orders"
     id = Column(Integer, primary_key=True, index=True)
     qid = Column(Integer)
-    orders_id = Column(String)
+    orders_id = Column(Integer)
     map_name = Column(String)
     player_name = Column(String)
     context = Column(String)
