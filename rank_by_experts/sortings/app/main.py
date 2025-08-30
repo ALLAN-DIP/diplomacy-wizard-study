@@ -31,7 +31,7 @@ def register_page(request: Request):
 def register_user(username: str = Form(...), db: Session = Depends(get_db)):
     register(username, db)
     result = login(username, db)
-    response = RedirectResponse(url="/", status_code=303)
+    response = RedirectResponse(url="/orders/", status_code=303)
     for cookie in result.headers.getlist("set-cookie"):
         response.headers.append("set-cookie", cookie)
         logging.info(f"User {username} registered with session id {result.headers['set-cookie']}")
