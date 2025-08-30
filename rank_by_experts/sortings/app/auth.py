@@ -25,7 +25,7 @@ def login(username: str, db: Session = Depends(get_db)):
     if not user:
         raise HTTPException(status_code=400, detail="Invalid credentials")
     response = JSONResponse(content={"message": "Login successful. Welcome! " + username + "! Go to / to start annotating."})
-    response.set_cookie(key="session_id", value=str(user.id))
+    response.set_cookie(key="session_id", value=str(user.id), httponly=True, secure=True, samesite="lax")
     return response
 
 def logout():
