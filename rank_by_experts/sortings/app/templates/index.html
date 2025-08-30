@@ -157,9 +157,9 @@
                 rankedOrder.push(item.getAttribute("data-id"));
             });
 
+            // `/orders/` is just for the server
             fetch("/orders/", {
                 method: "POST",
-                // `/orders/` is just for the server
                 body: new URLSearchParams({ "ranking": JSON.stringify(rankedOrder) }),
                 headers: { "Content-Type": "application/x-www-form-urlencoded" }
             }).then(response => {
