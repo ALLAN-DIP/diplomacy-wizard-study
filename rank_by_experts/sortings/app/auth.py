@@ -8,13 +8,7 @@ from .models import User
 def get_current_user(session_id: str = Cookie(None), db: Session = Depends(get_db)):
     user = db.query(User).filter(User.id == session_id).first()
     if not user:
-        # raise HTTPException(status_code=401, detail="Invalid session, if you are a new user, please /register.")
-        # TODO: REMOVE this part
-        user = User(username=uuid.uuid4().hex)  # anonymize username
-        db.add(user)
-        db.commit()
-        db.refresh(user)
-        # TODO: UNTILL HERE
+        raise HTTPException(status_code=401, detail="Invalid session, if you are a new user, please /register.")
     return user
 
 def register(username: str, db: Session = Depends(get_db)):

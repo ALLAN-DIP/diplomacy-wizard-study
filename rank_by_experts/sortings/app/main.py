@@ -97,7 +97,6 @@ def home_page(request: Request, db: Session = Depends(get_db), user: User = Depe
     logging.info(f"User {user.username} working on qid {qid} with orders {sorting_states[qid]['current_ranking_task']}")
 
     return templates.TemplateResponse("index.html", {
-        "username": user.username,
         "request": request,
         "orders": orders_filtered,
         "qid": qid,
