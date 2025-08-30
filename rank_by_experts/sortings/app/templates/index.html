@@ -159,7 +159,8 @@
 
             fetch("/", {
                 method: "POST",
-                body: new URLSearchParams({ "ranking": JSON.stringify(rankedOrder) }),
+                // `/orders/` is just for the server
+                body: new URLSearchParams({ "/orders/ranking": JSON.stringify(rankedOrder) }),
                 headers: { "Content-Type": "application/x-www-form-urlencoded" }
             }).then(response => {
                 if (response.ok) {
