@@ -33,8 +33,6 @@ def init_db():
     create_db()
     
     orders_df = pd.read_excel(os.path.join(DATA_PATH, 'orders.xlsx'))
-    # pick 5 from each qid
-    orders_df = orders_df.groupby('qid').head(7)
     orders_df['qid'] = orders_df['qid'].astype(int)
     orders_df['orders_id'] = orders_df['orders_id'].astype(int)
     orders_df.to_sql('orders', con=engine, if_exists='append', index=False)
